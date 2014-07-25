@@ -1,0 +1,5 @@
+tr{ white-space:0;}
+#.table{border:none;width:100%;}
+#.table_td{padding:0 0px 0px 0;}
+.table {border-collapse:collapse;width:100%;}
+.table td{ height:30px; border:#333333 solid 1px;text-align:center;width:25%}
