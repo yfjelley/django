@@ -9,8 +9,8 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^opt/$', 'opt.views.opt'),
-    url(r'^index/$', 'opt.views.index'),
-    url(r'^ajax_deal/$','opt.views.ajax_deal'),
+#    url(r'^index/$', 'opt.views.index'),
+#    url(r'^ajax_deal/$','opt.views.ajax_deal'),
     url(r'^test1/$', 'opt.views.opt_data'),
 )
 urlpatterns +=staticfiles_urlpatterns()

@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>日历</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> 
+<script type="text/javascript" src="/static/date_input-master/jquery.date_input.js"></script> 
+<link rel="stylesheet" href="/static/date_input-master/date_input.css" type="text/css"> 
+<script>
+jQuery.extend(DateInput.DEFAULT_OPTS, { 
+		month_names: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"], 
+		short_month_names: ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "十二"], 
+		short_day_names: ["一", "二", "三", "四", "五", "六", "日"],
+		 dateToString: function(date) {
+		     var month = (date.getMonth() + 1).toString();
+			     var dom = date.getDate().toString();
+				     if (month.length == 1) month = "0" + month;
+					     if (dom.length == 1) dom = "0" + dom;
+						     return date.getFullYear() + "-" + month + "-" + dom;
+							   }
+							   }); 
+
+$(function() { 
+$(".biuuu1").date_input(); 
+    		}); 
+</script>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+		$("#b01").click(function(){
+			$.post("/opt/",{
+				timeOpt:"2014.7.25"
+				},
+		    function(data,status){
+			//alert("Status:"+data);
+			}		
+				);
+			htmlobj=$.ajax({url:"/test1/",async:false});
+			$("#myDiv").html(htmlobj.responseText);
+			console.log(htmlobj);
+			});
+		
+		});
+</script>
+</head>
+<body>
+<button id="b01" type="button">推广站分析表</button>
+<div id="myDiv"><h2></h2></div>
+<input type="text" class="biuuu1" name="date"/> 
+</body>
+</html>
+

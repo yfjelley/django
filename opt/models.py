@@ -1,3 +1,4 @@
+from datetime import date
 from django.db import models
 class Optimization(models.Model):
     media=models.CharField(max_length=40)
@@ -9,8 +10,9 @@ class Optimization(models.Model):
     appointment=models.IntegerField()
     visit=models.IntegerField()
     unvisit=models.IntegerField()
-#    date=models.DateTimeField(default=datetime.now)
-    date=models.DateTimeField(auto_now_add = True)
+    date=models.DateTimeField(auto_now_add=True,blank=True,null= False)
+#    date=models.DateTimeField(auto_now=True,blank=True,null= False)
+#    date=models.DateTimeField(auto_now_add = True)
 
 #    def __unicode__(self):
 #        return self.media

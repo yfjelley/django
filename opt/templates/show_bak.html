@@ -1,21 +1,29 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
+<meta charset="utf-8" />
+<title>ajax test</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+		$("#b01").click(function(){
+			$.post("/opt/",{
+				timeOpt:"2014.7.25"
+				},
+		    function(data,status){
+			//alert("Status:"+data);
+			}		
+				);
+			htmlobj=$.ajax({url:"/test1/",async:false});
+			$("#myDiv").html(htmlobj.responseText);
+			console.log(htmlobj);
+			});
+		
+		});
+</script>
 </head>
-
 <body>
-<script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
-<script type="text/javascript"> 
-$(document).ready(function(){ 
-$('button').click(function() {
- $('div').load('sh.html');
- });
-</script> 
-<div></div>
-<button>load</button>
+<button id="b01" type="button">推广站分析表</button>
+<div id="myDiv"><h2></h2></div>
 </body>
 </html>
-
 
