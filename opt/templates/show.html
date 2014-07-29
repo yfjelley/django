@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>日历</title>
+<title>长江医院</title>
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
@@ -17,12 +17,18 @@ $(document).ready(function(){
 			}
 			});
 			});
-		});
+		$("#b02").click(function(){
+			htmlobj=$.ajax({url:"/week/",async:false});
+			$("#myDiv").html(htmlobj.responseText);
+			console.log(htmlobj);
+			});
+			});
 </script>
 </head>
 <body>
 日期：<input id="time_opt" type="date" name="timeOpt" /> <br/>
 <button id="b01" type="submit">推广站分析表</button>
+<button id="b02" type="submit">推广站分析表周汇总</button>
 <hr/>
 <div id="myDiv"><h2></h2></div>
 </body>

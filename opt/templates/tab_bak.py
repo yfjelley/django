@@ -18,4 +18,4 @@ if s:
         mytr=mytab<<tr()
         for j in range(0,len(s[i])):
             mytr<<td('%s' %s[i][j][1])
-page.printOut("test1.html")
+page.printOut("week.html")

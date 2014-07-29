@@ -12,8 +12,9 @@ def Tab(b):
     mytab.attributes['cellPadding'] = 0;  
     mytab.attributes['border'] = 1;  
     mytab.attributes['borderColor'] = '#666666';  
-    mytab.attributes['width'] = 1050; 
-    mytab<<tr(th("日期")+th('媒体') + th('网站')+ th('地区')+ th('点击次数')+ th('有效量')+ th('预约量')+ th('就诊量')+ th('未就诊量'))
+    mytab.attributes['width'] = 1300; 
+    mytab<<tr(th("日期")+th('媒体') + th('网站')+ th('地区')+ th('消费')+th('点击次数')+ th('点击成本')+th('有效量')+ th('预约量')+ th('就诊量')+ \
+            th('有效成本')+th('预约成本')+th('就诊成本')+th('未就诊量'))
     if s:
         for i in range(0,len(s)):
             mytr=mytab<<tr()
