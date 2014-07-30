@@ -3523,3 +3523,34 @@ Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
     raise TemplateDoesNotExist(name)
 TemplateDoesNotExist: site.html
+2014-07-30 01:41:11,640 [Thread-3:-1245709504] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-07-30 01:41:16,524 [Thread-4:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /site/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 171, in opt_site
+    w=[s3[i][1],cusume_week,click_week,click_cost,valide_week,appointment_week,visit_week,\
+TypeError: list indices must be integers, not list
+2014-07-30 02:11:14,074 [Thread-4:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''

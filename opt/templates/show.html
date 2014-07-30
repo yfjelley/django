@@ -22,14 +22,19 @@ $(document).ready(function(){
 			$("#myDiv").html(htmlobj.responseText);
 			console.log(htmlobj);
 			});
+		$("#b03").click(function(){
+			htmlobj=$.ajax({url:"/site/",async:false});
+			$("#myDiv").html(htmlobj.responseText);
+			console.log(htmlobj);
+			});
 			});
 </script>
 </head>
 <body>
 日期：<input id="time_opt" type="date" name="timeOpt" /> <br/>
-<button id="b01" type="submit">推广站分析表</button>
-<button id="b02" type="submit">推广站分析表周汇总</button>
-<button id="b03" type="submit">推广站分析表站点汇总</button>
+<button id="b01" type="submit">推广站日报</button>
+<button id="b02" type="submit">推广站周汇总</button>
+<button id="b03" type="submit">推广站站点汇总</button>
 <hr/>
 <div id="myDiv"><h2></h2></div>
 </body>

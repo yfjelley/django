@@ -69,7 +69,7 @@ def opt_week(request):
             appointment_week=s3[i][7]
             visit_week=s3[i][8]
             unvisit_week=s3[i][9]
-            for j in range(i,len(s3)):
+            for j in range(0,len(s3)):
                 if s3[i][1] == s3[j][1] and s3[i][2] == s3[j][2] and s3[i][3] == s3[j][3] and s3[i][0] != s3[j][0]:
                     cusume_week+=s3[j][4]
                     click_week+=s3[j][5]
@@ -129,25 +129,25 @@ def opt_site(request):
             s3.append([i.date,i.media,i.site,i.addres,i.cusume,i.click,i.valide,i.appointment,i.visit,i.unvisit])
             s5.append(i.date)
         s5=list(set(s5))
-        for i in range(0,len(s3)):
-            cusume_week=s3[i][4]
-            click_week=s3[i][5]
-            valide_week=s3[i][6]
-            appointment_week=s3[i][7]
-            visit_week=s3[i][8]
-            unvisit_week=s3[i][9]
-            for j in range(0,len(s3)):
-                if s3[i][1] == s3[j][1] :
-
-                    logger=logging.getLogger("django")
-                    logger.info("s:%s"%s3[j][4])
-                    cusume_week+=s3[j][4]
-                    click_week+=s3[j][5]
-                    valide_week+=s3[j][6]
-                    appointment_week+=s3[j][7]
-                    visit_week+=s3[j][8]
-                    unvisit_week+=s3[j][9]
-                logger.info("s:%s"%cusume_week)
+        d={}
+        for i in s3:
+            if i[1] not in d:
+                d[i[1]]=[]
+            d[i[1]].append(i)
+        for k in d.keys():
+            cusume_week=0
+            click_week=0
+            valide_week=0
+            appointment_week=0
+            visit_week=0
+            unvisit_week=0
+            for i in d[k]:
+                cusume_week+=i[4]
+                click_week+=i[5]
+                valide_week+=i[6]
+                appointment_week+=i[7]
+                visit_week+=i[8]
+                unvisit_week+=i[9]
             if click_week==0:
                 click_cost=cusume_week
             else:
@@ -168,7 +168,7 @@ def opt_site(request):
                 unvisit_cost=cusume_week
             else:
                 unvisit_cost=cusume_week/unvisit_week
-            w=[s3[i][1],cusume_week,click_week,click_cost,valide_week,appointment_week,visit_week,\
+            w=[k,cusume_week,click_week,click_cost,valide_week,appointment_week,visit_week,\
                     valide_cost,appointment_cost,visit_cost,unvisit_week]
             l=zip(['media','cusume','click','click_cost','valide','appointment','visit',\
                     'valide_cost','appointment_cost','visit_cost','unvisit'],w)
