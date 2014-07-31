@@ -3,15 +3,32 @@
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <title>长江医院</title>
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="/static/easyui/jquery-1.8.0.min.js" ></script>
+<script type="text/javascript" src="/static/easyui/jquery.easyui.min.js" ></script>
+<link rel="stylesheet" type="text/css" href="/static/easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="/static/easyui/themes/icon.css">
+<script src="/static/easyui/locale/easyui-lang-zh_CN.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(document).ready(function(){
+        $("#dd").datebox({
+                  required: "true",
+                  missingMessage: "请输入日期",
+                  formatter: function (date) {
+                      var y = date.getFullYear();
+                      var m = date.getMonth() + 1;
+                      var d = date.getDate();
+                      return y + "-" + (m < 10 ? ("0" + m) : m) + "-" + (d < 10 ? ("0" + d) : d) + "";
+                  }
+              });
 		$("#b01").click(function(){
-			var JSONObject={timeOpt:$("#time_opt").val()},
+			var JSONObject=$("#dd").val()
+//			var JSONObject={'timeOpt':$("#dd").val()},
 			htmlobj=$.ajax({
-				type:'post',
+				type:"post",
 				url:"/test1/",
 				data:JSONObject,
                success:function(data){
+			alert("timeOpt");
 			$("#myDiv").html(htmlobj.responseText);
 			console.log(htmlobj);
 			}
@@ -28,13 +45,15 @@ $(document).ready(function(){
 			console.log(htmlobj);
 			});
 			});
+
 </script>
+
 </head>
 <body>
-日期：<input id="time_opt" type="date" name="timeOpt" /> <br/>
-<button id="b01" type="submit">推广站日报</button>
-<button id="b02" type="submit">推广站周汇总</button>
-<button id="b03" type="submit">推广站站点汇总</button>
+日期：<input id="dd" type="text" name="DD" class="easyui-datebox"></input><br/>
+<button id="b01" type="submit">推广站分析表（日）</button>
+<button id="b02" type="submit">推广站分析表周汇总</button>
+<button id="b03" type="submit">推广站分析表站点汇总</button>
 <hr/>
 <div id="myDiv"><h2></h2></div>
 </body>

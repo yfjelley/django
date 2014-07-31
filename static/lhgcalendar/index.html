@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>lhgcalendar 弹出日历组件演示</title>
+	<link href="lhgcalendar.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="lhgcore.min.js"></script>
+	<script type="text/javascript" src="lhgcalendar.min.js"></script>
+	<script type="text/javascript">
+J(function(){
+    J('#imgCal').calendar({ id:'cal1' });
+	J('#cal2').calendar({ format:'yyyy年MM月dd日' });
+});
+	</script>
+</head>
+
+<body>
+    <input type="text" id="cal1"/><img id="imgCal" src="_date.gif" align="absmiddle"/>&nbsp;&nbsp;
+	<input type="text" id="cal2" value="2004年03月18日"/>
+</body>
+</html>
