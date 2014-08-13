@@ -16,6 +16,8 @@ from templates import mysql
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
+logger=logging.getLogger("django")
+
 class DateEncoder(json.JSONEncoder):
     def default(self,obj):
         if isinstance(obj,datetime):
@@ -23,21 +25,60 @@ class DateEncoder(json.JSONEncoder):
         elif isinstance(obj,date):
             return obj.__str__()
         return json.JSONEncoder.default(self,obj)
+def selection(request):
+    a=Optimization.objects.values('media')
+    p=[]
+    for i in a:
+        if i not in p:
+            p.append(i)
+    return HttpResponse(p)
 def opt_data(request):
-    timeOpt=request.POST.get('timeOpt',)
-    logger=logging.getLogger("django")
-    logger.info("timeOpt:%s"%timeOpt)
-    sql='select * from opt_optimization where date(date)="%s"'%timeOpt
-    a=Optimization.objects.raw(sql)
+    params = request.POST.copy()
+    condition = {}
+    logger.info("condition:%s"%condition)
+    logger.info("params:%s"%params)
+    for k,v in params.iteritems():
+        v = v.strip()
+        if v != 'all':
+            condition[k] = v
+            logger.info("condition:%s"%condition)
+    a = Optimization.objects.filter(**condition)
+    """timeOpt = request.POST.get('timeOpt',)
+    depOpt = request.POST.get('depOpt',)
+    medOpt = request.POST.get('medOpt',)
+    siteOpt = request.POST.get('siteOpt',)
+    addOpt = request.POST.get('addOpt',)
+
+    logger.info("timeOpt:%s depOpt:%s medOpt:%s siteOpt:%s addOpt:%s"%(timeOpt,depOpt,medOpt,siteOpt,addOpt))
+    sqlList = [ 'select * from opt_optimization where date(date)="%s"'%(timeOpt),
+            'select * from opt_optimization where date(date)="%s" department = "%s"'%(timeOpt,depOpt ),
+            'select * from opt_optimization where date(date)="%s" department = "%s" media = "%s"'%(timeOpt,depOpt,medOpt ),
+            'select * from opt_optimization where date(date)="%s" department = "%s" site = "%s"'%(timeOpt,depOpt,siteOpt ),
+            'select * from opt_optimization where date(date)="%s" department = "%s" addres = "%s"'%(timeOpt,depOpt,addOpt),
+            'select * from opt_optimization where date(date)="%s" media = "%s"'%(timeOpt,medOpt),
+            'select * from opt_optimization where date(date)="%s" media = "%s" site = "%s"'%(timeOpt,medOpt,siteOpt),
+            'select * from opt_optimization where date(date)="%s" media  = "%s" addres = "%s"'%(timeOpt,medOpt,addOpt ),
+            'select * from opt_optimization where date(date)="%s" site = "%s"'%(timeOpt,siteOpt ),
+            'select * from opt_optimization where date(date)="%s" site = "%s" addres = "%s"'%(timeOpt,siteOpt,addOpt ),
+            'select * from opt_optimization where date(date)="%s" site = "%s"'%(timeOpt,siteOpt ),
+            'select * from opt_optimization where date(date)="%s" department = "%s" media = "%s" site = "%s"'%(timeOpt,depOpt,medOpt,siteOpt ),
+            'select * from opt_optimization where date(date)="%s" department = "%s" site = "%s" addres = "%s"'%(timeOpt,depOpt,siteOpt,addOpt ),
+            'select * from opt_optimization where date(date)="%s" department = "%s" media = "%s" addres = "%s"'%(timeOpt,depOpt,medOpt,addOpt),
+            'select * from opt_optimization where date(date)="%s" media = "%s" site = "%s" addres = "%s"'%(timeOpt,medOpt,siteOpt,addOpt ),
+            'select * from opt_optimization where date(date)="%s" department = "%s" media = "%s" site = "%s" addres = "%s"'%(timeOpt,depOpt,medOpt,siteOpt,addOpt )]"""
+
+    """sql = 'select * from opt_optimization where date(date)="%s" department = "%s"'%(timeOpt,depOpt )
+    a=Optimization.objects.raw(sql)"""
     
     #a=Optimization.objects.all()
     p=[]
     for i in a:
-        l=zip(["date",'media','site','addres','cusume','click','click_cost','valide','appointment','visit',\
-                'valide_cost','appointment_cost','visit_cost','unvisit'],[i.date,i.media,i.site,i.addres,\
-                i.cusume,i.click,i.click_cost,i.valide,i.appointment,i.visit,i.valide_cost,i.appointment_cost,\
-                i.visit_cost,i.unvisit])
+        l=zip(["date",'department','media','site','addres','cusume','click','click_cost','valide','appointment','visit',\
+                'valide_cost','appointment_cost','visit_cost','unvisit'],[i.date,i.department,i.media,i.site,i.addres,\
+                i.cusume,i.click,round(i.cusume/i.click,2),i.valide,i.appointment,i.visit,round(i.cusume/i.valide,2),round(i.cusume/i.appointment,2),\
+                round(i.cusume/i.visit,2),i.unvisit])
         p.append(l)
+        logger.info("p:%s"%p)
     s=json.dumps(p,cls=DateEncoder)
     try:
         tab.Tab(s)
@@ -46,7 +87,34 @@ def opt_data(request):
     return render_to_response('test1.html',{'getsiteinfo':s})
 
 def opt(request):
-    return render_to_response('show.html',)
+    media=Optimization.objects.values('media')
+    media_option=[]
+    for i in media:
+        if i['media'] not in media_option:
+            media_option.append(i['media'])
+    media_option=json.dumps(media_option)
+
+    site=Optimization.objects.values('site')
+    site_option=[]
+    for i in site:
+        if i['site'] not in site_option:
+            site_option.append(i['site'])
+    site_option=json.dumps(site_option)
+    
+    department = Optimization.objects.values('department')
+    dep_option=[]
+    for i in department:
+        if i['department'] not in dep_option:
+            dep_option.append(i['department'])
+    dep_option=json.dumps(dep_option)
+
+    addres = Optimization.objects.values('addres')
+    addres_option = []
+    for i in addres:
+        if i['addres'] not in addres_option:
+            addres_option.append(i['addres'])
+    addres_option=json.dumps(addres_option)
+    return render_to_response('show.html',{'media':media_option,'site':site_option,'dep':dep_option,'add':addres_option})
 def opt_week(request):
     s1=[]
     s2=[]
@@ -106,7 +174,6 @@ def opt_week(request):
         jsonobj={'data':p,'date':s5}
         s1.append(jsonobj)
     s=json.dumps(s1,cls=DateEncoder)
-    logger=logging.getLogger("django")
     logger.info("s:%s"%s)
     try:
         tab_week.Tab(s)
@@ -177,7 +244,6 @@ def opt_site(request):
         jsonobj={'data':p,'date':s5}
         s1.append(jsonobj)
     s=json.dumps(s1,cls=DateEncoder)
-    logger=logging.getLogger("django")
 #    logger.info("s:%s"%s)
     try:
         tab_site.Tab(s)
@@ -194,7 +260,6 @@ def opt_site(request):
                 'unvisit'],[i.date,i.media,i.site,i.addres,i.click,i.valide,i.appointment,i.visit,i.unvisit])
         p.append(l)
     s=json.dumps(p,cls=DateEncoder)
-    logger=logging.getLogger("django")
     try:
         tab.Tab(s)
     except Exception ,e:

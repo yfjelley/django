@@ -5896,3 +5896,2778 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
     warn(w[-1], self.Warning, 3)
 Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:07:46,207 [Thread-12:-1290810560] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-07-31 01:07:50,520 [Thread-13:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:07:51,120 [Thread-14:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:07:51,319 [Thread-15:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:07:51,503 [Thread-16:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:08:08,585 [Thread-20:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:08:12,593 [Thread-21:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:08:14,976 [Thread-25:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:08:18,129 [Thread-26:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:08:22,707 [Thread-29:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:08:27,059 [Thread-33:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:08:28,787 [Thread-34:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:08:29,035 [Thread-35:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:08:29,235 [Thread-36:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:08:29,426 [Thread-37:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:08:42,628 [Thread-53:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:08:50,950 [Thread-57:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:08:55,934 [Thread-64:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:09:15,427 [Thread-68:-1282417856] [django.request:143] [WARNING]- Not Found: /adm
+2014-07-31 01:10:25,654 [Thread-109:-1274025152] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:10:31,511 [Thread-110:-1299203264] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:10:32,735 [Thread-112:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:10:41,360 [Thread-119:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:11:11,775 [Thread-130:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:11:12,376 [Thread-131:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:16:22,823 [Thread-135:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:20:26,659 [Thread-148:-1299203264] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-07-31 01:21:12,940 [Thread-155:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-07-31 01:21:16,155 [Thread-156:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-07-31 01:33:21,930 [Thread-173:-1274025152] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-07-31 01:37:35,724 [Thread-183:-1274025152] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-07-31 01:38:26,411 [Thread-194:-1265632448] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-07-31 01:39:11,966 [Thread-195:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-07-31 02:21:07,993 [Thread-287:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-07-31 03:06:53,225 [Thread-356:-1299203264] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-07-31 04:50:25,194 [Thread-442:-1299203264] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-07-31 04:52:13,595 [Thread-464:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-07-31 04:52:17,014 [Thread-465:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-07-31 04:52:20,277 [Thread-467:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-07-31 04:52:26,430 [Thread-472:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 35, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-07-31 06:29:05,719 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 34
+    def opt_data(request):
+                         ^
+IndentationError: expected an indented block
+2014-07-31 06:29:27,882 [Thread-8:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 34
+    def opt_data(request):
+                         ^
+IndentationError: expected an indented block
+2014-07-31 06:29:33,365 [Thread-9:-1274025152] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 34
+    def opt_data(request):
+                         ^
+IndentationError: expected an indented block
+2014-07-31 06:29:33,673 [Thread-10:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 34
+    def opt_data(request):
+                         ^
+IndentationError: expected an indented block
+2014-07-31 06:29:33,698 [Thread-11:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 34
+    def opt_data(request):
+                         ^
+IndentationError: expected an indented block
+2014-07-31 06:29:33,724 [Thread-12:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 34
+    def opt_data(request):
+                         ^
+IndentationError: expected an indented block
+2014-07-31 06:29:33,733 [Thread-13:-1274025152] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 34
+    def opt_data(request):
+                         ^
+IndentationError: expected an indented block
+2014-07-31 06:29:34,159 [Thread-14:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 34
+    def opt_data(request):
+                         ^
+IndentationError: expected an indented block
+2014-07-31 06:40:32,296 [Thread-15:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 34
+    def opt_data(request):
+                         ^
+IndentationError: expected an indented block
+2014-07-31 06:40:34,605 [Thread-16:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 34
+    def opt_data(request):
+                         ^
+IndentationError: expected an indented block
+2014-07-31 06:40:36,562 [Thread-17:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 34
+    def opt_data(request):
+                         ^
+IndentationError: expected an indented block
+2014-07-31 06:40:40,288 [Thread-18:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 34
+    def opt_data(request):
+                         ^
+IndentationError: expected an indented block
+2014-07-31 06:40:44,004 [Thread-19:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 34
+    def opt_data(request):
+                         ^
+IndentationError: expected an indented block
+2014-07-31 06:58:56,162 [Thread-32:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /select/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 30, in selection
+    return Httpresponse(p)
+NameError: global name 'Httpresponse' is not defined
+2014-07-31 06:58:59,797 [Thread-39:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /select/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 30, in selection
+    return Httpresponse(p)
+NameError: global name 'Httpresponse' is not defined
+2014-07-31 06:59:00,640 [Thread-46:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /select/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 30, in selection
+    return Httpresponse(p)
+NameError: global name 'Httpresponse' is not defined
+2014-07-31 06:59:02,053 [Thread-53:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /select/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 30, in selection
+    return Httpresponse(p)
+NameError: global name 'Httpresponse' is not defined
+2014-07-31 06:59:03,020 [Thread-60:-1274025152] [django.request:224] [ERROR]- Internal Server Error: /select/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 30, in selection
+    return Httpresponse(p)
+NameError: global name 'Httpresponse' is not defined
+2014-07-31 06:59:03,882 [Thread-67:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /select/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 30, in selection
+    return Httpresponse(p)
+NameError: global name 'Httpresponse' is not defined
+2014-07-31 06:59:04,538 [Thread-74:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /select/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 30, in selection
+    return Httpresponse(p)
+NameError: global name 'Httpresponse' is not defined
+2014-07-31 06:59:14,037 [Thread-81:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /select/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 30, in selection
+    return Httpresponse(p)
+NameError: global name 'Httpresponse' is not defined
+2014-07-31 06:59:16,477 [Thread-88:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /select/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 30, in selection
+    return Httpresponse(p)
+NameError: global name 'Httpresponse' is not defined
+2014-07-31 06:59:40,371 [Thread-92:-1274025152] [django.request:224] [ERROR]- Internal Server Error: /select/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 30, in selection
+    return Httpresponse(p)
+NameError: global name 'Httpresponse' is not defined
+2014-07-31 06:59:46,872 [Thread-96:-1274025152] [django.request:224] [ERROR]- Internal Server Error: /select/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 30, in selection
+    return Httpresponse(p)
+NameError: global name 'Httpresponse' is not defined
+2014-07-31 07:04:54,787 [Thread-9:-1266681024] [django.request:143] [WARNING]- Not Found: /slect
+2014-07-31 07:05:02,498 [Thread-10:-1256195264] [django.request:143] [WARNING]- Not Found: /slection
+2014-07-31 07:05:10,188 [Thread-13:-1283466432] [django.request:143] [WARNING]- Not Found: /slect
+2014-07-31 08:04:13,341 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 61, in opt
+    if i.media not in media_option:
+AttributeError: 'dict' object has no attribute 'media'
+2014-07-31 08:05:00,386 [Thread-8:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 61, in opt
+    if i.media not in media_option:
+AttributeError: 'dict' object has no attribute 'media'
+2014-07-31 08:05:02,666 [Thread-9:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 61, in opt
+    if i.media not in media_option:
+AttributeError: 'dict' object has no attribute 'media'
+2014-07-31 08:06:15,256 [Thread-13:-1266681024] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 61, in opt
+    if i.media not in media_option:
+AttributeError: 'dict' object has no attribute 'media'
+2014-07-31 08:06:22,919 [Thread-14:-1275073728] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 61, in opt
+    if i.media not in media_option:
+AttributeError: 'dict' object has no attribute 'media'
+2014-07-31 08:06:57,642 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 61, in opt
+    if i.media not in media_option:
+AttributeError: 'dict' object has no attribute 'media'
+2014-07-31 08:08:04,672 [Thread-3:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 61, in opt
+    if i.media not in media_option:
+AttributeError: 'dict' object has no attribute 'media'
+2014-07-31 08:15:34,267 [Thread-4:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 61, in opt
+    if i.media not in media_option:
+AttributeError: 'dict' object has no attribute 'media'
+2014-07-31 08:16:53,510 [Thread-5:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 61, in opt
+    if i.media not in media_option:
+AttributeError: 'dict' object has no attribute 'media'
+2014-07-31 08:17:39,426 [Thread-6:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 61, in opt
+    if i.media not in media_option:
+AttributeError: 'dict' object has no attribute 'media'
+2014-07-31 08:23:20,304 [Thread-7:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 61, in opt
+    if i.media not in media_option:
+AttributeError: 'dict' object has no attribute 'media'
+2014-07-31 08:24:21,139 [Thread-8:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 61, in opt
+    if i.media not in media_option:
+AttributeError: 'dict' object has no attribute 'media'
+2014-07-31 08:24:23,370 [Thread-9:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 61, in opt
+    if i.media not in media_option:
+AttributeError: 'dict' object has no attribute 'media'
+2014-07-31 08:37:37,542 [Thread-42:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 64, in opt
+    return render_to_response('show.html',{'media':media_option})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 127, in find_template
+    source, display_name = loader(name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 149, in get_template_from_string
+    return Template(source, origin, name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 254, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 360, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 571, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 366, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+TemplateSyntaxError: Invalid filter: 'salf'
+2014-07-31 11:04:34,862 [Thread-97:-1275073728] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-08-12 01:15:35,945 [Thread-11:-1256195264] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-08-12 02:45:04,567 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 71, in opt
+    department = Optimization.objects.values('dep')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 208, in values
+    return self.get_queryset().values(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 528, in values
+    return self._clone(klass=ValuesQuerySet, setup=True, _fields=fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 852, in _clone
+    c._setup_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 995, in _setup_query
+    self.query.add_fields(self.field_names, True)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1560, in add_fields
+    "Choices are: %s" % (name, ", ".join(names)))
+FieldError: Cannot resolve keyword 'dep' into field. Choices are: addres, appointment, click, cusume, date, department, id, media, site, unvisit, valide, visit
+2014-08-12 02:45:16,091 [Thread-5:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 71, in opt
+    department = Optimization.objects.values('dep')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 208, in values
+    return self.get_queryset().values(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 528, in values
+    return self._clone(klass=ValuesQuerySet, setup=True, _fields=fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 852, in _clone
+    c._setup_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 995, in _setup_query
+    self.query.add_fields(self.field_names, True)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1560, in add_fields
+    "Choices are: %s" % (name, ", ".join(names)))
+FieldError: Cannot resolve keyword 'dep' into field. Choices are: addres, appointment, click, cusume, date, department, id, media, site, unvisit, valide, visit
+2014-08-12 02:47:13,120 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 71, in opt
+    department = Optimization.objects.values('dep')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 208, in values
+    return self.get_queryset().values(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 528, in values
+    return self._clone(klass=ValuesQuerySet, setup=True, _fields=fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 852, in _clone
+    c._setup_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 995, in _setup_query
+    self.query.add_fields(self.field_names, True)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1560, in add_fields
+    "Choices are: %s" % (name, ", ".join(names)))
+FieldError: Cannot resolve keyword 'dep' into field. Choices are: addres, appointment, click, cusume, date, department, id, media, site, unvisit, valide, visit
+2014-08-12 02:47:20,465 [Thread-4:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 02:50:25,969 [Thread-5:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 02:50:29,542 [Thread-6:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 02:50:33,538 [Thread-7:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 03:00:16,823 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 03:00:19,257 [Thread-3:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 03:00:20,950 [Thread-4:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 03:00:22,607 [Thread-5:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 03:00:32,294 [Thread-6:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 03:00:38,751 [Thread-7:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 03:00:47,307 [Thread-8:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 03:00:48,896 [Thread-9:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 03:00:50,086 [Thread-10:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 03:00:51,353 [Thread-11:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 03:00:52,688 [Thread-12:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 03:04:15,322 [Thread-13:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: 'None'
+2014-08-12 03:05:40,786 [Thread-14:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 71, in opt
+    department = Optimization.objects.values('dep')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 208, in values
+    return self.get_queryset().values(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 528, in values
+    return self._clone(klass=ValuesQuerySet, setup=True, _fields=fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 852, in _clone
+    c._setup_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 995, in _setup_query
+    self.query.add_fields(self.field_names, True)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1560, in add_fields
+    "Choices are: %s" % (name, ", ".join(names)))
+FieldError: Cannot resolve keyword 'dep' into field. Choices are: addres, appointment, click, cusume, date, department, id, media, site, unvisit, valide, visit
+2014-08-12 03:05:41,435 [Thread-15:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 71, in opt
+    department = Optimization.objects.values('dep')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 208, in values
+    return self.get_queryset().values(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 528, in values
+    return self._clone(klass=ValuesQuerySet, setup=True, _fields=fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 852, in _clone
+    c._setup_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 995, in _setup_query
+    self.query.add_fields(self.field_names, True)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1560, in add_fields
+    "Choices are: %s" % (name, ", ".join(names)))
+FieldError: Cannot resolve keyword 'dep' into field. Choices are: addres, appointment, click, cusume, date, department, id, media, site, unvisit, valide, visit
+2014-08-12 03:13:58,791 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 71, in opt
+    department = Optimization.objects.values('dep')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 208, in values
+    return self.get_queryset().values(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 528, in values
+    return self._clone(klass=ValuesQuerySet, setup=True, _fields=fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 852, in _clone
+    c._setup_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 995, in _setup_query
+    self.query.add_fields(self.field_names, True)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1560, in add_fields
+    "Choices are: %s" % (name, ", ".join(names)))
+FieldError: Cannot resolve keyword 'dep' into field. Choices are: addres, appointment, click, cusume, date, department, id, media, site, unvisit, valide, visit
+2014-08-12 03:22:07,616 [Thread-8:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 03:22:10,382 [Thread-9:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 03:22:30,751 [Thread-15:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:13:30,726 [Thread-52:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:13:32,294 [Thread-53:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:13:32,571 [Thread-54:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:13:32,790 [Thread-55:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:30:02,701 [Thread-26:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 44, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:30:04,424 [Thread-27:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 44, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:30:09,340 [Thread-28:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 44, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:30:10,497 [Thread-29:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 44, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:30:10,711 [Thread-30:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 44, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:30:10,935 [Thread-31:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 44, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:30:11,150 [Thread-32:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 44, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:30:11,410 [Thread-33:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 44, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:30:11,623 [Thread-34:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 44, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:30:11,870 [Thread-35:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 44, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:30:12,121 [Thread-36:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 44, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:32:31,618 [Thread-8:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:32:33,334 [Thread-9:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:32:43,777 [Thread-10:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:32:44,185 [Thread-11:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:32:47,689 [Thread-12:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:32:50,925 [Thread-13:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:42:11,741 [Thread-62:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:53:37,305 [Thread-73:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:55:47,606 [Thread-8:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 39, in opt_data
+    logger.info("timeOpt:%s depOpt:%s medOpt:%s siteOpt:%s addOpt:%s"%(timeOpt,depOpt,medOpt,siteOpt,addOpt))
+NameError: global name 'medOpt' is not defined
+2014-08-12 05:57:01,623 [Thread-8:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 48, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 05:57:25,654 [Thread-9:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 48, in opt_data
+    for i in a:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1398, in __iter__
+    query = iter(self.query)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 73, in __iter__
+    self._execute_query()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 87, in _execute_query
+    self.cursor.execute(self.sql, self.params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 176, in execute
+    if not self._defer_warnings: self._warning_check()
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 92, in _warning_check
+    warn(w[-1], self.Warning, 3)
+Warning: Truncated incorrect date value: ''
+2014-08-12 09:46:20,613 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 59
+    if
+      ^
+SyntaxError: invalid syntax
+2014-08-13 01:28:40,710 [Thread-13:-1266681024] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-08-13 01:52:16,643 [Thread-8:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    a = Optimization.objects.filter(condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1198, in add_q
+    if not self.need_having(q_object):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in need_having
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in <genexpr>
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1158, in need_having
+    return (refs_aggregate(obj[0].split(LOOKUP_SEP), self.aggregates)
+KeyError: 0
+2014-08-13 01:52:19,309 [Thread-9:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    a = Optimization.objects.filter(condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1198, in add_q
+    if not self.need_having(q_object):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in need_having
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in <genexpr>
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1158, in need_having
+    return (refs_aggregate(obj[0].split(LOOKUP_SEP), self.aggregates)
+KeyError: 0
+2014-08-13 01:52:20,371 [Thread-10:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    a = Optimization.objects.filter(condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1198, in add_q
+    if not self.need_having(q_object):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in need_having
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in <genexpr>
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1158, in need_having
+    return (refs_aggregate(obj[0].split(LOOKUP_SEP), self.aggregates)
+KeyError: 0
+2014-08-13 01:52:20,596 [Thread-11:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    a = Optimization.objects.filter(condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1198, in add_q
+    if not self.need_having(q_object):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in need_having
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in <genexpr>
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1158, in need_having
+    return (refs_aggregate(obj[0].split(LOOKUP_SEP), self.aggregates)
+KeyError: 0
+2014-08-13 01:52:20,966 [Thread-12:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    a = Optimization.objects.filter(condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1198, in add_q
+    if not self.need_having(q_object):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in need_having
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in <genexpr>
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1158, in need_having
+    return (refs_aggregate(obj[0].split(LOOKUP_SEP), self.aggregates)
+KeyError: 0
+2014-08-13 01:52:21,205 [Thread-13:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    a = Optimization.objects.filter(condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1198, in add_q
+    if not self.need_having(q_object):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in need_having
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in <genexpr>
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1158, in need_having
+    return (refs_aggregate(obj[0].split(LOOKUP_SEP), self.aggregates)
+KeyError: 0
+2014-08-13 01:52:21,403 [Thread-14:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    a = Optimization.objects.filter(condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1198, in add_q
+    if not self.need_having(q_object):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in need_having
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in <genexpr>
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1158, in need_having
+    return (refs_aggregate(obj[0].split(LOOKUP_SEP), self.aggregates)
+KeyError: 0
+2014-08-13 01:52:21,645 [Thread-15:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 43, in opt_data
+    a = Optimization.objects.filter(condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1198, in add_q
+    if not self.need_having(q_object):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in need_having
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1161, in <genexpr>
+    return any(self.need_having(c) for c in obj.children)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1158, in need_having
+    return (refs_aggregate(obj[0].split(LOOKUP_SEP), self.aggregates)
+KeyError: 0
+2014-08-13 02:13:54,334 [Thread-8:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1103, in build_filter
+    allow_explicit_fk=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1363, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1283, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword u'timeOpt' into field. Choices are: addres, appointment, click, cusume, date, department, id, media, site, unvisit, valide, visit
+2014-08-13 02:16:35,598 [Thread-15:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1103, in build_filter
+    allow_explicit_fk=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1363, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1283, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword u'timeOpt' into field. Choices are: addres, appointment, click, cusume, date, department, id, media, site, unvisit, valide, visit
+2014-08-13 02:25:39,468 [Thread-61:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-08-13 02:51:57,360 [Thread-158:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-08-13 02:54:01,914 [Thread-169:-1299203264] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'' value has an invalid date format. It must be in YYYY-MM-DD format."]
