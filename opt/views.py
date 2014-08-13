@@ -43,34 +43,7 @@ def opt_data(request):
             condition[k] = v
             logger.info("condition:%s"%condition)
     a = Optimization.objects.filter(**condition)
-    """timeOpt = request.POST.get('timeOpt',)
-    depOpt = request.POST.get('depOpt',)
-    medOpt = request.POST.get('medOpt',)
-    siteOpt = request.POST.get('siteOpt',)
-    addOpt = request.POST.get('addOpt',)
-
-    logger.info("timeOpt:%s depOpt:%s medOpt:%s siteOpt:%s addOpt:%s"%(timeOpt,depOpt,medOpt,siteOpt,addOpt))
-    sqlList = [ 'select * from opt_optimization where date(date)="%s"'%(timeOpt),
-            'select * from opt_optimization where date(date)="%s" department = "%s"'%(timeOpt,depOpt ),
-            'select * from opt_optimization where date(date)="%s" department = "%s" media = "%s"'%(timeOpt,depOpt,medOpt ),
-            'select * from opt_optimization where date(date)="%s" department = "%s" site = "%s"'%(timeOpt,depOpt,siteOpt ),
-            'select * from opt_optimization where date(date)="%s" department = "%s" addres = "%s"'%(timeOpt,depOpt,addOpt),
-            'select * from opt_optimization where date(date)="%s" media = "%s"'%(timeOpt,medOpt),
-            'select * from opt_optimization where date(date)="%s" media = "%s" site = "%s"'%(timeOpt,medOpt,siteOpt),
-            'select * from opt_optimization where date(date)="%s" media  = "%s" addres = "%s"'%(timeOpt,medOpt,addOpt ),
-            'select * from opt_optimization where date(date)="%s" site = "%s"'%(timeOpt,siteOpt ),
-            'select * from opt_optimization where date(date)="%s" site = "%s" addres = "%s"'%(timeOpt,siteOpt,addOpt ),
-            'select * from opt_optimization where date(date)="%s" site = "%s"'%(timeOpt,siteOpt ),
-            'select * from opt_optimization where date(date)="%s" department = "%s" media = "%s" site = "%s"'%(timeOpt,depOpt,medOpt,siteOpt ),
-            'select * from opt_optimization where date(date)="%s" department = "%s" site = "%s" addres = "%s"'%(timeOpt,depOpt,siteOpt,addOpt ),
-            'select * from opt_optimization where date(date)="%s" department = "%s" media = "%s" addres = "%s"'%(timeOpt,depOpt,medOpt,addOpt),
-            'select * from opt_optimization where date(date)="%s" media = "%s" site = "%s" addres = "%s"'%(timeOpt,medOpt,siteOpt,addOpt ),
-            'select * from opt_optimization where date(date)="%s" department = "%s" media = "%s" site = "%s" addres = "%s"'%(timeOpt,depOpt,medOpt,siteOpt,addOpt )]"""
-
-    """sql = 'select * from opt_optimization where date(date)="%s" department = "%s"'%(timeOpt,depOpt )
-    a=Optimization.objects.raw(sql)"""
     
-    #a=Optimization.objects.all()
     p=[]
     for i in a:
         l=zip(["date",'department','media','site','addres','cusume','click','click_cost','valide','appointment','visit',\
@@ -264,7 +237,9 @@ def opt_site(request):
         tab.Tab(s)
     except Exception ,e:
         print e
-    return render_to_response('test1.html',{'getsiteinfo':s})
+    return render_to_response('test1.html',{'getsiteinfo':s})"""
 
-def op(request):
-    return render_to_response('show.html',)"""
+def boot(request):
+    return render_to_response('index.html',)
+def index(request):
+    return render_to_response('index.html',)

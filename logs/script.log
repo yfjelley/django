@@ -8671,3 +8671,364 @@ Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
     params={'value': value},
 ValidationError: [u"'' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-08-13 03:03:07,560 [Thread-183:-1274025152] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 45, in opt_data
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-08-13 05:23:54,556 [Thread-4:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /boot/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 243, in boot
+    return render_to_response('bootstrap1.html',)
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 127, in find_template
+    source, display_name = loader(name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 46, in load_template
+    source, display_name = self.load_template_source(template_name, template_dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/app_directories.py", line 60, in load_template_source
+    return (fp.read().decode(settings.FILE_CHARSET), filepath)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 749: invalid continuation byte
+2014-08-13 05:27:17,189 [Thread-9:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /boot/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 243, in boot
+    return render_to_response('bootstrap1.html',)
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 127, in find_template
+    source, display_name = loader(name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 46, in load_template
+    source, display_name = self.load_template_source(template_name, template_dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/app_directories.py", line 60, in load_template_source
+    return (fp.read().decode(settings.FILE_CHARSET), filepath)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 778: invalid continuation byte
+2014-08-13 05:28:57,201 [Thread-14:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /boot/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 243, in boot
+    return render_to_response('bootstrap1.html',)
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 127, in find_template
+    source, display_name = loader(name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 46, in load_template
+    source, display_name = self.load_template_source(template_name, template_dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/app_directories.py", line 60, in load_template_source
+    return (fp.read().decode(settings.FILE_CHARSET), filepath)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 778: invalid continuation byte
+2014-08-13 05:30:17,913 [Thread-18:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /boot/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 243, in boot
+    return render_to_response('bootstrap1.html',)
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 127, in find_template
+    source, display_name = loader(name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 46, in load_template
+    source, display_name = self.load_template_source(template_name, template_dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/app_directories.py", line 60, in load_template_source
+    return (fp.read().decode(settings.FILE_CHARSET), filepath)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc4 in position 778: invalid continuation byte
+2014-08-13 06:03:10,055 [Thread-3:-1255146688] [django.request:143] [WARNING]- Not Found: /dist/css/bootstrap.min.css
+2014-08-13 06:03:10,064 [Thread-4:-1265632448] [django.request:143] [WARNING]- Not Found: /boot/signin.css
+2014-08-13 06:03:10,072 [Thread-5:-1244923072] [django.request:143] [WARNING]- Not Found: /assets/js/ie-emulation-modes-warning.js
+2014-08-13 06:03:10,086 [Thread-6:-1255146688] [django.request:143] [WARNING]- Not Found: /assets/js/ie10-viewport-bug-workaround.js
+2014-08-13 06:03:17,608 [Thread-8:-1244923072] [django.request:143] [WARNING]- Not Found: /dist/css/bootstrap.min.css
+2014-08-13 06:03:17,622 [Thread-9:-1265632448] [django.request:143] [WARNING]- Not Found: /boot/signin.css
+2014-08-13 06:03:17,624 [Thread-10:-1274025152] [django.request:143] [WARNING]- Not Found: /assets/js/ie-emulation-modes-warning.js
+2014-08-13 06:03:17,637 [Thread-11:-1255146688] [django.request:143] [WARNING]- Not Found: /assets/js/ie10-viewport-bug-workaround.js
+2014-08-13 06:03:25,260 [Thread-13:-1274025152] [django.request:143] [WARNING]- Not Found: /dist/css/bootstrap.min.css
+2014-08-13 06:03:25,262 [Thread-15:-1244923072] [django.request:143] [WARNING]- Not Found: /assets/js/ie-emulation-modes-warning.js
+2014-08-13 06:03:25,264 [Thread-16:-1282417856] [django.request:143] [WARNING]- Not Found: /assets/js/ie10-viewport-bug-workaround.js
+2014-08-13 06:03:25,266 [Thread-14:-1265632448] [django.request:143] [WARNING]- Not Found: /boot/signin.css
+2014-08-13 06:07:16,295 [Thread-19:-1265632448] [django.request:143] [WARNING]- Not Found: /boot/signin.css
+2014-08-13 06:07:16,302 [Thread-20:-1282417856] [django.request:143] [WARNING]- Not Found: /assets/js/ie-emulation-modes-warning.js
+2014-08-13 06:07:16,306 [Thread-21:-1255146688] [django.request:143] [WARNING]- Not Found: /assets/js/ie10-viewport-bug-workaround.js
+2014-08-13 06:51:50,113 [Thread-24:-1265632448] [django.request:143] [WARNING]- Not Found: /boot/signin.css
+2014-08-13 06:51:50,121 [Thread-25:-1274025152] [django.request:143] [WARNING]- Not Found: /assets/js/ie-emulation-modes-warning.js
+2014-08-13 06:51:50,122 [Thread-26:-1244923072] [django.request:143] [WARNING]- Not Found: /assets/js/ie10-viewport-bug-workaround.js
+2014-08-13 06:51:53,467 [Thread-29:-1265632448] [django.request:143] [WARNING]- Not Found: /boot/signin.css
+2014-08-13 06:51:53,478 [Thread-30:-1282417856] [django.request:143] [WARNING]- Not Found: /assets/js/ie-emulation-modes-warning.js
+2014-08-13 06:51:53,485 [Thread-31:-1255146688] [django.request:143] [WARNING]- Not Found: /assets/js/ie10-viewport-bug-workaround.js
+2014-08-13 07:35:22,140 [Thread-3:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/css/bootstrap.min.css
+2014-08-13 07:35:22,154 [Thread-4:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/css/font-awesome.css
+2014-08-13 07:35:22,180 [Thread-5:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/css/fullcalendar.css
+2014-08-13 07:35:22,191 [Thread-6:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/css/jquery.jscrollpane.css
+2014-08-13 07:35:22,193 [Thread-7:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/css/unicorn.css
+2014-08-13 07:35:22,201 [Thread-8:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 07:35:22,213 [Thread-9:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/js/excanvas.min.js
+2014-08-13 07:35:22,234 [Thread-10:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.min.js
+2014-08-13 07:35:22,259 [Thread-11:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/js/jquery-ui.custom.js
+2014-08-13 07:35:22,268 [Thread-14:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.flot.resize.min.js
+2014-08-13 07:35:22,268 [Thread-12:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/js/bootstrap.min.js
+2014-08-13 07:35:22,270 [Thread-13:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.flot.min.js
+2014-08-13 07:35:22,271 [Thread-15:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.sparkline.min.js
+2014-08-13 07:35:22,291 [Thread-16:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/js/fullcalendar.min.js
+2014-08-13 07:35:22,307 [Thread-17:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.nicescroll.min.js
+2014-08-13 07:35:22,314 [Thread-18:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/js/unicorn.js
+2014-08-13 07:35:22,323 [Thread-19:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/js/unicorn.dashboard.js
+2014-08-13 07:35:22,330 [Thread-20:-1256195264] [django.request:143] [WARNING]- Not Found: /www.google-analytics.com/analytics.js
+2014-08-13 07:35:22,331 [Thread-21:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 07:35:22,347 [Thread-22:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 07:35:22,359 [Thread-23:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 07:35:28,357 [Thread-25:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/css/bootstrap.min.css
+2014-08-13 07:35:28,360 [Thread-26:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/css/font-awesome.css
+2014-08-13 07:35:28,361 [Thread-27:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/css/fullcalendar.css
+2014-08-13 07:35:28,363 [Thread-28:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/css/jquery.jscrollpane.css
+2014-08-13 07:35:28,365 [Thread-29:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/css/unicorn.css
+2014-08-13 07:35:28,399 [Thread-30:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 07:35:28,406 [Thread-31:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/js/excanvas.min.js
+2014-08-13 07:35:28,458 [Thread-32:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.min.js
+2014-08-13 07:35:28,462 [Thread-34:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/js/bootstrap.min.js
+2014-08-13 07:35:28,463 [Thread-33:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/js/jquery-ui.custom.js
+2014-08-13 07:35:28,470 [Thread-35:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.flot.min.js
+2014-08-13 07:35:28,481 [Thread-36:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.flot.resize.min.js
+2014-08-13 07:35:28,489 [Thread-37:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.sparkline.min.js
+2014-08-13 07:35:28,513 [Thread-38:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/js/fullcalendar.min.js
+2014-08-13 07:35:28,520 [Thread-39:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.nicescroll.min.js
+2014-08-13 07:35:28,523 [Thread-40:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/js/unicorn.js
+2014-08-13 07:35:28,534 [Thread-41:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/js/unicorn.dashboard.js
+2014-08-13 07:35:28,541 [Thread-42:-1275073728] [django.request:143] [WARNING]- Not Found: /www.google-analytics.com/analytics.js
+2014-08-13 07:35:28,543 [Thread-43:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 07:35:28,558 [Thread-44:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 07:41:07,399 [Thread-51:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 07:41:07,451 [Thread-52:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/js/excanvas.min.js
+2014-08-13 07:41:07,465 [Thread-54:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/js/jquery-ui.custom.js
+2014-08-13 07:41:07,467 [Thread-53:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.min.js
+2014-08-13 07:41:07,469 [Thread-55:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/js/bootstrap.min.js
+2014-08-13 07:41:07,484 [Thread-56:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.flot.min.js
+2014-08-13 07:41:07,498 [Thread-57:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.flot.resize.min.js
+2014-08-13 07:41:07,511 [Thread-58:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.sparkline.min.js
+2014-08-13 07:41:07,522 [Thread-59:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/js/fullcalendar.min.js
+2014-08-13 07:41:07,535 [Thread-60:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/js/jquery.nicescroll.min.js
+2014-08-13 07:41:07,547 [Thread-61:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/js/unicorn.js
+2014-08-13 07:41:07,561 [Thread-62:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/js/unicorn.dashboard.js
+2014-08-13 07:41:07,563 [Thread-63:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 07:41:07,576 [Thread-64:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 07:41:07,624 [Thread-65:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 07:41:07,651 [Thread-67:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 07:41:07,659 [Thread-69:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 07:41:07,660 [Thread-68:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 07:41:13,083 [Thread-81:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 07:41:16,051 [Thread-82:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 07:47:01,847 [Thread-103:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 07:47:05,177 [Thread-141:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 07:47:22,648 [Thread-153:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 07:48:07,190 [Thread-173:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 07:49:13,671 [Thread-206:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 07:50:08,566 [Thread-238:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 07:53:51,796 [Thread-273:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 07:54:06,554 [Thread-308:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 07:54:44,757 [Thread-340:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 07:56:42,752 [Thread-371:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 07:56:46,523 [Thread-404:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 07:56:51,386 [Thread-434:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:01:13,993 [Thread-465:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:01:58,536 [Thread-494:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:03:36,249 [Thread-531:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:06:07,896 [Thread-564:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:06:34,724 [Thread-576:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/tables.html
+2014-08-13 08:08:14,550 [Thread-595:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:10:02,413 [Thread-634:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:11:21,143 [Thread-664:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:13:52,202 [Thread-693:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:13:55,691 [Thread-716:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:14:38,506 [Thread-722:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:14:42,598 [Thread-723:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:14:48,723 [Thread-737:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:14:51,803 [Thread-747:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:14:55,890 [Thread-748:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:15:38,358 [Thread-754:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:15:41,286 [Thread-755:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:15:44,041 [Thread-756:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:17:21,884 [Thread-762:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:17:24,096 [Thread-763:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:18:02,246 [Thread-766:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:18:21,003 [Thread-769:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:19:42,443 [Thread-770:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:20:34,066 [Thread-771:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:32:52,143 [Thread-772:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:34:10,556 [Thread-773:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:34:12,586 [Thread-774:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:35:23,474 [Thread-775:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:35:42,343 [Thread-783:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 08:35:42,358 [Thread-785:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 08:35:42,528 [Thread-795:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:35:42,545 [Thread-797:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:35:42,620 [Thread-799:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 08:35:42,622 [Thread-800:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 08:37:27,996 [Thread-830:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 08:37:28,022 [Thread-832:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:37:28,023 [Thread-833:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:37:28,031 [Thread-831:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 08:37:28,071 [Thread-835:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 08:38:14,926 [Thread-855:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:38:14,993 [Thread-863:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:38:15,003 [Thread-866:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 08:38:15,014 [Thread-867:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 08:38:15,040 [Thread-869:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:38:56,497 [Thread-887:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:38:56,648 [Thread-899:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 08:38:56,661 [Thread-900:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:38:56,663 [Thread-901:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 08:38:56,697 [Thread-903:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:38:56,707 [Thread-904:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 08:38:59,492 [Thread-922:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:38:59,502 [Thread-923:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 08:38:59,522 [Thread-928:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:38:59,567 [Thread-936:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 08:38:59,578 [Thread-938:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:38:59,593 [Thread-939:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 08:39:25,393 [Thread-959:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:39:25,447 [Thread-969:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:39:25,462 [Thread-971:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 08:39:25,463 [Thread-972:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 08:39:27,663 [Thread-990:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:39:27,719 [Thread-997:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:39:27,735 [Thread-1003:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 08:39:27,742 [Thread-1004:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 08:39:27,756 [Thread-1006:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:40:16,595 [Thread-1024:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:40:16,643 [Thread-1033:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:40:16,664 [Thread-1037:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 08:40:16,671 [Thread-1038:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 08:40:16,691 [Thread-1040:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:41:24,152 [Thread-1071:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 08:41:24,152 [Thread-1069:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:41:24,155 [Thread-1072:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av2.jpg
+2014-08-13 08:41:24,156 [Thread-1070:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av1.jpg
+2014-08-13 08:41:24,208 [Thread-1074:-1283466432] [django.request:143] [WARNING]- Not Found: /boot/img/demo/av3.jpg
+2014-08-13 08:43:12,530 [Thread-1100:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:47:18,739 [Thread-1130:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:49:24,679 [Thread-1159:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:51:32,829 [Thread-1184:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:52:13,383 [Thread-1205:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:52:17,032 [Thread-1234:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:52:54,300 [Thread-1259:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:53:48,532 [Thread-1284:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:54:41,930 [Thread-1292:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/tables.html
+2014-08-13 08:56:38,784 [Thread-1311:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:56:50,341 [Thread-1324:-1256195264] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 08:58:49,190 [Thread-1346:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 08:59:29,615 [Thread-1373:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:00:56,176 [Thread-1398:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:03:18,568 [Thread-1423:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:04:24,560 [Thread-1448:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:06:21,521 [Thread-1468:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:08:08,227 [Thread-1498:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:09:16,370 [Thread-1523:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:14:21,546 [Thread-1531:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 09:21:00,953 [Thread-1538:-1275073728] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 09:34:51,435 [Thread-1562:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:35:42,451 [Thread-1583:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:36:15,226 [Thread-1608:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:37:06,491 [Thread-1638:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:37:22,095 [Thread-1646:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 09:37:24,588 [Thread-1647:-1291859136] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 09:37:31,378 [Thread-1649:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:37:41,864 [Thread-1650:-1245709504] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 09:38:57,431 [Thread-1654:-1266681024] [django.request:143] [WARNING]- Not Found: /boot/index.html
+2014-08-13 09:39:04,389 [Thread-1656:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:39:06,469 [Thread-1657:-1245709504] [django.request:143] [WARNING]- Not Found: /opt/templates/index.html
+2014-08-13 09:40:14,362 [Thread-1661:-1266681024] [django.request:143] [WARNING]- Not Found: /opt/templates/index.html
+2014-08-13 09:41:50,022 [Thread-1:-1244660928] [django.request:143] [WARNING]- Not Found: /opt/templates/index.html
+2014-08-13 09:41:52,347 [Thread-3:-1255146688] [django.request:143] [WARNING]- Not Found: /opt/templates/index.html
+2014-08-13 09:41:55,714 [Thread-4:-1265632448] [django.request:143] [WARNING]- Not Found: /opt/templates/index.html
+2014-08-13 09:41:57,416 [Thread-5:-1274025152] [django.request:143] [WARNING]- Not Found: /opt/templates/index.html
+2014-08-13 09:42:52,377 [Thread-1:-1244660928] [django.request:143] [WARNING]- Not Found: /opt/templates/index.html
+2014-08-13 09:43:01,727 [Thread-3:-1244660928] [django.request:143] [WARNING]- Not Found: /opt/templates/index.html
+2014-08-13 09:43:23,070 [Thread-7:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:43:25,611 [Thread-9:-1282417856] [django.request:143] [WARNING]- Not Found: /opt/templates/index.html
+2014-08-13 09:46:16,029 [Thread-32:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:46:25,487 [Thread-55:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:47:49,523 [Thread-78:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 09:59:58,326 [Thread-106:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 10:01:50,750 [Thread-133:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 10:04:15,462 [Thread-153:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 10:04:17,166 [Thread-178:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 10:04:43,444 [Thread-181:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 10:34:08,485 [Thread-203:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 10:34:22,683 [Thread-222:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 10:34:38,146 [Thread-253:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 10:42:09,217 [Thread-24:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 10:42:12,655 [Thread-37:-1282417856] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-08-13 10:42:12,867 [Thread-38:-1282417856] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-08-13 10:47:13,479 [Thread-56:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 10:49:53,400 [Thread-81:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 11:03:24,733 [Thread-106:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 11:04:21,054 [Thread-131:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 11:06:13,237 [Thread-157:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 11:06:15,140 [Thread-182:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 11:06:31,936 [Thread-207:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 11:07:06,879 [Thread-232:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 11:10:38,760 [Thread-254:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 11:18:38,276 [Thread-282:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 11:20:38,925 [Thread-307:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-13 11:32:46,604 [Thread-332:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
