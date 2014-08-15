@@ -1,0 +1,104 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>长江医院</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="/static/easyui/jquery-1.8.0.min.js" ></script>
+<script type="text/javascript" src="/static/easyui/jquery.easyui.min.js" ></script>
+<link rel="stylesheet" type="text/css" href="/static/easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="/static/easyui/themes/icon.css">
+<script src="/static/easyui/locale/easyui-lang-zh_CN.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+         var data = {{media|safe}};
+		 for ( x in data){
+		 document.getElementById('med').add(new Option(data[x],data[x]));
+		 };
+         var Site = {{site|safe}};
+		 for ( x in Site){
+		 document.getElementById('site').add(new Option(Site[x],Site[x]));
+		 };
+         var Dep = {{dep|safe}};
+		 for ( x in Dep){
+		 document.getElementById('dep').add(new Option(Dep[x],Dep[x]));
+		 };
+         var Add = {{add|safe}};
+		 for ( x in Add){
+		 document.getElementById('add').add(new Option(Add[x],Add[x]));
+		 };
+//		 $.ajax({
+//				type:"get",
+//				url:"/select/",
+//				success:function(data){
+//				var m=data
+//				alert(data)
+//			   }
+//			   })
+        $("#dd").datebox({
+                  required: "true",
+                  missingMessage: "请输入日期",
+                  formatter: function (date) {
+                      var y = date.getFullYear();
+                      var m = date.getMonth() + 1;
+                      var d = date.getDate();
+                      return y + "-" + (m < 10 ? ("0" + m) : m) + "-" + (d < 10 ? ("0" + d) : d) + "";
+                  }
+              });
+		$("#b04").click(function(){
+			var time = $("#dd").datebox("getValue");
+			if(time == ""){
+				alert("请选择日期！");
+			};
+			var JSONObject={'date':time,'department':$("#dep").val(),'site':$("#site").val(),'media':$("#med").val(),'addres':$("#add").val()};
+			htmlobj=$.ajax({
+				type:"post",
+				url:"/test1/",
+				data:JSONObject,
+               success:function(data){
+			$("#myDiv").html(htmlobj.responseText);
+			console.log(htmlobj);
+			}
+			});
+			});
+		$("#b02").click(function(){
+			htmlobj=$.ajax({url:"/week/",async:false});
+			$("#myDiv").html(htmlobj.responseText);
+			console.log(htmlobj);
+			});
+		$("#b03").click(function(){
+			htmlobj=$.ajax({url:"/site/",async:false});
+			$("#myDiv").html(htmlobj.responseText);
+			console.log(htmlobj);
+			});
+			});
+
+</script>
+
+</head>
+<body>
+<button id="b01" type="submit">推广站分析表（日）</button>
+<button id="b02" type="submit">推广站分析表周汇总</button>
+<button id="b03" type="submit">推广站分析表站点汇总</button>
+<hr/>
+部门：<select id="dep" name="department">
+	     <option value="all" >所有部门</option>
+	  <select>
+媒体：<select id="med" name="media">
+	     <option value="all" >所有媒体</option>
+	  <select>
+推广站点：<select id="site" name ="sites">
+	     <option value="all" >所有站点</option>
+	  <select>
+地区：<select id="add" name="addres">
+	     <option value="all" >所有地区</option>
+	  <select>
+日期：<input id="dd" type="date" name="DD" class="easyui-datebox"></input>
+<button id="b04" type="submit">确认</button>
+<script type="text/javascript">
+//         document.getElementById('adr').options.add(new Option(1,1));
+</script>
+<hr/>
+<div id="myDiv"><h2></h2></div>
+</body>
+</html>
+

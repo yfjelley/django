@@ -65,29 +65,29 @@ def opt(request):
     for i in media:
         if i['media'] not in media_option:
             media_option.append(i['media'])
-    media_option=json.dumps(media_option)
+    #media_option=json.dumps(media_option)
 
     site=Optimization.objects.values('site')
     site_option=[]
     for i in site:
         if i['site'] not in site_option:
             site_option.append(i['site'])
-    site_option=json.dumps(site_option)
+    #site_option=json.dumps(site_option)
     
     department = Optimization.objects.values('department')
     dep_option=[]
     for i in department:
         if i['department'] not in dep_option:
             dep_option.append(i['department'])
-    dep_option=json.dumps(dep_option)
+    #dep_option=json.dumps(dep_option)
 
     addres = Optimization.objects.values('addres')
     addres_option = []
     for i in addres:
         if i['addres'] not in addres_option:
             addres_option.append(i['addres'])
-    addres_option=json.dumps(addres_option)
-    return render_to_response('show.html',{'media':media_option,'site':site_option,'dep':dep_option,'add':addres_option})
+    #addres_option=json.dumps(addres_option)
+    return render_to_response('show.html',{'media':media_option,'site':site_option,'department':dep_option,'addres':addres_option})
 def opt_week(request):
     s1=[]
     s2=[]
@@ -223,23 +223,11 @@ def opt_site(request):
     except Exception ,e:
         print e
     return render_to_response('site.html',{'getsiteinfo':s})
-
-"""def opt_day(request):
-    sql='select * from opt_optimization where TO_DAYS(NOW()) -TO_DAYS(date)<0'
-    a=Optimization.objects.raw(sql)
-    p=[]
-    for i in a:
-        l=zip(["date",'media','site','addres','click','valide','appointment','visit',\
-                'unvisit'],[i.date,i.media,i.site,i.addres,i.click,i.valide,i.appointment,i.visit,i.unvisit])
-        p.append(l)
-    s=json.dumps(p,cls=DateEncoder)
-    try:
-        tab.Tab(s)
-    except Exception ,e:
-        print e
-    return render_to_response('test1.html',{'getsiteinfo':s})"""
-
-def boot(request):
-    return render_to_response('index.html',)
+def dayReport(request):
+    return render_to_response('day.html',)
+def weekReport(request):
+    return render_to_response('week.html',)
+def monthReport(request):
+    return render_to_response('month.html',)
 def index(request):
     return render_to_response('index.html',)
