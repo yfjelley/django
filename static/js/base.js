@@ -1,17 +1,14 @@
 $(function(){
 $(document).ready(function(){
-        $("#dd").datebox({
-                  required: "true",
-                  missingMessage: "请输入日期",
-                  formatter: function (date) {
-                      var y = date.getFullYear();
-                      var m = date.getMonth() + 1;
-                      var d = date.getDate();
-                      return y + "-" + (m < 10 ? ("0" + m) : m) + "-" + (d < 10 ? ("0" + d) : d) + "";
-                  }
-              });
+        $('.ns-dtpicker').datetimepicker({
+     	 format: 'yyyy-mm-dd  ',
+         autoclose: true,
+	     todayHighlight: true,
+	      minuteStep: 2,
+	     todayBtn: true
+	    });
 		$("#b04").click(function(){
-			var time = $("#dd").datebox("getValue");
+			var time = $("#datepicker").val();
 			if(time == ""){
 				alert("请选择日期！");
 			};
@@ -29,4 +26,4 @@ $(document).ready(function(){
 			});
 
 
-})
+});
