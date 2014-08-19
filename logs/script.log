@@ -13200,3 +13200,6 @@ ViewDoesNotExist: Could not import opt.views.opt_data. View does not exist in mo
 2014-08-19 05:51:56,043 [Thread-1336:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
 2014-08-19 05:52:05,829 [Thread-1359:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
 2014-08-19 05:52:34,700 [Thread-1386:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 05:55:48,712 [Thread-1411:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 05:56:25,067 [Thread-1434:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 05:57:52,191 [Thread-1461:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
