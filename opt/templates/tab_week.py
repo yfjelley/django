@@ -31,7 +31,7 @@ def Tab(b):
                         mytr=mytab<<tr()
                         for j in range(0,len(s[week]['data'][i])):
                             mytr<<td('%s' %s[week]['data'][i][j][1])
-    page.printOut("/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/templates/week.html")
+    page.printOut("/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/templates/week_bak.html")
 if __name__  == "__main__":
     Tab(b)
 

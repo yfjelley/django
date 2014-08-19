@@ -12266,3 +12266,905 @@ ValidationError: [u"'' value has an invalid date format. It must be in YYYY-MM-D
 2014-08-16 09:08:57,345 [Thread-1653:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
 2014-08-16 09:08:59,426 [Thread-1655:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
 2014-08-16 09:09:12,101 [Thread-1657:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:13:30,987 [Thread-1672:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:13:33,578 [Thread-1679:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:13:36,459 [Thread-1681:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:13:37,699 [Thread-1683:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:13:38,951 [Thread-1685:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:13:39,954 [Thread-1687:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:14:52,086 [Thread-1689:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:14:53,485 [Thread-1691:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:14:55,219 [Thread-1693:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:14:58,067 [Thread-1695:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:14:59,550 [Thread-1697:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:15:09,663 [Thread-1699:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:15:11,838 [Thread-1701:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:15:15,814 [Thread-1703:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:15:17,329 [Thread-1705:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:15:18,218 [Thread-1707:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:15:19,215 [Thread-1709:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:15:21,029 [Thread-1711:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:15:22,388 [Thread-1713:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:15:23,550 [Thread-1715:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:15:32,213 [Thread-1717:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:16:47,338 [Thread-1719:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:16:50,977 [Thread-1721:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:16:52,729 [Thread-1723:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:16:56,172 [Thread-1725:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:16:57,216 [Thread-1727:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:16:58,688 [Thread-1729:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:17:01,511 [Thread-1731:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:17:04,785 [Thread-1733:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:17:06,220 [Thread-1735:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:17:22,246 [Thread-1737:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:17:24,274 [Thread-1739:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:17:25,499 [Thread-1741:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:17:28,159 [Thread-1743:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:17:33,060 [Thread-1745:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:17:34,841 [Thread-1747:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:25:47,334 [Thread-1750:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:25:57,627 [Thread-1752:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:33:53,051 [Thread-1755:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:33:54,913 [Thread-1757:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:35:32,413 [Thread-1760:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:35:41,743 [Thread-1762:-1265894592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:36:38,090 [Thread-1764:-1265894592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:36:39,027 [Thread-1766:-1265894592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:36:40,999 [Thread-1768:-1265894592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:36:43,399 [Thread-1770:-1265894592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-16 09:36:45,194 [Thread-1772:-1265894592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:00:48,881 [Thread-16:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:00:49,303 [Thread-22:-1245709504] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-08-18 01:06:10,733 [Thread-37:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:06:12,924 [Thread-56:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:06:14,781 [Thread-75:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:06:20,169 [Thread-81:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:07:11,764 [Thread-100:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:07:13,741 [Thread-119:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:07:15,039 [Thread-125:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:07:37,050 [Thread-140:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:07:37,795 [Thread-146:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:07:38,531 [Thread-148:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:07:39,293 [Thread-150:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:07:40,491 [Thread-152:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:07:40,732 [Thread-154:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:07:41,072 [Thread-156:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:08:49,071 [Thread-158:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:08:50,113 [Thread-160:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:08:51,652 [Thread-162:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:08:53,234 [Thread-165:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:08:54,751 [Thread-167:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:08:55,766 [Thread-169:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:22,377 [Thread-172:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:23,850 [Thread-174:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:25,207 [Thread-176:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:25,761 [Thread-178:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:26,737 [Thread-180:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:27,924 [Thread-182:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:28,611 [Thread-184:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:29,400 [Thread-186:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:30,957 [Thread-188:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:31,760 [Thread-190:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:33,006 [Thread-192:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:35,533 [Thread-194:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:36,616 [Thread-196:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:37,906 [Thread-198:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:50,660 [Thread-201:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:52,217 [Thread-203:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:53,499 [Thread-205:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:55,234 [Thread-207:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:56,299 [Thread-209:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:57,745 [Thread-211:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:59,046 [Thread-213:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:09:59,684 [Thread-215:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:10:00,794 [Thread-217:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:10:02,058 [Thread-219:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:10:03,840 [Thread-221:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:10:04,939 [Thread-223:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:10:07,197 [Thread-225:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:10:08,750 [Thread-227:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:17:50,562 [Thread-242:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:17:52,475 [Thread-249:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:17:54,205 [Thread-251:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:17:55,418 [Thread-253:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:01,364 [Thread-268:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:04,754 [Thread-275:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:06,853 [Thread-277:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:14,309 [Thread-279:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:16,693 [Thread-281:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:18,248 [Thread-283:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:20,792 [Thread-285:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:22,725 [Thread-288:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:24,415 [Thread-290:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:25,999 [Thread-292:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:26,871 [Thread-294:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:28,140 [Thread-296:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:29,269 [Thread-298:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:32,206 [Thread-300:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:33,278 [Thread-302:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:18:34,470 [Thread-304:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:19:30,243 [Thread-309:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:19:31,964 [Thread-311:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:19:36,125 [Thread-314:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:20:41,574 [Thread-318:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:25:27,022 [Thread-341:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:26:03,320 [Thread-361:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:29:26,150 [Thread-378:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:31:05,729 [Thread-402:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 01:39:39,063 [Thread-421:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:09:01,978 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /dayReport/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/myste/urls.py", line 10, in <module>
+    url(r'^admin/', include(admin.site.urls)),
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 253, in urls
+    return self.get_urls(), self.app_name, self.name
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 211, in get_urls
+    self.check_dependencies()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 163, in check_dependencies
+    raise ImproperlyConfigured("Put 'django.contrib.auth.context_processors.auth' "
+ImproperlyConfigured: Put 'django.contrib.auth.context_processors.auth' in your TEMPLATE_CONTEXT_PROCESSORS setting in order to use the admin application.
+2014-08-18 02:14:39,977 [Thread-16:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:14:44,955 [Thread-36:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:18:32,406 [Thread-15:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:20:10,918 [Thread-16:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:20:20,443 [Thread-35:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:20:22,192 [Thread-54:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:20:33,601 [Thread-73:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:21:29,714 [Thread-91:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:27:24,986 [Thread-16:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:29:54,570 [Thread-36:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:37:27,757 [Thread-55:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:39:48,607 [Thread-74:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:40:41,894 [Thread-95:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:40:51,715 [Thread-114:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:40:56,949 [Thread-133:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:41:07,810 [Thread-151:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:41:10,909 [Thread-171:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:45:04,984 [Thread-16:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:46:13,776 [Thread-35:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:47:47,716 [Thread-53:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:47:54,811 [Thread-73:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:00,201 [Thread-91:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:01,064 [Thread-98:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:01,769 [Thread-100:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:02,661 [Thread-102:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:03,370 [Thread-104:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:04,094 [Thread-106:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:05,266 [Thread-108:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:10,473 [Thread-110:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:11,060 [Thread-112:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:11,505 [Thread-114:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:12,164 [Thread-116:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:42,286 [Thread-118:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:44,214 [Thread-120:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:45,742 [Thread-122:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:47,000 [Thread-124:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:48,453 [Thread-126:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:48:52,509 [Thread-141:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:51:02,758 [Thread-161:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:51:26,210 [Thread-181:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:51:39,087 [Thread-188:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:59:41,441 [Thread-203:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 02:59:53,016 [Thread-222:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:00:13,448 [Thread-241:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:00:16,418 [Thread-247:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:00:18,148 [Thread-249:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:00:20,107 [Thread-251:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:00:21,838 [Thread-253:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:00:23,044 [Thread-255:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:00:24,311 [Thread-257:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:01:15,354 [Thread-272:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:01:16,827 [Thread-278:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 65, in opt
+    return render_to_response('show.html',context_instance=RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/template/context.py", line 168, in __init__
+    for processor in get_standard_processors() + processors:
+  File "/usr/local/lib/python2.7/dist-packages/django/template/context.py", line 148, in get_standard_processors
+    func = import_by_path(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/module_loading.py", line 21, in import_by_path
+    module = import_module(module_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/context_processors.py", line 10
+    media_option=[]
+                  ^
+IndentationError: unindent does not match any outer indentation level
+2014-08-18 03:04:22,132 [Thread-293:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:04:25,081 [Thread-299:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:04:27,062 [Thread-301:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:04:30,708 [Thread-303:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:05:29,572 [Thread-318:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:05:31,559 [Thread-324:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:05:33,943 [Thread-339:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:06:36,359 [Thread-362:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:06:48,008 [Thread-381:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:07:15,191 [Thread-387:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:08:27,339 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /opt/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 200, in opt
+    return render_to_response('show.html',context_instance=RequestContext(request))
+NameError: global name 'request' is not defined
+2014-08-18 03:08:56,550 [Thread-16:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:10:06,076 [Thread-16:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:10:09,666 [Thread-22:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:10:10,924 [Thread-24:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:11:10,073 [Thread-39:-1255670976] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:11:44,248 [Thread-50:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:11:45,459 [Thread-52:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:11:46,254 [Thread-54:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:11:46,873 [Thread-56:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:11:47,387 [Thread-58:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:11:47,843 [Thread-60:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:11:48,750 [Thread-62:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:12:14,580 [Thread-77:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:12:16,296 [Thread-83:-1255670976] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:12:16,692 [Thread-85:-1255670976] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:12:18,410 [Thread-87:-1255670976] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:12:19,494 [Thread-89:-1255670976] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:12:20,406 [Thread-91:-1255670976] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:12:21,099 [Thread-93:-1255670976] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:12:37,679 [Thread-95:-1255670976] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:12:38,218 [Thread-97:-1255670976] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:13:24,960 [Thread-16:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:13:26,615 [Thread-22:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:13:29,647 [Thread-24:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:13:31,526 [Thread-26:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:20:30,020 [Thread-13:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:20:31,234 [Thread-23:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 03:20:32,640 [Thread-25:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:12,279 [Thread-3:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:14,870 [Thread-6:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:16,472 [Thread-8:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:17,992 [Thread-10:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:19,422 [Thread-12:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:20,772 [Thread-14:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:22,064 [Thread-16:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:23,732 [Thread-18:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:25,714 [Thread-20:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:26,976 [Thread-22:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:27,905 [Thread-24:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:28,838 [Thread-26:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:29,855 [Thread-28:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:30,745 [Thread-30:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:31,854 [Thread-32:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:33,573 [Thread-34:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:35,210 [Thread-36:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 04:12:36,515 [Thread-38:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:02:01,902 [Thread-53:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:02:17,721 [Thread-59:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:02:18,868 [Thread-61:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:09:51,629 [Thread-63:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:09:53,053 [Thread-65:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:09:54,788 [Thread-67:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:09:56,347 [Thread-69:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:10:35,110 [Thread-71:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:10:37,133 [Thread-73:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:10:38,871 [Thread-75:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:10:40,589 [Thread-77:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:10:42,272 [Thread-79:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:10:59,645 [Thread-81:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:11:01,141 [Thread-83:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:11:03,052 [Thread-85:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:11:04,245 [Thread-87:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:11:05,793 [Thread-89:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:11:07,568 [Thread-91:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:11:10,050 [Thread-93:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:12:50,608 [Thread-95:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:12:54,213 [Thread-97:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:12:59,785 [Thread-99:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:13:04,397 [Thread-101:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:13:06,330 [Thread-103:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:13:07,950 [Thread-105:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:13:23,599 [Thread-106:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 47, in opt_data
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-08-18 05:13:37,798 [Thread-109:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:13:39,569 [Thread-111:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:14:06,553 [Thread-114:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:14:08,029 [Thread-116:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:14:09,621 [Thread-118:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:14:10,852 [Thread-120:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:14:12,403 [Thread-122:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:14:15,834 [Thread-124:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:14:17,386 [Thread-126:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:14:37,035 [Thread-129:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:14:40,110 [Thread-131:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:15:40,228 [Thread-133:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:15:47,801 [Thread-135:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:15:49,617 [Thread-137:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:15:51,030 [Thread-139:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:15:53,147 [Thread-141:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:15:54,944 [Thread-143:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:16:05,834 [Thread-145:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:16:07,220 [Thread-147:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:16:23,351 [Thread-163:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:17:04,191 [Thread-169:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:17:05,789 [Thread-171:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:17:15,710 [Thread-173:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:17:17,552 [Thread-189:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:17:21,478 [Thread-195:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:17:23,134 [Thread-197:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:17:29,087 [Thread-212:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:17:33,398 [Thread-218:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:17:35,252 [Thread-220:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:17:37,009 [Thread-222:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:17:38,463 [Thread-224:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:17:39,604 [Thread-226:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:17:46,854 [Thread-241:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:18:06,319 [Thread-260:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:18:14,589 [Thread-279:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:18:16,370 [Thread-285:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:18:18,181 [Thread-287:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:18:19,046 [Thread-289:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:18:19,800 [Thread-291:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:18:50,987 [Thread-306:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:18:52,865 [Thread-312:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:18:54,089 [Thread-315:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:18:55,143 [Thread-318:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:19:52,931 [Thread-334:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:20:13,378 [Thread-340:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:20:18,662 [Thread-343:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:21:31,688 [Thread-347:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:21:33,254 [Thread-350:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:39:41,804 [Thread-16:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:39:44,268 [Thread-21:-1274025152] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 47, in opt_data
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-08-18 05:41:34,676 [Thread-37:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:43:48,504 [Thread-16:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:43:50,583 [Thread-22:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:44:01,112 [Thread-25:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:44:02,751 [Thread-27:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:44:03,964 [Thread-29:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:44:05,278 [Thread-31:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:48:46,512 [Thread-16:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:48:51,720 [Thread-35:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:48:53,697 [Thread-41:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:48:57,638 [Thread-56:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:49:47,786 [Thread-76:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:49:53,264 [Thread-81:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 62, in opt_data
+    return render_to_response('test1.html',{'getsiteinfo':s})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: test1.html
+2014-08-18 05:49:54,235 [Thread-82:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 62, in opt_data
+    return render_to_response('test1.html',{'getsiteinfo':s})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: test1.html
+2014-08-18 05:49:54,443 [Thread-83:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 62, in opt_data
+    return render_to_response('test1.html',{'getsiteinfo':s})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: test1.html
+2014-08-18 05:51:26,217 [Thread-16:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:51:49,553 [Thread-37:-1244714176] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:54:15,421 [Thread-16:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:55:04,749 [Thread-22:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 62, in opt_data
+    return render_to_response('test1.html',{'getsiteinfo':s})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: test1.html
+2014-08-18 05:55:05,923 [Thread-23:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 62, in opt_data
+    return render_to_response('test1.html',{'getsiteinfo':s})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: test1.html
+2014-08-18 05:55:06,150 [Thread-24:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 62, in opt_data
+    return render_to_response('test1.html',{'getsiteinfo':s})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: test1.html
+2014-08-18 05:55:08,190 [Thread-39:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 05:55:13,015 [Thread-44:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 62, in opt_data
+    return render_to_response('test1.html',{'getsiteinfo':s})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: test1.html
+2014-08-18 05:55:14,251 [Thread-45:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 62, in opt_data
+    return render_to_response('test1.html',{'getsiteinfo':s})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: test1.html
+2014-08-18 05:55:14,474 [Thread-46:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 62, in opt_data
+    return render_to_response('test1.html',{'getsiteinfo':s})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: test1.html
+2014-08-18 05:55:14,681 [Thread-47:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 62, in opt_data
+    return render_to_response('test1.html',{'getsiteinfo':s})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: test1.html
+2014-08-18 05:55:15,857 [Thread-48:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 62, in opt_data
+    return render_to_response('test1.html',{'getsiteinfo':s})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: test1.html
+2014-08-18 05:55:25,181 [Thread-49:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 62, in opt_data
+    return render_to_response('test1.html',{'getsiteinfo':s})
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: test1.html
+2014-08-18 06:00:16,947 [Thread-17:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:03:06,590 [Thread-16:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:04:36,704 [Thread-16:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:04:42,229 [Thread-34:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:05:41,403 [Thread-15:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:09:34,513 [Thread-16:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:11:07,447 [Thread-16:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:15:53,487 [Thread-15:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:16:54,961 [Thread-16:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:21:09,576 [Thread-16:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:22:32,394 [Thread-38:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:23:18,501 [Thread-16:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:24:41,397 [Thread-16:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:25:01,337 [Thread-24:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:25:02,832 [Thread-26:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:25:04,836 [Thread-28:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:25:06,561 [Thread-30:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:35:06,331 [Thread-16:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:35:28,229 [Thread-36:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:37:45,383 [Thread-16:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:39:28,696 [Thread-16:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:40:07,863 [Thread-36:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 06:41:29,896 [Thread-16:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:00:35,678 [Thread-16:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:05:19,395 [Thread-37:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:05:23,356 [Thread-56:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:14:07,827 [Thread-77:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:17:08,960 [Thread-98:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:27:19,184 [Thread-16:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:30:30,102 [Thread-16:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:30:43,856 [Thread-37:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:30:46,037 [Thread-42:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 47, in opt_data
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-08-18 07:32:07,242 [Thread-58:-1283728576] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:36:03,994 [Thread-79:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:38:21,522 [Thread-16:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:55:42,738 [Thread-16:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:55:49,578 [Thread-26:-1255146688] [django.request:143] [WARNING]- Not Found: /dayReport/jquery-2.0.2.min.map
+2014-08-18 07:56:00,795 [Thread-31:-1255146688] [django.request:143] [WARNING]- Not Found: /dayReport/jquery-2.0.2.min.map
+2014-08-18 07:57:30,829 [Thread-47:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:57:36,818 [Thread-57:-1244660928] [django.request:143] [WARNING]- Not Found: /dayReport/jquery-2.0.2.min.map
+2014-08-18 07:59:42,251 [Thread-73:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 07:59:52,713 [Thread-83:-1255146688] [django.request:143] [WARNING]- Not Found: /dayReport/jquery-2.0.2.min.map
+2014-08-18 08:01:04,612 [Thread-99:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 08:01:11,231 [Thread-109:-1255146688] [django.request:143] [WARNING]- Not Found: /dayReport/jquery-2.0.2.min.map
+2014-08-18 08:10:08,429 [Thread-17:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 08:10:23,175 [Thread-32:-1290810560] [django.request:143] [WARNING]- Not Found: /dayReport/jquery-2.0.2.min.map
+2014-08-18 08:12:15,169 [Thread-48:-1299203264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 08:17:32,002 [Thread-78:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 08:45:30,040 [Thread-17:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 08:45:37,198 [Thread-36:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 08:47:09,660 [Thread-57:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 08:56:25,739 [Thread-16:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 08:57:15,023 [Thread-35:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:09:03,874 [Thread-42:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /dayReport/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 176, in dayReport
+    return render_to_response('day.html',context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 127, in find_template
+    source, display_name = loader(name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 149, in get_template_from_string
+    return Template(source, origin, name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 278, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 215, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 278, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 190, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 278, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 806, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 278, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 806, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 276, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 331, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'endblock', expected 'empty' or 'endfor'
+2014-08-18 09:10:02,961 [Thread-59:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:14:01,806 [Thread-78:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:16:32,286 [Thread-99:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:19:29,606 [Thread-16:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:19:38,367 [Thread-37:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:20:58,452 [Thread-55:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:21:35,248 [Thread-62:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.opt_data. View does not exist in module opt.views.
+2014-08-18 09:29:35,164 [Thread-75:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:29:37,692 [Thread-108:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:29:41,343 [Thread-129:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:30:03,092 [Thread-158:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:30:05,761 [Thread-177:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:30:07,841 [Thread-203:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:30:10,078 [Thread-231:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:30:12,347 [Thread-257:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:30:15,190 [Thread-280:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:32:24,867 [Thread-308:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:35:47,111 [Thread-334:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:36:02,698 [Thread-359:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:37:24,507 [Thread-384:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:41:30,584 [Thread-410:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:43:55,583 [Thread-438:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:44:01,699 [Thread-457:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:44:18,682 [Thread-487:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:44:24,779 [Thread-513:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:44:41,855 [Thread-538:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:45:35,129 [Thread-569:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:45:38,914 [Thread-589:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:45:50,195 [Thread-616:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:48:03,627 [Thread-645:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:48:07,742 [Thread-671:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:48:10,494 [Thread-699:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:51:50,259 [Thread-712:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:51:52,016 [Thread-717:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:51:53,225 [Thread-720:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:52:00,831 [Thread-722:-1275073728] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.opt_data. View does not exist in module opt.views.
+2014-08-18 09:55:58,830 [Thread-732:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:56:10,741 [Thread-762:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:59:29,394 [Thread-791:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 09:59:31,763 [Thread-823:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:06:42,838 [Thread-844:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:06:46,951 [Thread-873:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:06:59,097 [Thread-899:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:07:01,885 [Thread-923:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:07:04,143 [Thread-952:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:07:09,763 [Thread-980:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:07:49,356 [Thread-1006:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:07:52,181 [Thread-1032:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:09:08,040 [Thread-1059:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:15:14,832 [Thread-1090:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:15:18,665 [Thread-1115:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:15:25,839 [Thread-1139:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:18:58,984 [Thread-1171:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:19:01,668 [Thread-1194:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:19:28,088 [Thread-1221:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:19:36,999 [Thread-1235:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:19:38,695 [Thread-1237:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:19:41,406 [Thread-1240:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:19:54,304 [Thread-1257:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:29:29,533 [Thread-1291:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:29:32,781 [Thread-1318:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:35:11,528 [Thread-1347:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:37:32,701 [Thread-1374:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:37:35,812 [Thread-1402:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:37:43,012 [Thread-1431:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:42:40,527 [Thread-1454:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:45:11,943 [Thread-1483:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:47:10,807 [Thread-1508:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:47:23,833 [Thread-1538:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:57:23,942 [Thread-1564:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 10:57:27,030 [Thread-1589:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 11:01:02,708 [Thread-1624:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 11:01:05,874 [Thread-1649:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 11:03:20,596 [Thread-1672:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 11:05:44,987 [Thread-1702:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 11:05:48,086 [Thread-1715:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 11:05:50,552 [Thread-1718:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 11:05:52,298 [Thread-1721:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-18 11:05:58,889 [Thread-1723:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /test1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.opt_data. View does not exist in module opt.views.
+2014-08-18 11:08:05,635 [Thread-1737:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 01:11:31,141 [Thread-15:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 01:11:31,889 [Thread-28:-1244660928] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-08-19 01:11:34,328 [Thread-30:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 01:13:05,124 [Thread-33:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 01:13:06,568 [Thread-36:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:15:36,071 [Thread-56:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:45:07,417 [Thread-89:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:45:11,284 [Thread-116:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:54:17,253 [Thread-139:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:54:20,330 [Thread-168:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:56:19,390 [Thread-188:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:56:22,421 [Thread-218:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:56:25,162 [Thread-243:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:56:28,286 [Thread-268:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:57:54,837 [Thread-292:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:58:06,247 [Thread-315:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:58:46,026 [Thread-336:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:58:52,671 [Thread-362:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 02:59:49,508 [Thread-383:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:08:34,092 [Thread-413:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:09:57,729 [Thread-438:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:15:37,175 [Thread-457:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:17:28,961 [Thread-490:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:17:52,282 [Thread-513:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:18:49,443 [Thread-539:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:19:17,047 [Thread-561:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:22:58,191 [Thread-588:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:23:06,832 [Thread-617:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:23:29,254 [Thread-645:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:23:54,603 [Thread-664:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:25:40,560 [Thread-682:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:26:29,610 [Thread-703:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:27:23,301 [Thread-732:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:27:28,332 [Thread-754:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-08-19 03:29:08,275 [Thread-778:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600

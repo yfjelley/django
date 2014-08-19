@@ -10,6 +10,8 @@
 		<link rel="stylesheet" href="/static/css/jquery-ui.css" />
 		<link rel="stylesheet" href="/static/css/unicorn.css" />
 	    <link rel="stylesheet" href="/static/css/bootstrap-datetimepicker.min.css">
+		<link rel="stylesheet" href="/static/css/bootstrap-responsiv.css" />
+		<!--		<link rel="stylesheet" href="/static/css/dataTables.bootstrap.css" /> -->
     	
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -41,7 +43,7 @@
 				<input type="text" placeholder="搜索..."/><button type="submit" class="tip-right" title="Search"><i class="fa fa-search"></i></button>
 			</div>
 			<ul>
-				<li><a href="../opt"><span>首页</span></a></li>
+				<!-- <li><a href="../opt"><span>首页</span></a></li> -->
 				{% block submenu1%}
 				<li class="submenu">
 				{% endblock %}
@@ -74,15 +76,21 @@
 					 {% block table %}
 		             {% endblock %}
            </div>
-              <div id="myDiv"><h2></h2></div>
+		   <div id= "myDiv" class="row-fluid">{% block table1 %}{% endblock %}</div>
          </div>
-		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+		    <script src="/static/js/jquery.js"></script>
             <script src="/static/js/bootstrap.min.js"></script>
             <script src="/static/js/jquery.gritter.min.js"></script>
             <script src="/static/js/jquery.sparkline.min.js"></script>
             <script src="/static/js/jquery.nicescroll.min.js"></script>
 		    <script src="/static/js/bootstrap-datetimepicker.min.js"></script>
+			<script src="/static/js/jquery.dataTables.js"></script>
+		    <script src="/static/js/classes.js"></script>
+			<!--	<script src="/static/js/select2.js"></script>-->
+			<!--			    <script src="/static/js/dataTables.bootstrap.js"></script> -->
+
 		    <script src="/static/js/zh-CN.js"></script>
 		    <script src="/static/js/base.js"></script>
+		    <script src="/static/js/table.js"></script>
 	</body>
 </html>
