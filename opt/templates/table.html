@@ -1,0 +1,28 @@
+			<thead>
+				<tr>
+					<th>日期</th>
+					<th>部门</th>
+					<th>媒体</th>
+					<th>网站</th>
+					<th>地区</th>
+					<th>消费</th>
+					<th>点击次数</th>
+					<th>点击成本</th>
+					<th>有效量</th>
+					<th>预约量</th>
+					<th>就诊量</th>
+					<th>有效成本</th>
+					<th>预约成本</th>
+					<th>就诊成本</th>
+					<th>未就诊量</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for i in tableInfo %}
+				<tr>
+					{% for j in i %}
+					<td>{{j}}</td>
+					{% endfor %}
+				</tr>
+				{% endfor %}
+			</tbody>

@@ -15,6 +15,8 @@ urlpatterns = patterns('',
     url(r'^boot/$', 'opt.views.boot'),
     url(r'^index/$', 'opt.views.index'),
     url(r'^dayReport/$', 'opt.views.dayReport'),
+    url(r'^table/$', 'opt.views.table'),
+
     url(r'^weekReport/$', 'opt.views.weekReport'),
     url(r'^monthReport/$', 'opt.views.monthReport'),
 #    url(r'^index/$', 'opt.views.index'),

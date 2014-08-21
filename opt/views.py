@@ -173,7 +173,15 @@ def opt_site(request):
 def opt(request):
     return render_to_response('show.html',)
 def dayReport(request):
-    return render_to_response('day.html',context_instance = RequestContext(request))
+    if request.method == "GET":
+       return render_to_response('day.html',context_instance = RequestContext(request))
+    elif request.method == "POST":
+       return render_to_response('table.html',context_instance = RequestContext(request))
+
+def table(request):
+#    data =request.POST.copy()
+#    logger.info("data:%s"%data)
+    return render_to_response('table.html',context_instance = RequestContext(request))
 def monthReport(request):
     return render_to_response('month.html',)
 def index(request):
