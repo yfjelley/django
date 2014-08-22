@@ -16,7 +16,7 @@ $(document).ready(function(){
 		
 				
         $('#datepicker').datetimepicker({
-     	 format: 'yyyy-mm-dd  ',
+     	 format: 'yyyy-mm-dd',
          autoclose: true,
 	     todayHighlight: true,
 	     minuteStep: 2,
