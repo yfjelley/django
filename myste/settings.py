@@ -183,3 +183,5 @@ TEMPLATE_CONTEXT_PROCESSORS = (
         "opt.context_processors.custom_proc",
         )
 STSTATIC_ROOTATIC_URL = '/static/'
+DATE_FORMAT = 'Y-m-d'
+DATETIME_FORMAT = 'y-m-d H:i:s'

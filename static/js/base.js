@@ -15,12 +15,14 @@ $(document).ready(function(){
 		});
 		
 				
-        $('.ns-dtpicker').datetimepicker({
+        $('#datepicker').datetimepicker({
      	 format: 'yyyy-mm-dd  ',
          autoclose: true,
 	     todayHighlight: true,
-	      minuteStep: 2,
-	     todayBtn: true
+	     minuteStep: 2,
+	     todayBtn: true,
+		 pickDate: true,
+		 pickTime: false
 	    });
 			});
 

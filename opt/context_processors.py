@@ -45,6 +45,6 @@ def custom_proc(request):
                 i.valide,i.appointment,i.visit,round(i.cusume/i.valide,2),round(i.cusume/i.appointment,2),\
                 round(i.cusume/i.visit,2),i.unvisit]
         p.append(l)
-    logger.info("&&&&&&&&&&&&&&&&&&&&&params:%s"%params)
+        logger.info("i.date:%s"%i.date)
     return {'media':media_option,'site':site_option,'department':dep_option,'addres':addres_option,'tableInfo':p}
     
