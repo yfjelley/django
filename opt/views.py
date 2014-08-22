@@ -3,9 +3,6 @@ import logging
 import json
 from datetime import datetime
 from datetime import date
-from templates import tab
-from templates import tab_week
-from templates import tab_site
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
