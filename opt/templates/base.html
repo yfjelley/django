@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="/static/css/font-awesome.css" />
 		<link rel="stylesheet" href="/static/css/jquery.gritter.css" />
 	    <link rel="stylesheet" href="/static/css/bootstrap-datetimepicker.min.css">
-		<script>
+        <script>
 			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -19,7 +19,7 @@
 
 			  ga('create', 'UA-44987299-1', 'bootstrap-hunter.com');
 			  ga('send', 'pageview');
-	    </script>
+       </script> 
 	</head>	
 
 	<body data-color="grey" class="flat">
@@ -35,12 +35,11 @@
 						 <i class="fa fa-share"></i> 
 						 <span class="text">登出</span>
 					 </a>
-				
 				</li>
             </ul>
         </div>
        
-            
+
 		<div id="sidebar">
 			<div id="search">
 				<input type="text" placeholder="搜索..."/>
@@ -56,26 +55,30 @@
 				    <a href="">
 						<i class="fa fa-th">
 						</i>
-						    <span>推广站分析表</span>
+						<span>推广站分析表</span>
 						<i class="arrow fa fa-chevron-right">
 						</i>
 					</a>
 					<ul>
 						{% block active %}
-					    <li><a href="../dayReport">明细</a></li>
-						<li><a href="../weekReport">周汇总</a></li>
-						<li><a href="../monthReport">月汇总</a></li>
+					    <li><a href="../day">明细</a></li>
+						<li><a href="../week">周汇总</a></li>
+						<li><a href="../month">月汇总</a></li>
 						{% endblock %}
 					</ul>
 				</li>
 				{% block submenu2 %}
 				<li class="submenu">
 				{% endblock %}
-				    <a href=""><i class="fa fa-th"></i> <span>优化站分析表</span><i class="arrow fa fa-chevron-right"></i></a>
+				    <a href="">
+						<i class="fa fa-th"></i> 
+						<span>优化站分析表</span>
+						<i class="arrow fa fa-chevron-right"></i>
+					</a>
 					<ul>
-					    <li><a href="../dayReport">明细</a></li>
-						<li><a href="../weekReport">周汇总</a></li>
-						<li><a href="../monthReport">月汇总</a></li>
+					    <li><a href="../day">明细</a></li>
+						<li><a href="../week">周汇总</a></li>
+						<li><a href="../month">月汇总</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -89,6 +92,7 @@
 							 {% endblock %}
 						 </div>
 			   <div id= "myDiv" class="row-fluid">{% block table1 %}{% endblock %}</div>
+			   
     </div>
 		    <script src="/static/js/jquery.js"></script>
             <script src="/static/js/bootstrap.min.js"></script>
@@ -100,6 +104,5 @@
 		    <script src="/static/js/classes.js"></script>
 		    <script src="/static/js/zh-CN.js"></script>
 		    <script src="/static/js/base.js"></script>
-		    <script src="/static/js/table.js"></script>
 	</body>
 </html>

@@ -31,20 +31,5 @@ def custom_proc(request):
         if i['addres'] not in addres_option:
             addres_option.append(i['addres'])
 
-    params = request.POST.copy()
-    condition = {}
-    for k,v in params.iteritems():
-        v = v.strip()
-        if v != 'all':
-            condition[k] = v
-    a = Optimization.objects.filter(**condition)
-    
-    p=[]
-    for i in a:
-        l = [i.date,i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
-                i.valide,i.appointment,i.visit,round(i.cusume/i.valide,2),round(i.cusume/i.appointment,2),\
-                round(i.cusume/i.visit,2),i.unvisit]
-        p.append(l)
-        logger.info("i.date:%s"%i.date)
-    return {'media':media_option,'site':site_option,'department':dep_option,'addres':addres_option,'tableInfo':p}
+    return {'media':media_option,'site':site_option,'department':dep_option,'addres':addres_option}
     

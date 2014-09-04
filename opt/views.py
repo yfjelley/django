@@ -32,6 +32,28 @@ def selection(request):
             p.append(i)
     return HttpResponse(p)    
 
+def getWeek():
+    current = datetime.now()
+    weekList = []
+    yearList = []
+    for i in range(1,13):
+        for j in range(1,32):
+            try:
+                d = date(current.year,i,j)
+                if len(weekList) == 0:
+                    weekList.append(d)
+                else:
+                    if d.weekday()>weekList[-1].weekday():
+                        weekList.append(d)
+                    else:
+                        yearList.append(weekList)
+                        weekList = []
+                        weekList.append(d)
+            except Exception ,e:
+     #            print e
+                 pass
+    return yearList
+
 def weekReport(request):
     s1=[]
     s2=[]
@@ -84,19 +106,10 @@ def weekReport(request):
                 unvisit_cost=cusume_week/unvisit_week
             w=[s3[i][1],s3[i][2],s3[i][3],cusume_week,click_week,click_cost,valide_week,appointment_week,visit_week,\
                     valide_cost,appointment_cost,visit_cost,unvisit_week]
-            l=zip(['media','site','addres','cusume','click','click_cost','valide','appointment','visit',\
-                    'valide_cost','appointment_cost','visit_cost','unvisit'],w)
-            if l not in p:
-                p.append(l)
-        jsonobj={'data':p,'date':s5}
-        s1.append(jsonobj)
-    s=json.dumps(s1,cls=DateEncoder)
-    logger.info("s:%s"%s)
-    try:
-        tab_week.Tab(s)
-    except Exception ,e:
-        print e
-    return render_to_response('week.html',{'getsiteinfo':s})
+            w.append(s5)
+            p.append(w)
+    logger.info("w:%s"%w)
+    return render_to_response('week.html',{'weekInfo':p},context_instance = RequestContext(request))
 
 def opt_site(request):
     s1=[]
@@ -151,7 +164,7 @@ def opt_site(request):
             if unvisit_week==0:
                 unvisit_cost=cusume_week
             else:
-                unvisit_cost=cusume_week/unvisit_week
+                unvisit_cost=cusune_week/unvisit_week
             w=[k,cusume_week,click_week,click_cost,valide_week,appointment_week,visit_week,\
                     valide_cost,appointment_cost,visit_cost,unvisit_week]
             l=zip(['media','cusume','click','click_cost','valide','appointment','visit',\
@@ -170,16 +183,45 @@ def opt_site(request):
 def opt(request):
     return render_to_response('show.html',)
 def dayReport(request):
+    params = request.POST.copy()
+    condition = {}
+    for k,v in params.iteritems():
+        v = v.strip()
+        if v != 'all':
+            condition[k] = v
+    a = Optimization.objects.filter(**condition)
+    
+    p=[]
+    for i in a:
+        l = [i.date,i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+                i.valide,i.appointment,i.visit,round(i.cusume/i.valide,2),round(i.cusume/i.appointment,2),\
+                round(i.cusume/i.visit,2),i.unvisit]
+        p.append(l)
+        logger.info("i.date:%s"%i.date)
     if request.method == "GET":
-       return render_to_response('day.html',context_instance = RequestContext(request))
+        return render_to_response('day.html',{'tableInfo':p},context_instance = RequestContext(request))
     elif request.method == "POST":
-       return render_to_response('table.html',context_instance = RequestContext(request))
+        return render_to_response('table.html',{'tableInfo':p},context_instance = RequestContext(request))
 
-def table(request):
-#    data =request.POST.copy()
-#    logger.info("data:%s"%data)
-    return render_to_response('table.html',context_instance = RequestContext(request))
-def monthReport(request):
-    return render_to_response('month.html',)
+def weekReport(request):
+    nWeek = []
+    week = getWeek()
+    for i in range(1,len(week)+1):
+        if i < 10:
+           nWeek.append(str(datetime.now().year)+str(0)+str(i))
+        else:
+           nWeek.append(str(datetime.now().year)+str(i))
+
+    params = request.POST.copy()
+    condition = {}
+    for k,v in params.iteritems():
+        v = v.strip()
+        if v != 'all' and v != 'noall' and str(datetime.now().year) not in v:
+            condition[k] = v
+        if str(datetime.now().year) in v:
+            for i in week[int(v[-2:])-1]:
+                condition[k] = i
+    a = Optimization.objects.filter(**condition)
+    return render_to_response('week.html',{'nWeek':nWeek},context_instance = RequestContext(request))
 def index(request):
     return render_to_response('index.html',)

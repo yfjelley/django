@@ -1,16 +1,89 @@
-{% extends 'base.html' %}
+{% extends 'base.html'%}
 {% block active %}
-<li><a href="../dayReport">��ϸ</a></li>
-<li class="active" ><a href="../weekReport">�ܻ���</a></li>
-<li><a href="../monthReport">�»���</a></li>
+	<li><a href="../day">明细</a></li>
+	<li class="active" ><a href="../week">周汇总</a></li>
+	<li><a href="../month">月汇总</a></li>
 {% endblock %}
 {% block submenu1 %}
-<li class="submenu active open">
+    <li class="submenu active open" >
 {% endblock %}
-{% block title %}�Ż�վ���������ܻ��ܣ�{% endblock %}
+{% block title %}推广站分析表(周汇总){% endblock %}
 {% block table %}
-<a href="#" title="Go to Home" class="tip-bottom"><i class="fa fa-home"></i>��ҳ</a>
-<a href="#">�ƹ�վ������</a>
-<a href="#" class="current">�ܻ���</a>
+	部门：<select id="dep" name="department" class="selectpicker" data-style="btn-danger">
+		   <option value="all" >所有部门</option>
+		   {% for x in department %}
+		   <option value="{{x}}">{{x}}</option>
+		   {% endfor %}
+		</select>
+	媒体：<select id="med" name="media" class="selectpicker" data-style="btn-danger">
+		   <option value="all" >所有媒体</option>
+		   {% for x in media %}
+		   <option value="{{x}}">{{x}}</option>
+		   {% endfor %}
+		</select>
+	推广站点：<select id="site" name ="sites" class="selectpicker" data-style="btn-danger">
+			   <option value="all" >所有站点</option>
+		   {% for x in site %}
+		   <option value="{{x}}">{{x}}</option>
+		   {% endfor %}
+		  </select>
+	地区：<select id="add" name="addres" class="selectpicker" data-style="btn-danger">
+			 <option value="all" >所有地区</option>
+		   {% for x in addres %}
+		   <option value="{{x}}">{{x}}</option>
+		   {% endfor %}
+		</select>
+    周：<select id="week" name="nweek" class="selectpicker" data-style="btn-danger">
+			 <option value="noall" >本周</option>
+		   {% for x in nWeek %}
+		   <option value="{{x}}">{{x}}</option>
+		   {% endfor %}
+		</select>
+	<button id="b01" type="submit" class="btn btn-success active">确认</button>
 {% endblock %}
-{% block table1 %}{% endblock %}
+{% block table1 %}
+    <div class="span12" id="myDiv">
+		<div class="widget-box">
+			<div class="widget-title">
+						<span class="icon">
+							<i class="icon-wrench"></i>
+						</span>
+	        </div>
+			<div class="widget-content nopadding">
+				<div class="table-responsive">
+					<table cellpadding="0" cellspacing="0" border= '0' class="table table-striped table-bordered  table-hover  classes">
+						<thead>
+							<tr>
+								<th>部门</th>
+								<th>媒体</th>
+								<th>网站</th>
+								<th>地区</th>
+								<th>消费</th>
+								<th>点击次数</th>
+								<th>点击成本</th>
+								<th>有效量</th>
+								<th>预约量</th>
+								<th>就诊量</th>
+								<th>有效成本</th>
+								<th>预约成本</th>
+								<th>就诊成本</th>
+								<th>未就诊量</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for i in weekInfo %}
+							<tr>
+								{% for j in i  %}
+								   {% ifnotequal forloop.counter 1 %}
+							 	      <td>{{j}}</td>
+								   {% endifnotequal %}
+								{% endfor %}
+							</tr>
+							{% endfor %}
+						</tbody>
+				     </table>
+			    </div>
+		    </div>	
+	 	</div>
+    </div>
+{% endblock %}
