@@ -1555,3 +1555,1145 @@ ViewDoesNotExist: Could not import opt.views.monthReport. View does not exist in
 2014-09-04 08:21:08,073 [Thread-657:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
 2014-09-04 08:21:10,290 [Thread-664:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
 2014-09-04 08:21:11,109 [Thread-667:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:28:31,614 [Thread-686:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:28:58,240 [Thread-710:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:29:00,661 [Thread-718:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:29:02,484 [Thread-721:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:29:07,456 [Thread-723:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 224, in weekReport
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1103, in build_filter
+    allow_explicit_fk=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1363, in setup_joins
+    names, opts, allow_many, allow_explicit_fk)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1283, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword u'week' into field. Choices are: addres, appointment, click, cusume, date, department, id, media, site, unvisit, valide, visit
+2014-09-04 08:29:12,463 [Thread-725:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:29:13,529 [Thread-728:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:29:14,891 [Thread-731:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:29:16,188 [Thread-734:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:31:39,809 [Thread-754:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:32:04,332 [Thread-765:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:32:04,820 [Thread-768:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:33:01,936 [Thread-783:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:33:05,110 [Thread-810:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:33:06,006 [Thread-819:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:33:06,806 [Thread-822:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:33:07,270 [Thread-825:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:33:07,765 [Thread-828:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:33:08,612 [Thread-831:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:33:15,175 [Thread-834:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:33:16,538 [Thread-837:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:38:07,432 [Thread-856:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:38:29,376 [Thread-875:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:39:54,936 [Thread-905:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:41:13,730 [Thread-929:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:41:17,855 [Thread-952:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:42:44,194 [Thread-974:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:42:50,180 [Thread-986:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:42:56,206 [Thread-996:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:43:05,355 [Thread-999:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:43:06,652 [Thread-1002:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:45:13,242 [Thread-1012:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:45:14,703 [Thread-1019:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:45:15,824 [Thread-1022:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:45:17,251 [Thread-1025:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:45:20,037 [Thread-1028:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:45:22,483 [Thread-1048:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:45:24,206 [Thread-1055:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:59:07,495 [Thread-1075:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 08:59:09,568 [Thread-1081:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:03:02,409 [Thread-1097:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:00,668 [Thread-1123:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:07,003 [Thread-1130:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:08,401 [Thread-1133:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:14,184 [Thread-1135:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:15,301 [Thread-1138:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:16,647 [Thread-1140:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:19,768 [Thread-1142:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:20,362 [Thread-1145:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:21,647 [Thread-1147:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:29,440 [Thread-1149:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:30,184 [Thread-1152:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:34,218 [Thread-1154:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:51,791 [Thread-1157:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:55,675 [Thread-1160:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:51:56,909 [Thread-1162:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:52:03,531 [Thread-1164:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:52:07,603 [Thread-1167:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:52:13,878 [Thread-1169:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:53:07,960 [Thread-1172:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:53:09,450 [Thread-1175:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-04 09:53:12,842 [Thread-1177:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 01:22:38,212 [Thread-19:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 01:22:38,781 [Thread-26:-1245709504] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-05 01:22:59,814 [Thread-28:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 01:23:01,714 [Thread-30:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 01:23:04,978 [Thread-31:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 01:23:10,484 [Thread-32:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 01:23:11,182 [Thread-33:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 01:23:11,477 [Thread-34:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 01:23:11,774 [Thread-35:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 01:23:13,314 [Thread-36:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 01:23:13,672 [Thread-37:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 01:23:13,966 [Thread-38:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 01:23:15,140 [Thread-40:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 01:23:16,919 [Thread-42:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 01:23:22,407 [Thread-43:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 01:23:23,515 [Thread-44:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 01:23:23,890 [Thread-45:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 01:23:24,189 [Thread-46:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 01:25:36,865 [Thread-49:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 01:26:08,337 [Thread-52:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 01:26:09,812 [Thread-55:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 02:55:37,716 [Thread-73:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 02:55:44,032 [Thread-82:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 02:55:47,296 [Thread-84:-1291859136] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 02:56:07,795 [Thread-103:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 02:56:10,882 [Thread-110:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 02:56:20,779 [Thread-112:-1256195264] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 02:57:07,804 [Thread-113:-1256195264] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 02:57:21,460 [Thread-114:-1256195264] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 02:57:27,247 [Thread-115:-1256195264] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 02:57:29,565 [Thread-116:-1256195264] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 02:57:29,971 [Thread-117:-1256195264] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 02:57:30,353 [Thread-118:-1256195264] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 02:57:30,371 [Thread-119:-1291859136] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:02:26,872 [Thread-144:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:02:29,093 [Thread-151:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:02:33,154 [Thread-155:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:02:34,766 [Thread-159:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:02:36,642 [Thread-163:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:02:39,936 [Thread-166:-1275073728] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:16,011 [Thread-185:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:07:18,061 [Thread-194:-1283466432] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:19,302 [Thread-195:-1283466432] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:19,712 [Thread-196:-1283466432] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:20,078 [Thread-197:-1283466432] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:20,089 [Thread-198:-1256195264] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:20,727 [Thread-199:-1256195264] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:20,781 [Thread-200:-1256195264] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:20,791 [Thread-201:-1283466432] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:21,686 [Thread-202:-1283466432] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:21,695 [Thread-203:-1283466432] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:22,523 [Thread-205:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:07:25,518 [Thread-226:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:07:26,814 [Thread-232:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:27,603 [Thread-233:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:28,203 [Thread-234:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:28,556 [Thread-235:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:28,918 [Thread-236:-1245709504] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:07:28,925 [Thread-237:-1283466432] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:09:11,293 [Thread-254:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:09:17,143 [Thread-280:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:09:18,367 [Thread-287:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:09:19,710 [Thread-290:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:09:21,355 [Thread-293:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:09:23,306 [Thread-296:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:09:28,457 [Thread-316:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:09:40,855 [Thread-340:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:09:43,659 [Thread-347:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:09:45,369 [Thread-350:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:10:04,622 [Thread-352:-1275073728] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:10:06,080 [Thread-353:-1275073728] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:10:08,959 [Thread-354:-1275073728] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:10:09,684 [Thread-355:-1275073728] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:10:10,058 [Thread-356:-1275073728] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:10:13,378 [Thread-357:-1275073728] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:10:16,263 [Thread-358:-1275073728] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:10:37,923 [Thread-359:-1275073728] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:10:54,366 [Thread-361:-1275073728] [django.request:143] [WARNING]- Not Found: /dayReport/
+2014-09-05 03:12:04,558 [Thread-380:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:12:29,058 [Thread-390:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:12:43,424 [Thread-411:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:19:06,971 [Thread-435:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:19:08,920 [Thread-441:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:19:53,974 [Thread-444:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:20:00,518 [Thread-447:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:20:02,912 [Thread-449:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:20:04,785 [Thread-451:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:20:06,775 [Thread-453:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:20:08,509 [Thread-455:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:20:10,040 [Thread-457:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:20:11,427 [Thread-459:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:20:28,899 [Thread-461:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:28:31,478 [Thread-480:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:28:33,167 [Thread-486:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:28:35,133 [Thread-488:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:28:37,105 [Thread-490:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:28:56,484 [Thread-492:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:28:57,801 [Thread-494:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 03:28:59,199 [Thread-496:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 08:47:08,686 [Thread-512:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 08:47:12,621 [Thread-521:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 08:47:14,812 [Thread-523:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 08:47:16,709 [Thread-525:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 08:47:21,642 [Thread-528:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 08:47:51,956 [Thread-544:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 09:17:11,834 [Thread-553:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 09:17:13,200 [Thread-555:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-05 09:17:26,009 [Thread-570:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 01:12:34,996 [Thread-19:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 01:12:35,862 [Thread-26:-1274025152] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-06 01:12:38,853 [Thread-28:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 01:12:40,547 [Thread-30:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 01:12:44,360 [Thread-32:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 01:12:45,979 [Thread-34:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 01:12:51,104 [Thread-36:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:01:05,691 [Thread-38:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:01:08,313 [Thread-40:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:01:09,806 [Thread-41:-1274025152] [django.request:224] [ERROR]- Internal Server Error: /month
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 88, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 72, in process_request
+    urlresolvers.is_valid_path("%s/" % request.path_info, urlconf)):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 596, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 476, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.monthReport. View does not exist in module opt.views.
+2014-09-06 02:01:13,604 [Thread-43:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:01:25,571 [Thread-49:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:01:27,677 [Thread-51:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:04:57,170 [Thread-20:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:04:59,153 [Thread-26:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:05:01,262 [Thread-28:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:05:03,374 [Thread-30:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:09:26,588 [Thread-49:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:09:29,491 [Thread-55:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:09:35,183 [Thread-70:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:09:39,273 [Thread-94:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:09:41,697 [Thread-123:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:10:25,709 [Thread-143:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:10:28,551 [Thread-156:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:16:17,555 [Thread-3:-1244714176] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:17:47,935 [Thread-6:-1244714176] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:17:51,445 [Thread-9:-1244714176] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:18:57,768 [Thread-26:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:20:38,815 [Thread-3:-1244714176] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:25:25,559 [Thread-18:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:25:27,778 [Thread-27:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:25:30,951 [Thread-45:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:25:32,873 [Thread-54:-1299203264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:25:35,303 [Thread-74:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:25:37,226 [Thread-81:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:27:16,340 [Thread-84:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:27:59,718 [Thread-87:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:28:01,176 [Thread-90:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:28:53,546 [Thread-93:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:29:05,529 [Thread-96:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:29:08,138 [Thread-99:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:29:15,025 [Thread-102:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:32:51,210 [Thread-105:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:32:54,662 [Thread-108:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:32:59,940 [Thread-111:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:33:03,056 [Thread-114:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:33:06,808 [Thread-117:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:33:11,632 [Thread-120:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:33:13,777 [Thread-123:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:33:15,267 [Thread-126:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:33:17,611 [Thread-129:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:33:19,020 [Thread-132:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:33:22,765 [Thread-135:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:33:33,139 [Thread-138:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:33:35,885 [Thread-141:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:33:37,082 [Thread-144:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:36:43,999 [Thread-147:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:36:45,463 [Thread-150:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:36:47,147 [Thread-153:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:37:00,708 [Thread-156:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:37:02,292 [Thread-159:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:38:01,831 [Thread-162:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:42:54,582 [Thread-3:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:42:58,517 [Thread-17:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:43:12,068 [Thread-31:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:45:18,838 [Thread-34:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:45:37,730 [Thread-37:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:45:59,380 [Thread-40:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:52:13,622 [Thread-3:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:52:23,026 [Thread-6:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:53:58,071 [Thread-3:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:56:19,003 [Thread-3:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 02:59:28,545 [Thread-3:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:33:19,592 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 237, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+NameError: global name 'whichWeek' is not defined
+2014-09-06 05:34:21,028 [Thread-18:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:34:27,310 [Thread-39:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:35:56,127 [Thread-64:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:37:57,893 [Thread-87:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:41:01,160 [Thread-110:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:42:50,840 [Thread-140:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:50:54,856 [Thread-20:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:51:07,007 [Thread-27:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:52:09,138 [Thread-42:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:53:17,631 [Thread-71:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:53:23,287 [Thread-81:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:53:24,611 [Thread-84:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:55:53,938 [Thread-87:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:56:18,189 [Thread-106:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:56:29,025 [Thread-130:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:56:39,009 [Thread-143:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:59:22,427 [Thread-161:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:59:26,924 [Thread-170:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 05:59:41,971 [Thread-174:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:01:05,761 [Thread-195:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:01:16,227 [Thread-202:-1299203264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:01:53,020 [Thread-206:-1299203264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:01:56,405 [Thread-222:-1299203264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:08:43,161 [Thread-250:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:08:51,643 [Thread-260:-1255408832] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 199, in dayReport
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'201402' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-09-06 06:08:52,495 [Thread-261:-1255408832] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 199, in dayReport
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'201402' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-09-06 06:09:22,058 [Thread-279:-1299203264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:09:24,414 [Thread-286:-1255408832] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 241, in weekReport
+    return render_to_response("selectWeek.html",{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: selectWeek.html
+2014-09-06 06:09:47,100 [Thread-288:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:09:48,979 [Thread-292:-1299203264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:09:55,123 [Thread-294:-1299203264] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 241, in weekReport
+    return render_to_response("selectWeek.html",{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: selectWeek.html
+2014-09-06 06:10:48,854 [Thread-295:-1299203264] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 241, in weekReport
+    return render_to_response("selectWeek.html",{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: selectWeek.html
+2014-09-06 06:10:51,491 [Thread-296:-1299203264] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 241, in weekReport
+    return render_to_response("selectWeek.html",{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: selectWeek.html
+2014-09-06 06:10:58,020 [Thread-299:-1299203264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:11:00,997 [Thread-302:-1299203264] [django.request:224] [ERROR]- Internal Server Error: /month
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 88, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 72, in process_request
+    urlresolvers.is_valid_path("%s/" % request.path_info, urlconf)):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 596, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 476, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.monthReport. View does not exist in module opt.views.
+2014-09-06 06:13:39,998 [Thread-3:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:13:41,389 [Thread-7:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:13:45,410 [Thread-10:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:13:46,237 [Thread-13:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:14:34,066 [Thread-20:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:14:38,365 [Thread-26:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 113, in weekReport
+    return render_to_response("selectWeek.html",{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: selectWeek.html
+2014-09-06 06:14:39,728 [Thread-27:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 113, in weekReport
+    return render_to_response("selectWeek.html",{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: selectWeek.html
+2014-09-06 06:14:53,740 [Thread-29:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:15:26,995 [Thread-52:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:15:42,587 [Thread-59:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:15:52,711 [Thread-61:-1274025152] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 113, in weekReport
+    return render_to_response("selectWeek.html",{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: selectWeek.html
+2014-09-06 06:19:13,443 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 113, in weekReport
+    return render_to_response("selectWeek.html",{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: selectWeek.html
+2014-09-06 06:19:17,383 [Thread-3:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 113, in weekReport
+    return render_to_response("selectWeek.html",{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: selectWeek.html
+2014-09-06 06:24:44,961 [Thread-19:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:24:47,315 [Thread-27:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:24:50,338 [Thread-30:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:25:00,575 [Thread-32:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 113, in weekReport
+    return render_to_response("selectWeek.html",{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: selectWeek.html
+2014-09-06 06:26:32,369 [Thread-34:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:26:32,967 [Thread-45:-1256195264] [django.request:143] [WARNING]- Not Found: /week/jquery-2.0.2.min.map
+2014-09-06 06:26:43,551 [Thread-64:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:26:49,169 [Thread-70:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:28:49,202 [Thread-99:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:29:08,216 [Thread-108:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:29:42,467 [Thread-132:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:30:29,850 [Thread-157:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:30:47,463 [Thread-181:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:31:16,377 [Thread-187:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:31:53,212 [Thread-210:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:31:54,231 [Thread-216:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:33:16,733 [Thread-240:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:33:34,104 [Thread-263:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:33:38,921 [Thread-271:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:33:40,622 [Thread-273:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:33:57,818 [Thread-295:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:34:07,965 [Thread-317:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:34:31,251 [Thread-343:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:40:36,224 [Thread-15:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:40:52,681 [Thread-26:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 103, in weekReport
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'201433' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-09-06 06:40:54,964 [Thread-27:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 103, in weekReport
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'201433' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-09-06 06:41:02,812 [Thread-28:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 103, in weekReport
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'201433' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-09-06 06:41:08,060 [Thread-29:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 103, in weekReport
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'201433' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-09-06 06:41:12,236 [Thread-30:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 103, in weekReport
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 769, in to_python
+    params={'value': value},
+ValidationError: [u"'201433' value has an invalid date format. It must be in YYYY-MM-DD format."]
+2014-09-06 06:51:48,963 [Thread-20:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:51:59,126 [Thread-41:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:52:18,735 [Thread-20:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:52:32,788 [Thread-42:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:58:10,759 [Thread-17:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 06:58:17,554 [Thread-26:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 103, in weekReport
+    for j in i:
+TypeError: 'datetime.date' object is not iterable
+2014-09-06 06:58:19,029 [Thread-27:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 103, in weekReport
+    for j in i:
+TypeError: 'datetime.date' object is not iterable
+2014-09-06 06:58:19,358 [Thread-28:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 103, in weekReport
+    for j in i:
+TypeError: 'datetime.date' object is not iterable
+2014-09-06 06:58:19,566 [Thread-29:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 103, in weekReport
+    for j in i:
+TypeError: 'datetime.date' object is not iterable
+2014-09-06 06:58:19,790 [Thread-30:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 103, in weekReport
+    for j in i:
+TypeError: 'datetime.date' object is not iterable
+2014-09-06 06:58:19,988 [Thread-31:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 103, in weekReport
+    for j in i:
+TypeError: 'datetime.date' object is not iterable
+2014-09-06 06:58:20,034 [Thread-32:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 103, in weekReport
+    for j in i:
+TypeError: 'datetime.date' object is not iterable
+2014-09-06 07:01:07,070 [Thread-16:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 07:06:13,942 [Thread-15:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 07:12:31,242 [Thread-17:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 07:14:23,158 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 110, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'QuerySet' object has no attribute 'date'
+2014-09-06 07:16:10,297 [Thread-3:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 110, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'QuerySet' object has no attribute 'date'
+2014-09-06 07:23:31,312 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 110, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'QuerySet' object has no attribute 'date'
+2014-09-06 07:23:41,142 [Thread-3:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 110, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'QuerySet' object has no attribute 'date'
+2014-09-06 07:24:24,697 [Thread-4:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 110, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'QuerySet' object has no attribute 'date'
+2014-09-06 07:24:33,431 [Thread-5:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 110, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'QuerySet' object has no attribute 'date'
+2014-09-06 07:27:46,465 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    return render_to_response('week.html',{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+UnboundLocalError: local variable 'p' referenced before assignment
+2014-09-06 07:31:54,264 [Thread-20:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 07:32:03,788 [Thread-27:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 107, in weekReport
+    logger.info("a:%s"%a1)
+NameError: global name 'a1' is not defined
+2014-09-06 07:32:52,147 [Thread-22:-1244714176] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 07:32:54,097 [Thread-28:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 07:32:59,225 [Thread-48:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 07:33:02,406 [Thread-71:-1244714176] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 07:33:04,909 [Thread-94:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 07:35:30,682 [Thread-134:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 07:35:32,743 [Thread-140:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 08:18:05,322 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 96, in weekReport
+    date = params.pop("date")
+  File "/usr/local/lib/python2.7/dist-packages/django/http/request.py", line 354, in pop
+    return super(QueryDict, self).pop(key, *args)
+KeyError: 'date'
+2014-09-06 08:20:37,890 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 96, in weekReport
+    date = params.pop("date")
+  File "/usr/local/lib/python2.7/dist-packages/django/http/request.py", line 354, in pop
+    return super(QueryDict, self).pop(key, *args)
+KeyError: 'date'
+2014-09-06 08:21:01,491 [Thread-5:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 96, in weekReport
+    date = params.pop("date")
+  File "/usr/local/lib/python2.7/dist-packages/django/http/request.py", line 354, in pop
+    return super(QueryDict, self).pop(key, *args)
+KeyError: 'date'
+2014-09-06 08:21:51,680 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 97, in weekReport
+    date = params.pop("date")
+  File "/usr/local/lib/python2.7/dist-packages/django/http/request.py", line 354, in pop
+    return super(QueryDict, self).pop(key, *args)
+KeyError: 'date'
+2014-09-06 08:28:02,045 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 97, in weekReport
+    if params.has_key():
+TypeError: has_key() takes exactly one argument (0 given)
+2014-09-06 08:28:04,997 [Thread-3:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 97, in weekReport
+    if params.has_key():
+TypeError: has_key() takes exactly one argument (0 given)
+2014-09-06 08:28:27,481 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 105, in weekReport
+    if date:
+UnboundLocalError: local variable 'date' referenced before assignment
+2014-09-06 08:28:30,308 [Thread-3:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 105, in weekReport
+    if date:
+UnboundLocalError: local variable 'date' referenced before assignment
+2014-09-06 08:29:43,542 [Thread-20:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 08:29:47,436 [Thread-27:-1299203264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 08:29:49,643 [Thread-42:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 08:32:54,349 [Thread-53:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 107, in weekReport
+    for i in week[int(v[-2:])-1]:
+ValueError: invalid literal for int() with base 10: 'll'
+2014-09-06 08:33:44,203 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 107, in weekReport
+    for i in week[int(v[-2:])-1]:
+ValueError: invalid literal for int() with base 10: 'll'
+2014-09-06 08:34:58,903 [Thread-17:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 08:36:07,876 [Thread-19:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 08:36:13,382 [Thread-27:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 08:36:57,545 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 121, in weekReport
+    l = [whickWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+NameError: global name 'whickWeek' is not defined
+2014-09-06 08:37:18,397 [Thread-16:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 08:37:24,049 [Thread-39:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 08:37:29,003 [Thread-50:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 107, in weekReport
+    for i in week[int(v[-2:])-1]:
+ValueError: invalid literal for int() with base 10: 'll'
+2014-09-06 08:38:59,666 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    for i in week[int(v[-2:])-1]:
+ValueError: invalid literal for int() with base 10: 'll'
+2014-09-06 08:39:02,550 [Thread-3:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    for i in week[int(v[-2:])-1]:
+ValueError: invalid literal for int() with base 10: 'll'
+2014-09-06 08:40:43,256 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    for i in week[int(date[-2:])-1]:
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 08:41:47,182 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    for i in week[int(date[-2:])-1]:
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:00:30,313 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    for i in week[int(date[-2:])-1]:
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:01:20,081 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    for i in week[int(date[-2:])-1]:
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:01:28,857 [Thread-3:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    for i in week[int(date[-2:])-1]:
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:01:56,024 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    for i in week[int(date[-2:])-1]:
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:03:07,746 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    logger.info("xxxxxxxxxxxx%s"%week[int(date[-2:])-1])
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:03:24,326 [Thread-3:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    logger.info("xxxxxxxxxxxx%s"%week[int(date[-2:])-1])
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:04:59,380 [Thread-1:-1244976320] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    for i in week[int(date[-2:])-1]:
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:06:02,610 [Thread-1:-1244976320] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    logger.info("xxxxxxxxxxxx%s"%week[int(date[-2:])-1])
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:06:09,725 [Thread-3:-1244976320] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    logger.info("xxxxxxxxxxxx%s"%week[int(date[-2:])-1])
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:06:40,579 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    for i in week[int(date[-2:])-1]:
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:06:48,020 [Thread-3:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    for i in week[int(date[-2:])-1]:
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:07:17,861 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    for i in week[int(date[-2:])-1]:
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:08:20,560 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    for i in week[int(date[-2:])-1]:
+TypeError: int() argument must be a string or a number, not 'list'
+2014-09-06 09:12:51,643 [Thread-17:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 09:14:18,862 [Thread-22:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 09:17:33,867 [Thread-20:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 09:17:55,423 [Thread-45:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-06 09:28:03,686 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 104, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.week.weekReport. Parent module opt.views.week does not exist.
+2014-09-06 09:28:55,144 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 104, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.week.weekReport. Parent module opt.views.week does not exist.
+2014-09-06 09:39:03,686 [Thread-4:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 104, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.week.weekReport. Parent module opt.views.week does not exist.

@@ -21,24 +21,19 @@ $(function(){
 		};
 		page_tables()
     	$('#b04').click(function(){
-			 var time = $("#datepicker").val()||'all';
-			 $('table').load('/day/',{'date':time,'department':$("#dep").val(),'site':$("#site").val(),'media':$("#med").val(),'addres':$("#add").val()},
+				 var time = $("#datepicker").val()||'all';
+				 $('table').load('/day/',{'date':time,'department':$("#dep").val(),'site':$("#site").val(),'media':$("#med").val(),'addres':$("#add").val()},
 				function(data){
 						 page_tables();
-						 });
-                   	});
-		$('#b01').click(function(){
-			$('table').load('/week/',{'week':$("#week").val,'department':$("#dep").val(),'site':$("#site").val(),'media':$("#med").val(),'addres':$("#add").val()},
-			function(data){
-			page_tables();
-			});
-		
+						 }
+		 );
+     	});
+    	$('#b01').click(function(){
+				 var time = $("#week").val()||'all';
+				 $('table').load('/week/',{'date':time,'department':$("#dep").val(),'site':$("#site").val(),'media':$("#med").val(),'addres':$("#add").val()},
+				function(data){
+						 page_tables();
+						 }
+		 );
 		});
-		$(document).ready(function() {
-    			$('.datatable').dataTable( {        				
-        				"oLanguage": {
-								"sUrl": "/static/js/table_sou.json"
-							} 
-					});
-			   });
 });
