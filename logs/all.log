@@ -10829,3 +10829,438 @@
 2014-09-06 09:20:58,831 [Thread-53:-1265632448] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
 2014-09-06 09:20:58,832 [Thread-53:-1265632448] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
 2014-09-06 09:20:58,833 [Thread-53:-1265632448] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-06 09:40:44,873 [Thread-1:-1245709504] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-06 09:40:44,889 [Thread-1:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-06 09:40:44,890 [Thread-1:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-06 09:40:44,891 [Thread-1:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-06 09:40:44,892 [Thread-1:-1245709504] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-06 09:40:44,893 [Thread-1:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:26:24,678 [Thread-1:-1245709504] [django:66] [INFO]- params:<QueryDict: {}>
+2014-09-09 01:26:24,687 [Thread-1:-1245709504] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` LIMIT 21; args=()
+2014-09-09 01:26:24,689 [Thread-1:-1245709504] [django:72] [INFO]- a:[<Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, '...(remaining elements truncated)...']
+2014-09-09 01:26:24,690 [Thread-1:-1245709504] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:26:24,692 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:26:24,692 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:26:24,693 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-08-13
+2014-09-09 01:26:24,693 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-08-17
+2014-09-09 01:26:24,693 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-08-01
+2014-09-09 01:26:24,694 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-08-02
+2014-09-09 01:26:24,694 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-08-05
+2014-09-09 01:26:24,694 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-08-08
+2014-09-09 01:26:24,695 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-08-10
+2014-09-09 01:26:24,695 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-08-11
+2014-09-09 01:26:24,695 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-08-14
+2014-09-09 01:26:24,695 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-08-15
+2014-09-09 01:26:24,696 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-08-16
+2014-09-09 01:26:24,696 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-09-02
+2014-09-09 01:26:24,696 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-09-01
+2014-09-09 01:26:24,696 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-09-03
+2014-09-09 01:26:24,697 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-09-04
+2014-09-09 01:26:24,697 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-09-05
+2014-09-09 01:26:24,697 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:26:24,698 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:26:24,698 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:26:24,698 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:26:24,698 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:26:24,699 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:26:24,699 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:26:24,699 [Thread-1:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:26:24,704 [Thread-1:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:26:24,706 [Thread-1:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:26:24,707 [Thread-1:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:26:24,708 [Thread-1:-1245709504] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:26:24,710 [Thread-1:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:26:27,808 [Thread-28:-1266681024] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:26:27,825 [Thread-28:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:26:27,826 [Thread-28:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:26:27,828 [Thread-28:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:26:27,828 [Thread-28:-1266681024] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:26:27,829 [Thread-28:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:26:31,811 [Thread-30:-1266681024] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`department` = '网络二部' ; args=(u'\u7f51\u7edc\u4e8c\u90e8',)
+2014-09-09 01:26:31,819 [Thread-30:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:26:31,820 [Thread-30:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:26:31,822 [Thread-30:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:26:31,822 [Thread-30:-1266681024] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:26:31,823 [Thread-30:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:26:37,004 [Thread-31:-1266681024] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE (`opt_optimization`.`department` = '网络二部'  AND `opt_optimization`.`media` = '百度' ); args=(u'\u7f51\u7edc\u4e8c\u90e8', u'\u767e\u5ea6')
+2014-09-09 01:26:37,007 [Thread-31:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:26:37,009 [Thread-31:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:26:37,011 [Thread-31:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:26:37,012 [Thread-31:-1266681024] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:26:37,013 [Thread-31:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:26:40,388 [Thread-32:-1266681024] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:26:40,407 [Thread-32:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:26:40,408 [Thread-32:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:26:40,410 [Thread-32:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:26:40,410 [Thread-32:-1266681024] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:26:40,411 [Thread-32:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:26:48,904 [Thread-55:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`department` = '网络一部' ; args=(u'\u7f51\u7edc\u4e00\u90e8',)
+2014-09-09 01:26:48,908 [Thread-55:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:26:48,911 [Thread-55:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:26:48,912 [Thread-55:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:26:48,913 [Thread-55:-1256195264] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:26:48,915 [Thread-55:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:26:53,891 [Thread-56:-1256195264] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE (`opt_optimization`.`department` = '网络一部'  AND `opt_optimization`.`media` = '百度' ); args=(u'\u7f51\u7edc\u4e00\u90e8', u'\u767e\u5ea6')
+2014-09-09 01:26:53,895 [Thread-56:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:26:53,897 [Thread-56:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:26:53,899 [Thread-56:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:26:53,899 [Thread-56:-1256195264] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:26:53,901 [Thread-56:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:26:58,156 [Thread-57:-1256195264] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE (`opt_optimization`.`department` = '网络五部'  AND `opt_optimization`.`media` = '百度' ); args=(u'\u7f51\u7edc\u4e94\u90e8', u'\u767e\u5ea6')
+2014-09-09 01:26:58,159 [Thread-57:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:26:58,161 [Thread-57:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:26:58,163 [Thread-57:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:26:58,164 [Thread-57:-1256195264] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:26:58,165 [Thread-57:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:27:02,783 [Thread-58:-1256195264] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:27:02,800 [Thread-58:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:27:02,801 [Thread-58:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:27:02,802 [Thread-58:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:27:02,803 [Thread-58:-1256195264] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:27:02,804 [Thread-58:-1256195264] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:27:09,625 [Thread-81:-1266681024] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`department` = '网络五部' ; args=(u'\u7f51\u7edc\u4e94\u90e8',)
+2014-09-09 01:27:09,633 [Thread-81:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:27:09,634 [Thread-81:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:27:09,636 [Thread-81:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:27:09,636 [Thread-81:-1266681024] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:27:09,637 [Thread-81:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:27:21,456 [Thread-82:-1266681024] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:27:21,471 [Thread-82:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:27:21,473 [Thread-82:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:27:21,474 [Thread-82:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:27:21,474 [Thread-82:-1266681024] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:27:21,475 [Thread-82:-1266681024] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:27:55,250 [Thread-105:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:27:55,264 [Thread-105:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:27:55,265 [Thread-105:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:27:55,266 [Thread-105:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:27:55,267 [Thread-105:-1275073728] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:27:55,268 [Thread-105:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:28:00,166 [Thread-107:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`department` = '网络一部' ; args=(u'\u7f51\u7edc\u4e00\u90e8',)
+2014-09-09 01:28:00,170 [Thread-107:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:28:00,172 [Thread-107:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:28:00,174 [Thread-107:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:28:00,175 [Thread-107:-1275073728] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:28:00,176 [Thread-107:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:28:05,889 [Thread-108:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`department` = '网络五部' ; args=(u'\u7f51\u7edc\u4e94\u90e8',)
+2014-09-09 01:28:05,899 [Thread-108:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:28:05,900 [Thread-108:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:28:05,901 [Thread-108:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:28:05,902 [Thread-108:-1275073728] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:28:05,903 [Thread-108:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:28:08,244 [Thread-109:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`department` = '网络五部' ; args=(u'\u7f51\u7edc\u4e94\u90e8',)
+2014-09-09 01:28:08,254 [Thread-109:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:28:08,256 [Thread-109:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:28:08,257 [Thread-109:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:28:08,258 [Thread-109:-1275073728] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:28:08,259 [Thread-109:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:28:47,961 [Thread-110:-1275073728] [django:66] [INFO]- params:<QueryDict: {}>
+2014-09-09 01:28:47,965 [Thread-110:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` LIMIT 21; args=()
+2014-09-09 01:28:47,968 [Thread-110:-1275073728] [django:72] [INFO]- a:[<Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, '...(remaining elements truncated)...']
+2014-09-09 01:28:47,970 [Thread-110:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:28:47,972 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:28:47,972 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:28:47,973 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-08-13
+2014-09-09 01:28:47,973 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-08-17
+2014-09-09 01:28:47,973 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-08-01
+2014-09-09 01:28:47,974 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-08-02
+2014-09-09 01:28:47,974 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-08-05
+2014-09-09 01:28:47,974 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-08-08
+2014-09-09 01:28:47,974 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-08-10
+2014-09-09 01:28:47,974 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-08-11
+2014-09-09 01:28:47,975 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-08-14
+2014-09-09 01:28:47,975 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-08-15
+2014-09-09 01:28:47,975 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-08-16
+2014-09-09 01:28:47,975 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-09-02
+2014-09-09 01:28:47,975 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-09-01
+2014-09-09 01:28:47,976 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-09-03
+2014-09-09 01:28:47,976 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-09-04
+2014-09-09 01:28:47,976 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-09-05
+2014-09-09 01:28:47,976 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:28:47,976 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:28:47,977 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:28:47,977 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:28:47,977 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:28:47,977 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:28:47,977 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:28:47,978 [Thread-110:-1275073728] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:28:47,979 [Thread-110:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:28:47,980 [Thread-110:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:28:47,982 [Thread-110:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:28:47,982 [Thread-110:-1275073728] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:28:47,983 [Thread-110:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:28:55,952 [Thread-112:-1275073728] [django:66] [INFO]- params:<QueryDict: {u'date': [u'all'], u'department': [u'\u7f51\u7edc\u4e00\u90e8'], u'media': [u'all'], u'site': [u'all'], u'addres': [u'all']}>
+2014-09-09 01:28:55,956 [Thread-112:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`department` = '网络一部'  LIMIT 21; args=(u'\u7f51\u7edc\u4e00\u90e8',)
+2014-09-09 01:28:55,957 [Thread-112:-1275073728] [django:72] [INFO]- a:[<Optimization: Optimization object>]
+2014-09-09 01:28:55,958 [Thread-112:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`department` = '网络一部' ; args=(u'\u7f51\u7edc\u4e00\u90e8',)
+2014-09-09 01:28:55,959 [Thread-112:-1275073728] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:28:55,961 [Thread-112:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:28:55,962 [Thread-112:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:28:55,964 [Thread-112:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:28:55,964 [Thread-112:-1275073728] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:28:55,965 [Thread-112:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:29:01,994 [Thread-113:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:29:02,014 [Thread-113:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:29:02,015 [Thread-113:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:29:02,017 [Thread-113:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:29:02,017 [Thread-113:-1275073728] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:29:02,018 [Thread-113:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:29:27,834 [Thread-115:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:29:27,852 [Thread-115:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:29:27,853 [Thread-115:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:29:27,854 [Thread-115:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:29:27,855 [Thread-115:-1275073728] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:29:27,856 [Thread-115:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:29:32,615 [Thread-117:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-01-27' ; args=(u'2014-01-27',)
+2014-09-09 01:29:32,618 [Thread-117:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-01-28' ; args=(u'2014-01-28',)
+2014-09-09 01:29:32,620 [Thread-117:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-01-29' ; args=(u'2014-01-29',)
+2014-09-09 01:29:32,622 [Thread-117:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-01-30' ; args=(u'2014-01-30',)
+2014-09-09 01:29:32,624 [Thread-117:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-01-31' ; args=(u'2014-01-31',)
+2014-09-09 01:29:32,626 [Thread-117:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-02-01' ; args=(u'2014-02-01',)
+2014-09-09 01:29:32,628 [Thread-117:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-02-02' ; args=(u'2014-02-02',)
+2014-09-09 01:29:32,630 [Thread-117:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:29:32,631 [Thread-117:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:29:32,632 [Thread-117:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:29:32,633 [Thread-117:-1275073728] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:29:32,634 [Thread-117:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:29:35,268 [Thread-118:-1275073728] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:29:35,282 [Thread-118:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:29:35,284 [Thread-118:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:29:35,285 [Thread-118:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:29:35,285 [Thread-118:-1275073728] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:29:35,286 [Thread-118:-1275073728] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:29:40,457 [Thread-141:-1291859136] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`department` = '网络五部' ; args=(u'\u7f51\u7edc\u4e94\u90e8',)
+2014-09-09 01:29:40,466 [Thread-141:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:29:40,467 [Thread-141:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:29:40,469 [Thread-141:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:29:40,469 [Thread-141:-1291859136] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:29:40,470 [Thread-141:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:31:02,485 [Thread-142:-1291859136] [django:66] [INFO]- params:<QueryDict: {}>
+2014-09-09 01:31:02,489 [Thread-142:-1291859136] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` LIMIT 21; args=()
+2014-09-09 01:31:02,491 [Thread-142:-1291859136] [django:72] [INFO]- a:[<Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, '...(remaining elements truncated)...']
+2014-09-09 01:31:02,493 [Thread-142:-1291859136] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:31:02,496 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:31:02,496 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:31:02,496 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-08-13
+2014-09-09 01:31:02,497 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-08-17
+2014-09-09 01:31:02,497 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-08-01
+2014-09-09 01:31:02,497 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-08-02
+2014-09-09 01:31:02,498 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-08-05
+2014-09-09 01:31:02,498 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-08-08
+2014-09-09 01:31:02,499 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-08-10
+2014-09-09 01:31:02,499 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-08-11
+2014-09-09 01:31:02,499 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-08-14
+2014-09-09 01:31:02,500 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-08-15
+2014-09-09 01:31:02,500 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-08-16
+2014-09-09 01:31:02,500 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-09-02
+2014-09-09 01:31:02,501 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-09-01
+2014-09-09 01:31:02,501 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-09-03
+2014-09-09 01:31:02,501 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-09-04
+2014-09-09 01:31:02,502 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-09-05
+2014-09-09 01:31:02,502 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:02,502 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:02,502 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:02,502 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:02,503 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:02,503 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:02,503 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:02,503 [Thread-142:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:02,504 [Thread-142:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:31:02,506 [Thread-142:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:31:02,507 [Thread-142:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:31:02,507 [Thread-142:-1291859136] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:31:02,508 [Thread-142:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:31:24,137 [Thread-144:-1291859136] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:31:24,155 [Thread-144:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:31:24,156 [Thread-144:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:31:24,158 [Thread-144:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:31:24,158 [Thread-144:-1291859136] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:31:24,159 [Thread-144:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:31:25,966 [Thread-146:-1291859136] [django:66] [INFO]- params:<QueryDict: {}>
+2014-09-09 01:31:25,971 [Thread-146:-1291859136] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` LIMIT 21; args=()
+2014-09-09 01:31:25,973 [Thread-146:-1291859136] [django:72] [INFO]- a:[<Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, '...(remaining elements truncated)...']
+2014-09-09 01:31:25,974 [Thread-146:-1291859136] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:31:25,976 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:31:25,976 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:31:25,976 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-08-13
+2014-09-09 01:31:25,976 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-08-17
+2014-09-09 01:31:25,976 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-08-01
+2014-09-09 01:31:25,977 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-08-02
+2014-09-09 01:31:25,977 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-08-05
+2014-09-09 01:31:25,977 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-08-08
+2014-09-09 01:31:25,977 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-08-10
+2014-09-09 01:31:25,978 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-08-11
+2014-09-09 01:31:25,978 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-08-14
+2014-09-09 01:31:25,978 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-08-15
+2014-09-09 01:31:25,978 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-08-16
+2014-09-09 01:31:25,978 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-09-02
+2014-09-09 01:31:25,979 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-09-01
+2014-09-09 01:31:25,979 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-09-03
+2014-09-09 01:31:25,979 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-09-04
+2014-09-09 01:31:25,979 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-09-05
+2014-09-09 01:31:25,979 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:25,980 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:25,980 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:25,980 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:25,980 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:25,980 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:25,981 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:25,981 [Thread-146:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:25,982 [Thread-146:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:31:25,983 [Thread-146:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:31:25,984 [Thread-146:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:31:25,985 [Thread-146:-1291859136] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:31:25,986 [Thread-146:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:31:27,936 [Thread-148:-1291859136] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:31:27,955 [Thread-148:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:31:27,956 [Thread-148:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:31:27,957 [Thread-148:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:31:27,958 [Thread-148:-1291859136] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:31:27,960 [Thread-148:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:31:41,423 [Thread-150:-1291859136] [django:66] [INFO]- params:<QueryDict: {}>
+2014-09-09 01:31:41,425 [Thread-150:-1291859136] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` LIMIT 21; args=()
+2014-09-09 01:31:41,428 [Thread-150:-1291859136] [django:72] [INFO]- a:[<Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, '...(remaining elements truncated)...']
+2014-09-09 01:31:41,430 [Thread-150:-1291859136] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:31:41,431 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:31:41,431 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:31:41,431 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-08-13
+2014-09-09 01:31:41,431 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-08-17
+2014-09-09 01:31:41,432 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-08-01
+2014-09-09 01:31:41,432 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-08-02
+2014-09-09 01:31:41,432 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-08-05
+2014-09-09 01:31:41,432 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-08-08
+2014-09-09 01:31:41,432 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-08-10
+2014-09-09 01:31:41,433 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-08-11
+2014-09-09 01:31:41,433 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-08-14
+2014-09-09 01:31:41,433 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-08-15
+2014-09-09 01:31:41,433 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-08-16
+2014-09-09 01:31:41,433 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-09-02
+2014-09-09 01:31:41,434 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-09-01
+2014-09-09 01:31:41,434 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-09-03
+2014-09-09 01:31:41,434 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-09-04
+2014-09-09 01:31:41,434 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-09-05
+2014-09-09 01:31:41,434 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:41,435 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:41,435 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:41,435 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:41,435 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:41,435 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:41,436 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:41,436 [Thread-150:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:31:41,437 [Thread-150:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:31:41,438 [Thread-150:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:31:41,440 [Thread-150:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:31:41,440 [Thread-150:-1291859136] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:31:41,441 [Thread-150:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:34:39,185 [Thread-152:-1291859136] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:34:39,203 [Thread-152:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:34:39,204 [Thread-152:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:34:39,206 [Thread-152:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:34:39,206 [Thread-152:-1291859136] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:34:39,207 [Thread-152:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:34:45,425 [Thread-155:-1291859136] [django:66] [INFO]- params:<QueryDict: {}>
+2014-09-09 01:34:45,429 [Thread-155:-1291859136] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` LIMIT 21; args=()
+2014-09-09 01:34:45,431 [Thread-155:-1291859136] [django:72] [INFO]- a:[<Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, '...(remaining elements truncated)...']
+2014-09-09 01:34:45,433 [Thread-155:-1291859136] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:34:45,435 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:34:45,436 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:34:45,436 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-08-13
+2014-09-09 01:34:45,437 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-08-17
+2014-09-09 01:34:45,437 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-08-01
+2014-09-09 01:34:45,437 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-08-02
+2014-09-09 01:34:45,437 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-08-05
+2014-09-09 01:34:45,438 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-08-08
+2014-09-09 01:34:45,438 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-08-10
+2014-09-09 01:34:45,438 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-08-11
+2014-09-09 01:34:45,438 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-08-14
+2014-09-09 01:34:45,438 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-08-15
+2014-09-09 01:34:45,439 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-08-16
+2014-09-09 01:34:45,439 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-09-02
+2014-09-09 01:34:45,439 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-09-01
+2014-09-09 01:34:45,439 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-09-03
+2014-09-09 01:34:45,439 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-09-04
+2014-09-09 01:34:45,440 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-09-05
+2014-09-09 01:34:45,440 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:34:45,440 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:34:45,440 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:34:45,440 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:34:45,441 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:34:45,441 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:34:45,441 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:34:45,441 [Thread-155:-1291859136] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:34:45,443 [Thread-155:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:34:45,444 [Thread-155:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:34:45,445 [Thread-155:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:34:45,446 [Thread-155:-1291859136] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:34:45,447 [Thread-155:-1291859136] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:43:56,369 [Thread-159:-1245709504] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:43:56,387 [Thread-159:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:43:56,388 [Thread-159:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:43:56,389 [Thread-159:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:43:56,390 [Thread-159:-1245709504] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:43:56,391 [Thread-159:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:49:06,601 [Thread-161:-1245709504] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:49:06,615 [Thread-161:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:49:06,616 [Thread-161:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:49:06,617 [Thread-161:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:49:06,618 [Thread-161:-1245709504] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:49:06,619 [Thread-161:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:51:09,783 [Thread-163:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-07-28' ; args=(u'2014-07-28',)
+2014-09-09 01:51:09,784 [Thread-163:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-07-29' ; args=(u'2014-07-29',)
+2014-09-09 01:51:09,786 [Thread-163:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-07-30' ; args=(u'2014-07-30',)
+2014-09-09 01:51:09,788 [Thread-163:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-07-31' ; args=(u'2014-07-31',)
+2014-09-09 01:51:09,790 [Thread-163:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-08-01' ; args=(u'2014-08-01',)
+2014-09-09 01:51:09,793 [Thread-163:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-08-02' ; args=(u'2014-08-02',)
+2014-09-09 01:51:09,796 [Thread-163:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` WHERE `opt_optimization`.`date` = '2014-08-03' ; args=(u'2014-08-03',)
+2014-09-09 01:51:09,798 [Thread-163:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:51:09,799 [Thread-163:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:51:09,800 [Thread-163:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:51:09,801 [Thread-163:-1245709504] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:51:09,802 [Thread-163:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:53:46,702 [Thread-164:-1245709504] [django:66] [INFO]- params:<QueryDict: {}>
+2014-09-09 01:53:46,704 [Thread-164:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization` LIMIT 21; args=()
+2014-09-09 01:53:46,706 [Thread-164:-1245709504] [django:72] [INFO]- a:[<Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, <Optimization: Optimization object>, '...(remaining elements truncated)...']
+2014-09-09 01:53:46,709 [Thread-164:-1245709504] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:53:46,711 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:53:46,711 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-08-12
+2014-09-09 01:53:46,712 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-08-13
+2014-09-09 01:53:46,712 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-08-17
+2014-09-09 01:53:46,712 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-08-01
+2014-09-09 01:53:46,713 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-08-02
+2014-09-09 01:53:46,713 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-08-05
+2014-09-09 01:53:46,713 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-08-08
+2014-09-09 01:53:46,713 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-08-10
+2014-09-09 01:53:46,714 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-08-11
+2014-09-09 01:53:46,714 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-08-14
+2014-09-09 01:53:46,714 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-08-15
+2014-09-09 01:53:46,714 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-08-16
+2014-09-09 01:53:46,714 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-09-02
+2014-09-09 01:53:46,715 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-09-01
+2014-09-09 01:53:46,715 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-09-03
+2014-09-09 01:53:46,715 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-09-04
+2014-09-09 01:53:46,715 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-09-05
+2014-09-09 01:53:46,715 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:53:46,716 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:53:46,716 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:53:46,716 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:53:46,716 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:53:46,716 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:53:46,717 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:53:46,717 [Thread-164:-1245709504] [django:79] [INFO]- i.date:2014-09-06
+2014-09-09 01:53:46,718 [Thread-164:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:53:46,720 [Thread-164:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:53:46,721 [Thread-164:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:53:46,721 [Thread-164:-1245709504] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:53:46,722 [Thread-164:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:53:59,254 [Thread-166:-1245709504] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:53:59,272 [Thread-166:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:53:59,274 [Thread-166:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:53:59,276 [Thread-166:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:53:59,277 [Thread-166:-1245709504] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:53:59,279 [Thread-166:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
+2014-09-09 01:54:25,039 [Thread-168:-1245709504] [django.db.backends:79] [DEBUG]- (0.001) SELECT `opt_optimization`.`id`, `opt_optimization`.`date`, `opt_optimization`.`department`, `opt_optimization`.`media`, `opt_optimization`.`site`, `opt_optimization`.`addres`, `opt_optimization`.`cusume`, `opt_optimization`.`click`, `opt_optimization`.`valide`, `opt_optimization`.`appointment`, `opt_optimization`.`visit`, `opt_optimization`.`unvisit` FROM `opt_optimization`; args=()
+2014-09-09 01:54:25,056 [Thread-168:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`media` FROM `opt_optimization`; args=()
+2014-09-09 01:54:25,058 [Thread-168:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`site` FROM `opt_optimization`; args=()
+2014-09-09 01:54:25,059 [Thread-168:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`department` FROM `opt_optimization`; args=()
+2014-09-09 01:54:25,060 [Thread-168:-1245709504] [django:26] [INFO]- department_option:[u'\u7f51\u7edc\u4e00\u90e8', u'\u7f51\u7edc\u4e8c\u90e8', u'\u7f51\u7edc\u4e94\u90e8', u'\u7f51\u7edc\u4e09\u90e8', u'\u7f51\u7edc\u56db\u90e8']
+2014-09-09 01:54:25,061 [Thread-168:-1245709504] [django.db.backends:79] [DEBUG]- (0.000) SELECT `opt_optimization`.`addres` FROM `opt_optimization`; args=()
