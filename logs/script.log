@@ -2742,3 +2742,911 @@ ViewDoesNotExist: Could not import opt.views.monthReport. View does not exist in
 2014-09-09 01:53:46,868 [Thread-165:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
 2014-09-09 01:53:59,436 [Thread-167:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
 2014-09-09 01:54:25,258 [Thread-185:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 02:18:16,151 [Thread-16:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 02:18:22,467 [Thread-26:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 02:19:45,106 [Thread-20:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 02:20:17,262 [Thread-43:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 02:20:29,910 [Thread-66:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 02:24:48,631 [Thread-3:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 05:27:30,233 [Thread-5:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 05:27:31,975 [Thread-7:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:03:33,872 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 128
+    if j[v] == i[v]
+                  ^
+SyntaxError: invalid syntax
+2014-09-09 07:04:28,182 [Thread-21:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:04:30,133 [Thread-27:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:04:47,159 [Thread-29:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:08:31,479 [Thread-31:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:08:33,940 [Thread-33:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:08:35,379 [Thread-35:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:11:57,258 [Thread-37:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:12:00,274 [Thread-54:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:12:02,254 [Thread-62:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:12:03,472 [Thread-64:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:12:05,124 [Thread-66:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:12:06,167 [Thread-67:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /month
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 88, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 72, in process_request
+    urlresolvers.is_valid_path("%s/" % request.path_info, urlconf)):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 596, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 476, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.monthReport. View does not exist in module opt.views.
+2014-09-09 07:12:09,531 [Thread-69:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:12:10,809 [Thread-71:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:13:04,257 [Thread-73:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:49:40,275 [Thread-93:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:49:43,158 [Thread-99:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 07:49:46,167 [Thread-101:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 08:29:17,938 [Thread-103:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 08:29:20,523 [Thread-105:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 08:29:25,329 [Thread-107:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 08:29:30,223 [Thread-108:-1283466432] [django.request:224] [ERROR]- Internal Server Error: /month
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 88, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 72, in process_request
+    urlresolvers.is_valid_path("%s/" % request.path_info, urlconf)):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 596, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 476, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.monthReport. View does not exist in module opt.views.
+2014-09-09 08:29:36,460 [Thread-110:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 08:29:40,271 [Thread-112:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 08:37:05,347 [Thread-114:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 09:30:49,029 [Thread-116:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-09 09:53:53,467 [Thread-133:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 00:58:53,551 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 107
+    sql = select condition[0].keys(),
+                         ^
+SyntaxError: invalid syntax
+2014-09-10 00:58:53,788 [Thread-3:-1256195264] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-10 01:54:35,539 [Thread-4:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 107
+    sql = select condition[0].keys(),
+                         ^
+SyntaxError: invalid syntax
+2014-09-10 02:03:49,262 [Thread-24:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 02:03:51,442 [Thread-31:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 126, in weekReport
+    return render_to_response('week.html',{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+NameError: global name 'p' is not defined
+2014-09-10 02:25:14,786 [Thread-3:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 02:32:58,223 [Thread-20:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 02:33:02,548 [Thread-26:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 02:33:43,502 [Thread-45:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:23:05,069 [Thread-3:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:23:07,955 [Thread-5:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:23:25,058 [Thread-7:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:31:19,879 [Thread-20:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:31:22,292 [Thread-26:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:31:26,945 [Thread-45:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:31:46,928 [Thread-50:-1266681024] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:32:09,702 [Thread-20:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:32:11,669 [Thread-26:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:32:18,623 [Thread-27:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:32:24,078 [Thread-28:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:32:24,989 [Thread-29:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:32:25,274 [Thread-30:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:32:26,186 [Thread-32:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:35:09,478 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:35:10,503 [Thread-3:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:35:10,768 [Thread-4:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:35:10,950 [Thread-5:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:35:11,161 [Thread-6:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:35:11,361 [Thread-7:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:35:11,562 [Thread-8:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:35:57,405 [Thread-26:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:36:11,386 [Thread-34:-1291859136] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 108, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:43:29,131 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:43:30,511 [Thread-3:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:43:30,792 [Thread-4:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:43:30,998 [Thread-5:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum(cusume),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:44:56,468 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:44:57,394 [Thread-3:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:44:57,678 [Thread-4:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:44:57,882 [Thread-5:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:44:58,075 [Thread-6:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:45:44,013 [Thread-7:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:45:47,444 [Thread-8:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:45:49,431 [Thread-9:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume = Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:49:52,496 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:49:53,469 [Thread-3:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:49:53,748 [Thread-4:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:49:53,930 [Thread-5:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:49:54,249 [Thread-6:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:49:54,514 [Thread-7:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:50:46,828 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:50:48,609 [Thread-4:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:50:50,487 [Thread-22:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:50:59,763 [Thread-28:-1266681024] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:53:26,847 [Thread-20:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 07:53:32,197 [Thread-25:-1275073728] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:53:33,389 [Thread-26:-1275073728] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:53:33,670 [Thread-27:-1275073728] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:53:33,867 [Thread-28:-1275073728] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:53:34,060 [Thread-29:-1275073728] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:57:07,704 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres')#.annotate(total_cusume=Sum('cusume'),\
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:57:50,260 [Thread-1:-1244976320] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in weekReport
+    a = Optimization.objects.filter(**condition).valuse('department','media','site','addres')
+AttributeError: 'QuerySet' object has no attribute 'valuse'
+2014-09-10 07:58:23,551 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-10 07:59:40,725 [Thread-1:-1244714176] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-10 07:59:42,310 [Thread-3:-1244714176] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-10 07:59:43,186 [Thread-4:-1244714176] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-10 07:59:43,504 [Thread-5:-1244714176] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-10 07:59:43,702 [Thread-6:-1244714176] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-10 08:02:39,414 [Thread-7:-1244714176] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-10 08:02:41,867 [Thread-8:-1244714176] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-10 08:02:43,485 [Thread-9:-1244714176] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-10 08:02:44,794 [Thread-10:-1244714176] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-10 08:02:45,598 [Thread-11:-1244714176] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-10 08:03:17,327 [Thread-31:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 08:03:24,621 [Thread-37:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-10 08:09:16,098 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [date,i.department,i.media,i.site,i.addres,i.total_cusume,i.total_click,round(i.total_cusume/i.total_click,2),\
+AttributeError: 'dict' object has no attribute 'department'
+2014-09-10 08:11:23,072 [Thread-3:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [date,i.department,i.media,i.site,i.addres,i.total_cusume,i.total_click,round(i.total_cusume/i.total_click,2),\
+AttributeError: 'dict' object has no attribute 'department'
+2014-09-10 08:13:36,141 [Thread-1:-1244976320] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [date,i.department,i.media,i.site,i.addres,i.total_cusume,i.total_click,round(i.total_cusume/i.total_click,2),\
+AttributeError: 'dict' object has no attribute 'department'
+2014-09-10 08:14:32,034 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [date,i.department,i.media,i.site,i.addres,i.total_cusume,i.total_click,round(i.total_cusume/i.total_click,2),\
+AttributeError: 'dict' object has no attribute 'department'
+2014-09-10 08:14:34,851 [Thread-3:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [date,i.department,i.media,i.site,i.addres,i.total_cusume,i.total_click,round(i.total_cusume/i.total_click,2),\
+AttributeError: 'dict' object has no attribute 'department'
+2014-09-10 08:20:03,844 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [date,i[department],i.media,i.site,i.addres,i.total_cusume,i.total_click,round(i.total_cusume/i.total_click,2),\
+NameError: global name 'department' is not defined
+2014-09-10 08:20:40,892 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    l = [date,i['department'],i.media,i.site,i.addres,i.total_cusume,i.total_click,round(i.total_cusume/i.total_click,2),\
+AttributeError: 'dict' object has no attribute 'media'
+2014-09-10 08:23:53,354 [Thread-4:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 127, in weekReport
+    return render_to_response('week.html',{'nWeek':nWeek,'tableInfo':a},context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 169, in render_to_string
+    return t.render(context_instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 196, in render
+    nodelist.append(node.render(context))
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 155, in render
+    values = list(values)
+TypeError: 'Optimization' object is not iterable
+2014-09-10 08:24:30,580 [Thread-20:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 08:31:33,011 [Thread-45:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 08:34:04,322 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 111
+    total_unvisit=Sum('unvisit'),'date').order_by('department','media','site','addres')
+SyntaxError: non-keyword arg after keyword arg
+2014-09-10 08:35:01,958 [Thread-17:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 08:35:28,930 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 111
+    total_unvisit=Sum('unvisit'),'date').order_by('department','media','site','addres')
+SyntaxError: non-keyword arg after keyword arg
+2014-09-10 08:35:52,667 [Thread-3:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 111
+    total_unvisit=Sum('unvisit'),'date').order_by('department','media','site','addres')
+SyntaxError: non-keyword arg after keyword arg
+2014-09-10 08:36:17,168 [Thread-17:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 08:49:29,658 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 119
+    else:
+       ^
+SyntaxError: invalid syntax
+2014-09-10 08:49:40,677 [Thread-3:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 119
+    else:
+       ^
+SyntaxError: invalid syntax
+2014-09-10 08:54:24,401 [Thread-8:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 08:55:02,073 [Thread-24:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 08:55:40,050 [Thread-15:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 08:55:53,702 [Thread-28:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:03:46,175 [Thread-17:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:04:39,682 [Thread-46:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:08:47,640 [Thread-76:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:09:07,212 [Thread-98:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:12:19,143 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 121, in weekReport
+    l = [date[0],i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-09-10 09:12:20,988 [Thread-3:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 121, in weekReport
+    l = [date[0],i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-09-10 09:15:31,011 [Thread-20:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:16:35,567 [Thread-30:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:16:38,691 [Thread-33:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:17:08,444 [Thread-50:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:17:40,074 [Thread-76:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:18:25,294 [Thread-107:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:18:55,157 [Thread-127:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:23:41,611 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 118, in weekReport
+    condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-09-10 09:24:59,500 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 118, in weekReport
+    condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-09-10 09:25:37,252 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 119, in weekReport
+    condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-09-10 09:27:14,058 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 119, in weekReport
+    condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-09-10 09:27:54,445 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 119, in weekReport
+    condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-09-10 09:28:40,853 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 119, in weekReport
+    condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-09-10 09:30:08,154 [Thread-1:-1244714176] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 120, in weekReport
+    condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-09-10 09:31:12,896 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 120, in weekReport
+    condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-09-10 09:32:09,189 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 120, in weekReport
+    condition["date__range"] = (week[int(w[-2:])-1][0],week[int(w[-2:])-1][6])
+IndexError: list index out of range
+2014-09-10 09:32:53,549 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 119, in weekReport
+    condition["date__range"] = (week[int(w[-2:])-1][0],week[int(w[-2:])-1][6])
+IndexError: list index out of range
+2014-09-10 09:33:22,657 [Thread-3:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 119, in weekReport
+    condition["date__range"] = (week[int(w[-2:])-1][0],week[int(w[-2:])-1][6])
+IndexError: list index out of range
+2014-09-10 09:35:25,205 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 120, in weekReport
+    condition["date__range"] = (week[int(w[-2:])-1][0],week[int(w[-2:])-1][6])
+IndexError: list index out of range
+2014-09-10 09:37:17,242 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 120, in weekReport
+    condition["date__range"] = (week[int(w[-2:])-1][0],week[int(w[-2:])-1][6])
+IndexError: list index out of range
+2014-09-10 09:38:18,080 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 119, in weekReport
+    logger.info("XXXXX week:%s"%week[int(w[-2:])-1][6])
+IndexError: list index out of range
+2014-09-10 09:38:52,423 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 120, in weekReport
+    condition["date__range"] = (week[int(w[-2:])-1][0],week[int(w[-2:])-1][6])
+IndexError: list index out of range
+2014-09-10 09:40:19,231 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 119, in weekReport
+    logger.info("XXXXX week:%s"%week[int(w[-2:])-1][len(week[int(w[-2:])-1])])
+IndexError: list index out of range
+2014-09-10 09:41:36,438 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 122, in weekReport
+    condition["date__range"] = (week[int(w[-2:])-1][0],week[int(w[-2:])-1][6])
+IndexError: list index out of range
+2014-09-10 09:42:01,736 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 122, in weekReport
+    condition["date__range"] = (week[int(w[-2:])-1][0],week[int(w[-2:])-1][6])
+IndexError: list index out of range
+2014-09-10 09:42:41,002 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 122, in weekReport
+    condition["date__range"] = (week[int(w[-2:])-1][0],week[int(w[-2:])-1][6])
+IndexError: list index out of range
+2014-09-10 09:43:38,071 [Thread-18:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:44:39,089 [Thread-20:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:45:22,240 [Thread-17:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:47:05,484 [Thread-17:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:47:55,044 [Thread-41:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:49:27,068 [Thread-69:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:49:49,187 [Thread-81:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:49:52,618 [Thread-98:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:49:55,491 [Thread-108:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:49:59,470 [Thread-111:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:50:48,396 [Thread-115:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:50:55,651 [Thread-118:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:51:03,036 [Thread-120:-1274025152] [django.request:224] [ERROR]- Internal Server Error: /month
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 88, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 72, in process_request
+    urlresolvers.is_valid_path("%s/" % request.path_info, urlconf)):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 596, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 476, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.monthReport. View does not exist in module opt.views.

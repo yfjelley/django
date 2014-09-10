@@ -3,6 +3,7 @@ import logging
 import json
 from datetime import datetime
 from datetime import date
+from django.db.models import Sum
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
@@ -96,30 +97,38 @@ def weekReport(request):
     params = request.POST.copy()
     if params.has_key("date") and params["date"] != "all":
         date = params.pop("date")
-    condition = {}
+    condition ={}
     p=[]
     for k,v in params.iteritems():
         v = v.strip()
         if v != 'all':
             condition[k] = v
     if date:
-        for i in week[int(date[0][-2:])-1]:        
-            condition["date"] = i
-            a = Optimization.objects.filter(**condition)
-            for i in a:
-                l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
-                        i.valide,i.appointment,i.visit,round(i.cusume/i.valide,2),round(i.cusume/i.appointment,2),\
-                        round(i.cusume/i.visit,2),i.unvisit]
-                p.append(l)
-    else:
-        a = Optimization.objects.filter(**condition)
+        condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6])   
+        a = Optimization.objects.filter(**condition).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+                total_click=Sum('click'),total_valide=Sum('valide'),total_appointment=Sum('appointment'),total_visit=Sum('visit'),\
+                total_unvisit=Sum('unvisit')).order_by('department','media','site','addres')
         for i in a:
-            l = [whichWeek(i.date),i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
-                    i.valide,i.appointment,i.visit,round(i.cusume/i.valide,2),round(i.cusume/i.appointment,2),\
-                    round(i.cusume/i.visit,2),i.unvisit]
+            l = [date[0],i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
+                    i['total_valide'],i['total_appointment'],i['total_visit'],round(i['total_cusume']/i['total_valide'],2),round(i['total_cusume']/i['total_appointment'],2),\
+                    round(i['total_cusume']/i['total_visit'],2),i['total_unvisit']]
             p.append(l)
+    else:
+        for w in nWeek:
+            d = week[int(w[-2:])-1]
+            condition["date__range"] = (d[0],d[len(d)-1])   
+            logger.info("XXXXX condition:%s"%condition)
+            a = Optimization.objects.filter(**condition).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+                    total_click=Sum('click'),total_valide=Sum('valide'),total_appointment=Sum('appointment'),total_visit=Sum('visit'),\
+                    total_unvisit=Sum('unvisit')).order_by('department','media','site','addres')
+            for i in a:
+                l = [w,i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
+                        i['total_valide'],i['total_appointment'],i['total_visit'],round(i['total_cusume']/i['total_valide'],2),round(i['total_cusume']/i['total_appointment'],2),\
+                        round(i['total_cusume']/i['total_visit'],2),i['total_unvisit']]
+                p.append(l)
 
     if request.method == "GET":
         return render_to_response('week.html',{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
     elif request.method == "POST":
+        logger.info("XXXXX p:%s"%p)
         return render_to_response("selectWeek.html",{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
