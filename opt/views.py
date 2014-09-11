@@ -77,15 +77,11 @@ def dayReport(request):
                 i.valide,i.appointment,i.visit,round(i.cusume/i.valide,2),round(i.cusume/i.appointment,2),\
                 round(i.cusume/i.visit,2),i.unvisit]
         p.append(l)
-        logger.info("i.date:%s"%i.date)
     if request.method == "GET":
         return render_to_response('day.html',{'tableInfo':p},context_instance = RequestContext(request))
     elif request.method == "POST":
         return render_to_response('table.html',{'tableInfo':p},context_instance = RequestContext(request))
-
-def weekReport(request):
-    date = None
-    a = []
+def weekList():
     nWeek = []
     week = getWeek()
     for i in range(1,len(week)+1):
@@ -93,42 +89,40 @@ def weekReport(request):
            nWeek.append(str(datetime.now().year)+str(0)+str(i))
         else:
            nWeek.append(str(datetime.now().year)+str(i))
-
+    return nWeek
+def weekReport(request):
+    date = None
+    a = []
+    nWeek = weekList()
+    week = getWeek()
     params = request.POST.copy()
     if params.has_key("date") and params["date"] != "all":
         date = params.pop("date")
     condition ={}
-    p=[]
     for k,v in params.iteritems():
         v = v.strip()
         if v != 'all':
             condition[k] = v
+    p = []
     if date:
-        condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6])   
-        a = Optimization.objects.filter(**condition).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
-                total_click=Sum('click'),total_valide=Sum('valide'),total_appointment=Sum('appointment'),total_visit=Sum('visit'),\
-                total_unvisit=Sum('unvisit')).order_by('department','media','site','addres')
-        for i in a:
-            l = [date[0],i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
-                    i['total_valide'],i['total_appointment'],i['total_visit'],round(i['total_cusume']/i['total_valide'],2),round(i['total_cusume']/i['total_appointment'],2),\
-                    round(i['total_cusume']/i['total_visit'],2),i['total_unvisit']]
-            p.append(l)
+        condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6]) 
+        p = weekSearch(condition,p,date[0])
     else:
         for w in nWeek:
             d = week[int(w[-2:])-1]
-            condition["date__range"] = (d[0],d[len(d)-1])   
-            logger.info("XXXXX condition:%s"%condition)
-            a = Optimization.objects.filter(**condition).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
-                    total_click=Sum('click'),total_valide=Sum('valide'),total_appointment=Sum('appointment'),total_visit=Sum('visit'),\
-                    total_unvisit=Sum('unvisit')).order_by('department','media','site','addres')
-            for i in a:
-                l = [w,i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
-                        i['total_valide'],i['total_appointment'],i['total_visit'],round(i['total_cusume']/i['total_valide'],2),round(i['total_cusume']/i['total_appointment'],2),\
-                        round(i['total_cusume']/i['total_visit'],2),i['total_unvisit']]
-                p.append(l)
-
+            condition["date__range"] = (d[0],d[len(d)-1])
+            p = weekSearch(condition,p,w)
     if request.method == "GET":
         return render_to_response('week.html',{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
     elif request.method == "POST":
-        logger.info("XXXXX p:%s"%p)
         return render_to_response("selectWeek.html",{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+def weekSearch(c,o,w):
+    a = Optimization.objects.filter(**c).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+            total_click=Sum('click'),total_valide=Sum('valide'),total_appointment=Sum('appointment'),total_visit=Sum('visit'),\
+            total_unvisit=Sum('unvisit')).order_by('department','media','site','addres')
+    for i in a:
+        l = [w,i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
+                i['total_valide'],i['total_appointment'],i['total_visit'],round(i['total_cusume']/i['total_valide'],2),round(i['total_cusume']/i['total_appointment'],2),\
+                round(i['total_cusume']/i['total_visit'],2),i['total_unvisit']]
+        o.append(l)
+    return o

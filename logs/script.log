@@ -3650,3 +3650,757 @@ Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 118, in get_callable
     (lookup_view, mod_name))
 ViewDoesNotExist: Could not import opt.views.monthReport. View does not exist in module opt.views.
+2014-09-10 09:55:11,434 [Thread-15:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:56:01,760 [Thread-28:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:56:06,165 [Thread-31:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:56:09,758 [Thread-34:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 09:59:59,228 [Thread-15:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 10:00:04,435 [Thread-27:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-10 10:00:50,054 [Thread-35:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:13:47,911 [Thread-19:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:13:48,470 [Thread-26:-1265632448] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-11 01:13:51,993 [Thread-28:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:14:38,567 [Thread-30:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:14:42,159 [Thread-32:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:14:47,546 [Thread-34:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:14:49,644 [Thread-36:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:15:08,688 [Thread-38:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:15:12,033 [Thread-40:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:15:52,304 [Thread-56:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:16:08,585 [Thread-64:-1265632448] [django.request:224] [ERROR]- Internal Server Error: /month
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 88, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 72, in process_request
+    urlresolvers.is_valid_path("%s/" % request.path_info, urlconf)):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 596, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 476, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.monthReport. View does not exist in module opt.views.
+2014-09-11 01:22:31,090 [Thread-72:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:22:46,792 [Thread-74:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:22:54,961 [Thread-75:-1290810560] [django.request:224] [ERROR]- Internal Server Error: /month
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 88, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 72, in process_request
+    urlresolvers.is_valid_path("%s/" % request.path_info, urlconf)):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 596, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 476, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.monthReport. View does not exist in module opt.views.
+2014-09-11 01:26:12,510 [Thread-100:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:26:15,325 [Thread-106:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:26:18,990 [Thread-108:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:26:20,776 [Thread-110:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:26:37,884 [Thread-112:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:26:47,042 [Thread-114:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:30:39,487 [Thread-116:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:30:49,168 [Thread-135:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:30:51,409 [Thread-141:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:31:36,007 [Thread-143:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:31:42,220 [Thread-145:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:32:16,319 [Thread-147:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:32:18,676 [Thread-149:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:34:15,084 [Thread-167:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:34:24,216 [Thread-192:-1299203264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:35:16,192 [Thread-217:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:35:26,826 [Thread-245:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:35:50,754 [Thread-251:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:36:44,140 [Thread-254:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:36:50,303 [Thread-256:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:36:52,225 [Thread-258:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:37:01,104 [Thread-260:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:37:02,945 [Thread-262:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:57:10,840 [Thread-264:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:57:13,248 [Thread-266:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:57:17,280 [Thread-268:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:57:22,197 [Thread-270:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:59:00,761 [Thread-272:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:59:03,472 [Thread-274:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:59:04,755 [Thread-276:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:59:06,572 [Thread-278:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:59:10,134 [Thread-280:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:59:12,983 [Thread-282:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:59:31,449 [Thread-284:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:59:33,808 [Thread-286:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:59:42,355 [Thread-288:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:59:47,376 [Thread-290:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 01:59:49,332 [Thread-292:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 02:08:55,674 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 116
+    p = weekSearch(condition,p)"""
+        a = Optimization.objects.filter(**condition).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+                total_click=Sum('click'),total_valide=Sum('valide'),total_appointment=Sum('appointment'),total_visit=Sum('visit'),\
+                total_unvisit=Sum('unvisit')).order_by('department','media','site','addres')
+        for i in a:
+            l = [date[0],i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
+                    i['total_valide'],i['total_appointment'],i['total_visit'],round(i['total_cusume']/i['total_valide'],2),round(i['total_cusume']/i['total_appointment'],2),\
+                    round(i['total_cusume']/i['total_visit'],2),i['total_unvisit']]
+            p.append(l)"""
+                                  
+                                                                                                                                       
+                                                                                                                                   
+                                                                                            
+                   
+                                                                                                                                                          
+                                                                                                                                                                              
+                                                                                   
+                         ^
+SyntaxError: invalid syntax
+2014-09-11 02:11:22,947 [Thread-3:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 116
+    p = weekSearch(condition,p,date[0])"""
+        a = Optimization.objects.filter(**condition).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+                total_click=Sum('click'),total_valide=Sum('valide'),total_appointment=Sum('appointment'),total_visit=Sum('visit'),\
+                total_unvisit=Sum('unvisit')).order_by('department','media','site','addres')
+        for i in a:
+            l = [date[0],i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
+                    i['total_valide'],i['total_appointment'],i['total_visit'],round(i['total_cusume']/i['total_valide'],2),round(i['total_cusume']/i['total_appointment'],2),\
+                    round(i['total_cusume']/i['total_visit'],2),i['total_unvisit']]
+            p.append(l)"""
+                                          
+                                                                                                                                       
+                                                                                                                                   
+                                                                                            
+                   
+                                                                                                                                                          
+                                                                                                                                                                              
+                                                                                   
+                         ^
+SyntaxError: invalid syntax
+2014-09-11 02:11:33,331 [Thread-4:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 116
+    p = weekSearch(condition,p,date[0])"""
+        a = Optimization.objects.filter(**condition).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+                total_click=Sum('click'),total_valide=Sum('valide'),total_appointment=Sum('appointment'),total_visit=Sum('visit'),\
+                total_unvisit=Sum('unvisit')).order_by('department','media','site','addres')
+        for i in a:
+            l = [date[0],i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
+                    i['total_valide'],i['total_appointment'],i['total_visit'],round(i['total_cusume']/i['total_valide'],2),round(i['total_cusume']/i['total_appointment'],2),\
+                    round(i['total_cusume']/i['total_visit'],2),i['total_unvisit']]
+            p.append(l)"""
+                                          
+                                                                                                                                       
+                                                                                                                                   
+                                                                                            
+                   
+                                                                                                                                                          
+                                                                                                                                                                              
+                                                                                   
+                         ^
+SyntaxError: invalid syntax
+2014-09-11 02:12:23,464 [Thread-5:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 116
+    p = weekSearch(condition,p,date[0])"""
+        a = Optimization.objects.filter(**condition).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+                total_click=Sum('click'),total_valide=Sum('valide'),total_appointment=Sum('appointment'),total_visit=Sum('visit'),\
+                total_unvisit=Sum('unvisit')).order_by('department','media','site','addres')
+        for i in a:
+            l = [date[0],i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
+                    i['total_valide'],i['total_appointment'],i['total_visit'],round(i['total_cusume']/i['total_valide'],2),round(i['total_cusume']/i['total_appointment'],2),\
+                    round(i['total_cusume']/i['total_visit'],2),i['total_unvisit']]
+            p.append(l)"""
+                                          
+                                                                                                                                       
+                                                                                                                                   
+                                                                                            
+                   
+                                                                                                                                                          
+                                                                                                                                                                              
+                                                                                   
+                         ^
+SyntaxError: invalid syntax
+2014-09-11 02:12:30,362 [Thread-6:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 116
+    p = weekSearch(condition,p,date[0])"""
+        a = Optimization.objects.filter(**condition).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+                total_click=Sum('click'),total_valide=Sum('valide'),total_appointment=Sum('appointment'),total_visit=Sum('visit'),\
+                total_unvisit=Sum('unvisit')).order_by('department','media','site','addres')
+        for i in a:
+            l = [date[0],i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
+                    i['total_valide'],i['total_appointment'],i['total_visit'],round(i['total_cusume']/i['total_valide'],2),round(i['total_cusume']/i['total_appointment'],2),\
+                    round(i['total_cusume']/i['total_visit'],2),i['total_unvisit']]
+            p.append(l)"""
+                                          
+                                                                                                                                       
+                                                                                                                                   
+                                                                                            
+                   
+                                                                                                                                                          
+                                                                                                                                                                              
+                                                                                   
+                         ^
+SyntaxError: invalid syntax
+2014-09-11 02:13:09,103 [Thread-7:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 117
+    p = weekSearch(condition,p,date[0])"""
+        a = Optimization.objects.filter(**condition).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+                total_click=Sum('click'),total_valide=Sum('valide'),total_appointment=Sum('appointment'),total_visit=Sum('visit'),\
+                total_unvisit=Sum('unvisit')).order_by('department','media','site','addres')
+        for i in a:
+            l = [date[0],i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
+                    i['total_valide'],i['total_appointment'],i['total_visit'],round(i['total_cusume']/i['total_valide'],2),round(i['total_cusume']/i['total_appointment'],2),\
+                    round(i['total_cusume']/i['total_visit'],2),i['total_unvisit']]
+            p.append(l)
+            """
+                                          
+                                                                                                                                       
+                                                                                                                                   
+                                                                                            
+                   
+                                                                                                                                                          
+                                                                                                                                                                              
+                                                                                   
+                       
+              ^
+SyntaxError: invalid syntax
+2014-09-11 02:13:59,452 [Thread-8:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 121
+    p = weekSearch(condition,p,w)"""
+            a = Optimization.objects.filter(**condition).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+                    total_click=Sum('click'),total_valide=Sum('valide'),total_appointment=Sum('appointment'),total_visit=Sum('visit'),\
+                    total_unvisit=Sum('unvisit')).order_by('department','media','site','addres')
+            for i in a:
+                l = [w,i['department'],i['media'],i['site'],i['addres'],i['total_cusume'],i['total_click'],round(i['total_cusume']/i['total_click'],2),\
+                        i['total_valide'],i['total_appointment'],i['total_visit'],round(i['total_cusume']/i['total_valide'],2),round(i['total_cusume']/i['total_appointment'],2),\
+                        round(i['total_cusume']/i['total_visit'],2),i['total_unvisit']]
+                p.append(l)"""
+                                    
+                                                                                                                                           
+                                                                                                                                       
+                                                                                                
+                       
+                                                                                                                                                        
+                                                                                                                                                                                  
+                                                                                       
+                             ^
+SyntaxError: invalid syntax
+2014-09-11 02:14:31,467 [Thread-9:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 113, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 119, in weekSearch
+    a = Optimization.objects.filter(**"%s"%c).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+TypeError: filter() argument after ** must be a mapping, not str
+2014-09-11 02:15:06,636 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 113, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 126, in weekSearch
+    p.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:19:54,801 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 113, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 126, in weekSearch
+    p.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:26:23,061 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 97
+    nWeek = weekList():
+                      ^
+SyntaxError: invalid syntax
+2014-09-11 02:27:12,406 [Thread-3:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 112, in weekReport
+    d = week[int(w[-2:])-1]
+NameError: global name 'week' is not defined
+2014-09-11 02:28:51,363 [Thread-1:-1244714176] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 128, in weekSearch
+    p.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:29:58,641 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 128, in weekSearch
+    p.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:30:00,796 [Thread-3:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 128, in weekSearch
+    p.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:32:16,807 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 128, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:32:20,736 [Thread-3:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 128, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:33:59,975 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 128, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:34:02,411 [Thread-3:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 128, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:35:56,389 [Thread-4:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 128, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:45:16,631 [Thread-3:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 02:45:24,905 [Thread-4:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 127, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:46:35,056 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 128, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:48:59,526 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 129, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:50:09,342 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 129, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:50:33,165 [Thread-8:-1282417856] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 129, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:51:35,521 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 130, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 02:53:21,073 [Thread-1:-1244976320] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 131, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 03:03:58,826 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 132, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 03:04:30,491 [Thread-4:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 132, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 03:07:01,784 [Thread-5:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 132, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 03:11:41,899 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 115, in weekReport
+    a = Optimization.objects.filter(**c).values('department','media','site','addres').annotate(total_cusume=Sum('cusume'),\
+NameError: global name 'c' is not defined
+2014-09-11 03:14:32,058 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 123, in weekReport
+    o.append(l)
+NameError: global name 'o' is not defined
+2014-09-11 03:14:34,578 [Thread-3:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 123, in weekReport
+    o.append(l)
+NameError: global name 'o' is not defined
+2014-09-11 03:14:37,964 [Thread-4:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 123, in weekReport
+    o.append(l)
+NameError: global name 'o' is not defined
+2014-09-11 03:14:58,459 [Thread-20:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:07,994 [Thread-20:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:11,665 [Thread-26:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:13,782 [Thread-28:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:15,187 [Thread-30:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:18,568 [Thread-32:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:21,642 [Thread-34:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:23,350 [Thread-36:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:25,048 [Thread-38:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:26,623 [Thread-40:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:28,283 [Thread-42:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:30,034 [Thread-44:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:31,502 [Thread-46:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:34,206 [Thread-48:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:16:35,877 [Thread-50:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 03:17:00,150 [Thread-1:-1244714176] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 140, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 05:48:46,049 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 140, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 05:50:41,131 [Thread-20:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 05:51:07,795 [Thread-49:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 05:53:24,776 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 139, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 06:00:25,177 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 140, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 06:06:15,878 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 141, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 06:06:35,912 [Thread-4:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 141, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 06:08:26,011 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 140, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 06:21:33,208 [Thread-4:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 140, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 06:21:36,353 [Thread-5:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 140, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 06:23:07,044 [Thread-7:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 140, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 06:23:21,347 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 139, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 06:31:04,360 [Thread-20:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:31:07,192 [Thread-34:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:31:08,564 [Thread-36:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:31:25,763 [Thread-54:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:31:27,661 [Thread-63:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:31:35,998 [Thread-83:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:31:43,732 [Thread-99:-1307595968] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:31:45,818 [Thread-113:-1276118208] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:31:59,430 [Thread-115:-1276118208] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:32:01,231 [Thread-117:-1276118208] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:32:03,578 [Thread-119:-1276118208] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:32:06,360 [Thread-121:-1276118208] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:32:09,095 [Thread-123:-1276118208] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:32:18,032 [Thread-125:-1276118208] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:32:28,273 [Thread-145:-1284510912] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:32:36,371 [Thread-151:-1307595968] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:32:39,134 [Thread-153:-1307595968] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:32:46,131 [Thread-173:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:33:14,198 [Thread-179:-1292903616] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:33:34,010 [Thread-196:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:33:44,167 [Thread-224:-1284510912] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:33:47,496 [Thread-231:-1292903616] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:34:02,237 [Thread-249:-1284510912] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:40:40,162 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 114, in weekReport
+    p = weekSearch(condition,p,w)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 140, in weekSearch
+    o.append(l)
+AttributeError: 'NoneType' object has no attribute 'append'
+2014-09-11 06:43:03,168 [Thread-20:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:43:06,127 [Thread-28:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:43:07,644 [Thread-30:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:44:48,211 [Thread-20:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:44:49,787 [Thread-26:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:44:51,856 [Thread-28:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:45:04,952 [Thread-32:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-11 06:45:14,909 [Thread-35:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
