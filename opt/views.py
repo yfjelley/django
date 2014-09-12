@@ -86,22 +86,19 @@ def weekList():
         else:
            nWeek.append(str(datetime.now().year)+str(i))
     return nWeek
-def weekReport(request):
-    '''明细(周)视图'''
+def paramsHandle(params):
+    '''周报表中的参数处理'''
     date = None
-    a = []
-    nWeek = weekList()
-    week = getWeek()
-    params = request.POST.copy()
+    condition = {}
     if params.has_key("date") and params["date"] != "all":
         date = params.pop("date")
-    condition ={}
     for k,v in params.iteritems():
         v = v.strip()
         if v != 'all':
             condition[k] = v
+    return date,condition
+def tableData(date,week,condition,group_by,nWeek):
     p = []
-    group_by = ['department','media','site','addres']
     if date:
         condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6]) 
         p = weekSearch(condition,p,date[0],group_by)
@@ -110,34 +107,31 @@ def weekReport(request):
             d = week[int(w[-2:])-1]
             condition["date__range"] = (d[0],d[len(d)-1])
             p = weekSearch(condition,p,w,group_by)
+    return p
+def weekReport(request):
+    '''明细(周)视图'''
+    a = []
+    nWeek = weekList()
+    week = getWeek()
+    params = request.POST.copy()
+    date,condition = paramsHandle(params)
+    group_by = ['department','media','site','addres']
+    p =tableData(date,week,condition,group_by,nWeek)
     if request.method == "GET":
         return render_to_response('week.html',{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
     elif request.method == "POST":
         return render_to_response("selectWeek.html",{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
+
 def weekReportAccount(request):
     '''站点汇总(周)'''
-    date = None
     a = []
+    p = []
     nWeek = weekList()
     week = getWeek()
     params = request.POST.copy()
-    if params.has_key("date") and params["date"] != "all":
-        date = params.pop("date")
-    condition ={}
-    for k,v in params.iteritems():
-        v = v.strip()
-        if v != 'all':
-            condition[k] = v
-    p = []
+    date,condition = paramsHandle(params)
     group_by = ['department','media','site']
-    if date:
-        condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6]) 
-        p = weekSearch(condition,p,date[0],group_by)
-    else:
-        for w in nWeek:
-            d = week[int(w[-2:])-1]
-            condition["date__range"] = (d[0],d[len(d)-1])
-            p = weekSearch(condition,p,w,group_by)
+    p =tableData(date,week,condition,group_by,nWeek)
     if request.method == "GET":
         return render_to_response('weekAccount.html',{'nWeek':nWeek,'tableInfo':p},context_instance = RequestContext(request))
     elif request.method == "POST":
