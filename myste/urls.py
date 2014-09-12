@@ -12,6 +12,7 @@ urlpatterns = patterns('',
     url(r'^boot/$', 'opt.views.boot'),
     url(r'^day/$', 'opt.views.dayReport'),
     url(r'^week/$', 'opt.views.weekReport'),
+    url(r'^weekAccount/$', 'opt.views.weekReportAccount'),
     url(r'^month/$', 'opt.views.monthReport'),
     url(r'^table/$', 'opt.views.table'),
 )

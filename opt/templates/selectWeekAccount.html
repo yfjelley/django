@@ -1,10 +1,7 @@
 <thead>
 <tr>
-	<th>日期</th>
+	<th>第几周</th>
 	<th>部门</th>
-	<th>媒体</th>
-	<th>网站</th>
-	<th>地区</th>
 	<th>消费</th>
 	<th>点击次数</th>
 	<th>点击成本</th>
@@ -21,11 +18,7 @@
 	{% for i in tableInfo %}
 	<tr>
 		{% for j in i %}
-		   {% ifequal forloop.counter 1 %}
-        		<td>{{j|date:"Y-m-d"}}</td>
-		   {% else %}
-		        <td>{{j}}</td> 
-           {% endifequal %}
+		<td>{{j}}</td>
 		{% endfor %}
 	</tr>
 	{% endfor %}
