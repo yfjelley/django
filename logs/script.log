@@ -4655,3 +4655,569 @@ SyntaxError: invalid syntax
 2014-09-12 08:37:38,670 [Thread-38:-1268778176] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
 2014-09-12 09:04:54,437 [Thread-10:-1265632448] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
 2014-09-12 09:04:57,454 [Thread-26:-1282680000] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-12 09:34:00,353 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 124
+    def weekReportAccount(request):
+      ^
+IndentationError: expected an indented block
+2014-09-12 09:35:42,962 [Thread-4:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 124
+    def weekReportAccount(request):
+      ^
+IndentationError: expected an indented block
+2014-09-12 09:36:11,800 [Thread-14:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-12 09:36:14,926 [Thread-30:-1283466432] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-12 09:50:37,505 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /week/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 119, in weekReport
+    p =tableData(date,week,condition,group_by,nWeek)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 109, in tableData
+    p = weekSearch(condition,p,w,group_by)
+UnboundLocalError: local variable 'p' referenced before assignment
+2014-09-12 09:51:24,341 [Thread-10:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-12 09:51:26,735 [Thread-26:-1282417856] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:10:13,300 [Thread-12:-1265894592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:10:20,078 [Thread-29:-1282680000] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-13 01:24:26,916 [Thread-4:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:48:48,005 [Thread-10:-1266156736] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:50:17,094 [Thread-26:-1274549440] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:50:27,250 [Thread-29:-1274549440] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:50:34,957 [Thread-31:-1274549440] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:54:35,698 [Thread-40:-1291596992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:54:42,797 [Thread-56:-1274549440] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:54:56,479 [Thread-58:-1274549440] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:55:03,964 [Thread-60:-1274549440] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:55:19,184 [Thread-62:-1274549440] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:55:26,251 [Thread-65:-1283204288] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:55:44,242 [Thread-67:-1274549440] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:58:55,126 [Thread-76:-1283204288] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 01:59:05,177 [Thread-93:-1291596992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:00:02,394 [Thread-102:-1283204288] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:00:08,281 [Thread-117:-1314051264] [django.request:143] [WARNING]- Not Found: /dayAccount
+2014-09-13 02:08:18,206 [Thread-5:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:22:13,983 [Thread-3:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:24:25,888 [Thread-10:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:25:58,743 [Thread-33:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:43:13,961 [Thread-3:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:46:26,646 [Thread-20:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:48:22,337 [Thread-3:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:51:55,822 [Thread-3:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:57:12,872 [Thread-5:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:57:15,614 [Thread-7:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:57:17,280 [Thread-9:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:57:18,861 [Thread-11:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:57:40,253 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 82, in dayAccountReport
+    date = request.Post.get("date")
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+2014-09-13 02:57:44,672 [Thread-4:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:57:46,766 [Thread-6:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 02:57:48,285 [Thread-8:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 03:15:52,563 [Thread-3:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 03:16:06,434 [Thread-5:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 03:17:01,235 [Thread-7:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 03:27:37,232 [Thread-9:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 03:28:43,534 [Thread-11:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 03:31:04,461 [Thread-14:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 03:31:58,868 [Thread-11:-1307006144] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 03:33:45,874 [Thread-26:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 82, in dayAccountReport
+    date = request.Post.get("date")
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+2014-09-13 03:34:06,101 [Thread-16:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:07:05,330 [Thread-26:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:07:08,059 [Thread-28:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:13:26,979 [Thread-10:-1291334848] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:27:17,211 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 84, in dayAccountReport
+    p = weekSearch(condition,group_by)
+TypeError: weekSearch() takes exactly 3 arguments (2 given)
+2014-09-13 05:28:15,646 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 84, in dayAccountReport
+    p = daySearch(condition,group_by)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 182, in daySearch
+    l = [w]
+NameError: global name 'w' is not defined
+2014-09-13 05:30:46,021 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 84, in dayAccountReport
+    p = daySearch(condition,group_by)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 182, in daySearch
+    l = [i.date]
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-13 05:33:11,228 [Thread-20:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:33:13,659 [Thread-26:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:35:26,981 [Thread-28:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:35:28,391 [Thread-30:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:35:37,056 [Thread-32:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:35:45,357 [Thread-34:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:36:28,551 [Thread-3:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:36:53,216 [Thread-20:-1291859136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:36:58,189 [Thread-46:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:37:01,595 [Thread-54:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:40:21,996 [Thread-3:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:42:28,786 [Thread-3:-1244976320] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:42:52,419 [Thread-6:-1244976320] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:43:51,896 [Thread-9:-1244976320] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 05:55:55,289 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 89
+    if request.method == "GET":
+     ^
+IndentationError: expected an indented block
+2014-09-13 06:11:41,413 [Thread-11:-1305027776] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 06:11:49,657 [Thread-27:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+NameError: global name 'dayTableData' is not defined
+2014-09-13 06:12:54,330 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 95, in dayTableData
+    date = Optimization.objects.get('date')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 151, in get
+    return self.get_queryset().get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 301, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1038, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack
+2014-09-13 06:12:56,876 [Thread-3:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 95, in dayTableData
+    date = Optimization.objects.get('date')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 151, in get
+    return self.get_queryset().get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 301, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1038, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack
+2014-09-13 06:14:11,226 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 95, in dayTableData
+    date = Optimization.objects.get('date')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 151, in get
+    return self.get_queryset().get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 301, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1038, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack
+2014-09-13 06:14:13,839 [Thread-3:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 95, in dayTableData
+    date = Optimization.objects.get('date')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 151, in get
+    return self.get_queryset().get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 301, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1038, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack
+2014-09-13 06:16:44,623 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 95, in dayTableData
+    d = Optimization.objects.get('date')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 151, in get
+    return self.get_queryset().get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 301, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1038, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack
+2014-09-13 06:17:20,168 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 95, in dayTableData
+    d = Optimization.objects.get('date')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 151, in get
+    return self.get_queryset().get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 301, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1038, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack
+2014-09-13 06:17:23,897 [Thread-3:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 95, in dayTableData
+    d = Optimization.objects.get('date')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 151, in get
+    return self.get_queryset().get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 301, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1038, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack
+2014-09-13 06:56:20,764 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 95, in dayTableData
+    d = Optimization.objects.get('date')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 151, in get
+    return self.get_queryset().get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 301, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1038, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack
+2014-09-13 06:56:21,399 [Thread-3:-1256195264] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-13 06:56:24,478 [Thread-4:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 95, in dayTableData
+    d = Optimization.objects.get('date')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 151, in get
+    return self.get_queryset().get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 301, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1038, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack
+2014-09-13 07:00:31,639 [Thread-6:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 95, in dayTableData
+    d = Optimization.objects.get('date')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 151, in get
+    return self.get_queryset().get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 301, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1038, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack
+2014-09-13 07:00:33,610 [Thread-7:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 95, in dayTableData
+    d = Optimization.objects.get('date')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 151, in get
+    return self.get_queryset().get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 301, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1038, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack
+2014-09-13 07:35:02,533 [Thread-9:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 95, in dayTableData
+    d = Optimization.objects.get('date')
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 151, in get
+    return self.get_queryset().get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 301, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1038, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack
+2014-09-13 07:41:39,762 [Thread-30:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 07:42:45,550 [Thread-38:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 07:42:51,783 [Thread-40:-1300251840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 07:58:12,957 [Thread-3:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 07:58:24,385 [Thread-5:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 08:00:49,331 [Thread-14:-1277170880] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 08:01:03,078 [Thread-30:-1256195264] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 98, in dayTableData
+    return p+l
+NameError: global name 'l' is not defined
+2014-09-13 08:02:40,039 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 97, in dayTableData
+    condition['date'] = i.date
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-13 08:04:07,326 [Thread-1:-1244660928] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 99, in dayTableData
+    p = daySearch(condition,group_by)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 188, in daySearch
+    l = [i.date]
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-13 08:04:10,162 [Thread-3:-1255146688] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 99, in dayTableData
+    p = daySearch(condition,group_by)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 188, in daySearch
+    l = [i.date]
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-13 08:06:01,411 [Thread-1:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 83, in dayAccountReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 100, in dayTableData
+    return p+l
+NameError: global name 'l' is not defined
+2014-09-13 08:08:31,799 [Thread-18:-1255146688] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 08:11:31,359 [Thread-5:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 08:13:21,272 [Thread-11:-1297614016] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 08:18:36,148 [Thread-5:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 08:18:48,277 [Thread-7:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 08:21:12,142 [Thread-21:-1421870272] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 08:22:03,904 [Thread-23:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 08:22:56,668 [Thread-27:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 08:46:19,374 [Thread-5:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 09:12:52,784 [Thread-3:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 09:25:41,834 [Thread-3:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 09:31:41,119 [Thread-3:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 09:31:47,570 [Thread-4:-1244923072] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 72, in dayAccountReport
+    p = dayATableData(date,condition)
+NameError: global name 'dayATableData' is not defined
+2014-09-13 09:32:23,652 [Thread-10:-1290806464] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 09:34:10,091 [Thread-10:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 09:34:23,794 [Thread-33:-1290810560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 09:37:09,748 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 72, in dayAccountReport
+    p = dayAccountTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 85, in dayAccountTableData
+    l = [i.date,i.department,i.media,i.site,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-13 09:52:15,683 [Thread-1:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 72, in dayAccountReport
+    p = dayAccountTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 86, in dayAccountTableData
+    l = [i.date,i.department,i.media,i.site,i.cusume,i.click,round(i.cusume/i.click,2),\
+AttributeError: 'dict' object has no attribute 'date'
+2014-09-13 09:58:09,553 [Thread-10:-1244660928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 09:58:48,033 [Thread-26:-1274025152] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 09:59:56,618 [Thread-3:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 10:01:17,405 [Thread-5:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 10:03:40,328 [Thread-7:-1244923072] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-13 10:03:47,757 [Thread-9:-1255408832] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-15 01:40:52,009 [Thread-11:-1308701888] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-15 01:40:57,529 [Thread-27:-1272186048] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-15 01:41:04,076 [Thread-29:-1272186048] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-15 01:41:08,810 [Thread-31:-1272186048] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-15 01:41:11,068 [Thread-34:-1272186048] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-15 01:41:12,579 [Thread-36:-1272186048] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-15 01:47:09,226 [Thread-39:-1272186048] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-15 01:47:17,000 [Thread-41:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-15 01:47:33,312 [Thread-43:-1272186048] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-15 01:48:01,621 [Thread-45:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
