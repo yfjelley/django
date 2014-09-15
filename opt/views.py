@@ -18,14 +18,6 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 logger=logging.getLogger("django")
 
-class DateEncoder(json.JSONEncoder):
-    def default(self,obj):
-        if isinstance(obj,datetime):
-            return obj.__str__()
-        elif isinstance(obj,date):
-            return obj.__str__()
-        return json.JSONEncoder.default(self,obj)
-
 def getWeek():
     '''获取周和日期列表 '''
     current = datetime.now()
