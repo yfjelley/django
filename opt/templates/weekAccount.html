@@ -27,12 +27,6 @@
 		   {% for x in site %}
 		   <option value="{{x}}">{{x}}</option>
 		   {% endfor %}
-		  </select>
-	地区：<select id="add" name="addres" class="selectpicker" data-style="btn-danger">
-			 <option value="all" >所有地区</option>
-		   {% for x in addres %}
-		   <option value="{{x}}">{{x}}</option>
-		   {% endfor %}
 		</select>
     周：<select id="week" name="nweek" class="selectpicker" data-style="btn-danger">
 			 <option value="all" >所有周</option>
@@ -40,7 +34,7 @@
 		   <option value="{{x}}">{{x}}</option>
 		   {% endfor %}
 		</select>
-	<button id="b01" type="submit" class="btn btn-success active">确认</button>
+	<button id="b02" type="submit" class="btn btn-success active">确认</button>
 {% endblock %}
 {% block table1 %}
     <div class="span12" id="myDiv">

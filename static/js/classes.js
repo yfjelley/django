@@ -35,4 +35,12 @@ $(function(){
 						 }
 		 );
 		});
+    	$('#b02').click(function(){
+				 var time = $("#week").val()||'all';
+				 $('table').load('/weekAccount/',{'date':time,'department':$("#dep").val(),'site':$("#site").val(),'media':$("#med").val(),'addres':$("#add").val()},
+				function(){
+						 page_tables();
+						 }
+		 );
+		});
 });

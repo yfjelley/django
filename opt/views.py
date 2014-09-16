@@ -111,6 +111,7 @@ def tableData(date,condition,group_by,nWeek):
     week = getWeek()
     p = []
     if date:
+        logger.info("group_buy:%s"%group_by)
         condition["date__range"] = (week[int(date[0][-2:])-1][0],week[int(date[0][-2:])-1][6]) 
         p = weekSearch(condition,group_by,date[0])
     else:
@@ -159,5 +160,6 @@ def weekSearch(c,group_by,w=None):
                 i['total_valide'],i['total_appointment'],i['total_visit'],round(i['total_cusume']/i['total_valide'],2),\
                 round(i['total_cusume']/i['total_appointment'],2),round(i['total_cusume']/i['total_visit'],2),i['total_unvisit']]
         l += s
+        logger.info("l:%s"%l)
         o.append(l)
     return o
