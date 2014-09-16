@@ -40,6 +40,16 @@ def getWeek():
      #            print e
                  pass
     return yearList
+def weekList():
+    '''生成周日历(201401...)'''
+    nWeek = []
+    week = getWeek()
+    for i in range(1,len(week)+1):
+        if i < 10:
+           nWeek.append(str(datetime.now().year)+str(0)+str(i))
+        else:
+           nWeek.append(str(datetime.now().year)+str(i))
+    return nWeek
 
 def dayReport(request):
     '''明细(日)视图'''
@@ -86,16 +96,6 @@ def dayTableData(date,condition):
         p.append(l)
     return p
 
-def weekList():
-    '''生成周日历(201401...)'''
-    nWeek = []
-    week = getWeek()
-    for i in range(1,len(week)+1):
-        if i < 10:
-           nWeek.append(str(datetime.now().year)+str(0)+str(i))
-        else:
-           nWeek.append(str(datetime.now().year)+str(i))
-    return nWeek
 def paramsHandle(params):
     '''周报表中的参数处理'''
     date = None
