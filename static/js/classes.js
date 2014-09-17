@@ -27,6 +27,14 @@ $(function(){
 							 }
 		 );
      	});
+    	$('#b03').click(function(){
+				 var time = $("#datepicker").val()||'all';
+				 $('table').load('/dayAccount/',{'date':time,'department':$("#dep").val(),'site':$("#site").val(),'media':$("#med").val()},
+					function(){
+							 page_tables();
+							 }
+		 );
+     	});
     	$('#b01').click(function(){
 				 var time = $("#week").val()||'all';
 				 $('table').load('/week/',{'date':time,'department':$("#dep").val(),'site':$("#site").val(),'media':$("#med").val(),'addres':$("#add").val()},
@@ -37,7 +45,7 @@ $(function(){
 		});
     	$('#b02').click(function(){
 				 var time = $("#week").val()||'all';
-				 $('table').load('/weekAccount/',{'date':time,'department':$("#dep").val(),'site':$("#site").val(),'media':$("#med").val(),'addres':$("#add").val()},
+				 $('table').load('/weekAccount/',{'date':time,'department':$("#dep").val(),'site':$("#site").val(),'media':$("#med").val()},
 				function(){
 						 page_tables();
 						 }

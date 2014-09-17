@@ -54,6 +54,7 @@ def weekList():
 def dayReport(request):
     '''明细(日)视图'''
     params = request.POST.copy()
+    logger.info("params:%s"%params)
     date,condition = paramsHandle(params)
     p = dayTableData(date,condition)
     if request.method == "GET":
@@ -72,7 +73,7 @@ def dayAccountReport(request):
 def dayAccountTableData(date,condition):
     p=[]
     if date:
-        condition['date'] = date
+        condition['date'] = date[0]
     a = Optimization.objects.filter(**condition).values('date','department','media','site').annotate(total_cusume=Sum('cusume'),\
             total_click=Sum('click'),total_valide=Sum('valide'),total_appointment=Sum('appointment'),total_visit=Sum('visit'),\
             total_unvisit=Sum('unvisit')).order_by('date','department','media','site')
@@ -86,8 +87,10 @@ def dayAccountTableData(date,condition):
 def dayTableData(date,condition):
     p=[]
     if date:
-        condition['date'] = date
+        condition['date'] = date[0]
+    logger.info("condition:%s"%condition)
     a = Optimization.objects.filter(**condition)
+    logger.info("a:%s"%a)
     for i in a:
         l = [i.date,i.department,i.media,i.site,i.addres,i.cusume,i.click,round(i.cusume/i.click,2),\
                 i.valide,i.appointment,i.visit,round(i.cusume/i.valide,2),round(i.cusume/i.appointment,2),\

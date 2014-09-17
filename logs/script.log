@@ -5763,3 +5763,2225 @@ KeyError: 'total_cusume'
 2014-09-16 08:02:28,214 [Thread-145:-1277170880] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
 2014-09-16 08:02:30,611 [Thread-148:-1277170880] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
 2014-09-16 08:02:32,248 [Thread-150:-1277170880] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:05:09,610 [Thread-169:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:05:14,826 [Thread-175:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:05:23,718 [Thread-177:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:05:28,728 [Thread-179:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:05:31,393 [Thread-181:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:05:43,455 [Thread-183:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:05:46,230 [Thread-185:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:05:48,579 [Thread-187:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:05:50,835 [Thread-189:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:05:56,461 [Thread-191:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:06:02,871 [Thread-194:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:06:04,519 [Thread-196:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:06:07,176 [Thread-198:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:06:31,750 [Thread-200:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:06:34,396 [Thread-202:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:06:37,241 [Thread-204:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:06:38,976 [Thread-206:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:06:42,809 [Thread-208:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:07:06,313 [Thread-210:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:07:41,074 [Thread-218:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:08:35,220 [Thread-220:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:08:39,169 [Thread-223:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:08:47,909 [Thread-225:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:08:59,738 [Thread-227:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:10:17,013 [Thread-229:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:10:19,363 [Thread-232:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:10:20,970 [Thread-234:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:10:24,506 [Thread-236:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:11:04,253 [Thread-238:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:11:06,151 [Thread-240:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:11:07,583 [Thread-242:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:11:12,550 [Thread-244:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:11:36,002 [Thread-246:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:11:38,875 [Thread-249:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:11:40,124 [Thread-251:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:11:49,309 [Thread-253:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:11:51,358 [Thread-255:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:11:56,913 [Thread-257:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:12:05,932 [Thread-259:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:12:08,533 [Thread-261:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:12:10,336 [Thread-263:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:12:15,333 [Thread-265:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:12:17,485 [Thread-267:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:12:22,493 [Thread-269:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:13:46,469 [Thread-271:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:13:48,473 [Thread-274:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:13:51,019 [Thread-276:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:13:55,518 [Thread-278:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:18:30,714 [Thread-290:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:34:41,990 [Thread-307:-1277170880] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:34:48,648 [Thread-310:-1293956288] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:35:02,181 [Thread-312:-1293956288] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:35:03,968 [Thread-314:-1293956288] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:35:07,672 [Thread-316:-1277170880] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:35:19,126 [Thread-318:-1293956288] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:35:21,310 [Thread-320:-1293956288] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:35:22,507 [Thread-322:-1293956288] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:35:49,515 [Thread-324:-1277170880] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 08:40:13,241 [Thread-334:-1310741696] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:05:27,286 [Thread-358:-1310741696] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:05:43,904 [Thread-373:-1285563584] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:12:39,763 [Thread-382:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:12:52,770 [Thread-398:-1271694528] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:12:58,141 [Thread-400:-1293956288] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:13:15,834 [Thread-409:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:13:29,159 [Thread-424:-1271694528] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:16:37,227 [Thread-433:-1285563584] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:16:48,412 [Thread-448:-1293956288] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:17:03,773 [Thread-450:-1293956288] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:17:11,779 [Thread-452:-1293956288] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:17:18,046 [Thread-454:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:18:40,408 [Thread-457:-1293956288] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:18:43,711 [Thread-459:-1293956288] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:18:53,181 [Thread-460:-1293956288] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:18:56,358 [Thread-462:-1293956288] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:19:04,659 [Thread-465:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:19:19,285 [Thread-474:-1245709504] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:19:31,321 [Thread-489:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:28:35,950 [Thread-490:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:28:50,722 [Thread-491:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:29:08,911 [Thread-502:-1288479936] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:29:29,030 [Thread-517:-1280087232] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:31:37,744 [Thread-526:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:32:01,840 [Thread-541:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:32:17,289 [Thread-542:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:32:17,293 [Thread-543:-1280087232] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:32:17,310 [Thread-544:-1302348992] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:32:17,332 [Thread-545:-1319134400] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:32:17,353 [Thread-546:-1268778176] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:32:17,367 [Thread-547:-1288479936] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:32:17,726 [Thread-548:-1280087232] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:32:17,786 [Thread-549:-1245709504] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:32:17,918 [Thread-550:-1302348992] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-16 09:34:29,040 [Thread-552:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-16 09:44:09,622 [Thread-562:-1302348992] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 01:30:46,556 [Thread-4:-1246758080] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 01:30:53,358 [Thread-10:-1246758080] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 01:30:54,266 [Thread-11:-1246758080] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-17 01:30:59,320 [Thread-12:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 01:31:01,811 [Thread-13:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 01:31:04,191 [Thread-14:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 01:31:04,207 [Thread-15:-1257243840] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 01:31:12,559 [Thread-17:-1246758080] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 01:31:31,741 [Thread-20:-1246758080] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 01:31:41,998 [Thread-29:-1307124928] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 01:32:12,591 [Thread-45:-1257243840] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 01:44:54,038 [Thread-46:-1257243840] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 01:45:37,542 [Thread-47:-1257243840] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 58, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 90, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 01:48:49,505 [Thread-1:-1245971648] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 57, in dayReport
+    logger.infor("params:%s"%params)
+AttributeError: 'Logger' object has no attribute 'infor'
+2014-09-17 01:49:05,956 [Thread-3:-1245971648] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 57, in dayReport
+    logger.infor("params:%s"%params)
+AttributeError: 'Logger' object has no attribute 'infor'
+2014-09-17 01:49:05,974 [Thread-4:-1256457408] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 57, in dayReport
+    logger.infor("params:%s"%params)
+AttributeError: 'Logger' object has no attribute 'infor'
+2014-09-17 01:49:06,040 [Thread-6:-1275073728] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 57, in dayReport
+    logger.infor("params:%s"%params)
+AttributeError: 'Logger' object has no attribute 'infor'
+2014-09-17 01:49:06,041 [Thread-5:-1266681024] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 57, in dayReport
+    logger.infor("params:%s"%params)
+AttributeError: 'Logger' object has no attribute 'infor'
+2014-09-17 01:53:49,418 [Thread-7:-1266681024] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 57, in dayReport
+    logger.infor("params:%s"%params)
+AttributeError: 'Logger' object has no attribute 'infor'
+2014-09-17 01:55:56,462 [Thread-9:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 01:58:17,895 [Thread-19:-1256457408] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 01:58:39,750 [Thread-23:-1256457408] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 01:58:46,582 [Thread-25:-1256457408] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 57, in dayReport
+    logger.infor("params:%s"%params)
+AttributeError: 'Logger' object has no attribute 'infor'
+2014-09-17 02:00:32,533 [Thread-26:-1256457408] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 57, in dayReport
+    logger.infor("params:%s"%params)
+AttributeError: 'Logger' object has no attribute 'infor'
+2014-09-17 02:01:47,976 [Thread-10:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 02:02:05,715 [Thread-26:-1275073728] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 59, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 91, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:02:42,759 [Thread-28:-1275073728] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 02:02:47,351 [Thread-31:-1275073728] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 59, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 91, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:04:59,190 [Thread-1:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 59, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 92, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:05:26,180 [Thread-11:-1292907712] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 02:05:45,640 [Thread-35:-1284515008] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 02:06:42,591 [Thread-3:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 02:06:57,903 [Thread-6:-1246024896] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 59, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 92, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:08:50,956 [Thread-1:-1245971648] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 59, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 91, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:10:08,773 [Thread-1:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 59, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 92, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:20:57,511 [Thread-3:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 59, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 92, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:21:18,652 [Thread-13:-1246758080] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 02:21:35,076 [Thread-36:-1312826560] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 02:21:51,314 [Thread-51:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /day/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 59, in dayReport
+    p = dayTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 92, in dayTableData
+    a = Optimization.objects.filter(**condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:23:50,616 [Thread-7:-1246758080] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 02:28:50,526 [Thread-20:-1246758080] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 02:30:22,793 [Thread-45:-1276122304] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 02:30:30,684 [Thread-60:-1276122304] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 68, in dayAccountReport
+    p = dayAccountTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 77, in dayAccountTableData
+    a = Optimization.objects.filter(**condition).values('date','department','media','site').annotate(total_cusume=Sum('cusume'),\
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:30:35,736 [Thread-61:-1276122304] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 68, in dayAccountReport
+    p = dayAccountTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 77, in dayAccountTableData
+    a = Optimization.objects.filter(**condition).values('date','department','media','site').annotate(total_cusume=Sum('cusume'),\
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:30:47,432 [Thread-62:-1276122304] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 68, in dayAccountReport
+    p = dayAccountTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 77, in dayAccountTableData
+    a = Optimization.objects.filter(**condition).values('date','department','media','site').annotate(total_cusume=Sum('cusume'),\
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:31:21,986 [Thread-64:-1276122304] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 68, in dayAccountReport
+    p = dayAccountTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 77, in dayAccountTableData
+    a = Optimization.objects.filter(**condition).values('date','department','media','site').annotate(total_cusume=Sum('cusume'),\
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:31:24,624 [Thread-65:-1276122304] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 68, in dayAccountReport
+    p = dayAccountTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 77, in dayAccountTableData
+    a = Optimization.objects.filter(**condition).values('date','department','media','site').annotate(total_cusume=Sum('cusume'),\
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:31:27,106 [Thread-66:-1276122304] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 68, in dayAccountReport
+    p = dayAccountTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 77, in dayAccountTableData
+    a = Optimization.objects.filter(**condition).values('date','department','media','site').annotate(total_cusume=Sum('cusume'),\
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:34:23,216 [Thread-67:-1276122304] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 68, in dayAccountReport
+    p = dayAccountTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 77, in dayAccountTableData
+    a = Optimization.objects.filter(**condition).values('date','department','media','site').annotate(total_cusume=Sum('cusume'),\
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:34:29,447 [Thread-68:-1276122304] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 68, in dayAccountReport
+    p = dayAccountTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 77, in dayAccountTableData
+    a = Optimization.objects.filter(**condition).values('date','department','media','site').annotate(total_cusume=Sum('cusume'),\
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:34:32,004 [Thread-69:-1276122304] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 68, in dayAccountReport
+    p = dayAccountTableData(date,condition)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 77, in dayAccountTableData
+    a = Optimization.objects.filter(**condition).values('date','department','media','site').annotate(total_cusume=Sum('cusume'),\
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 163, in filter
+    return self.get_queryset().filter(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 593, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 611, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1204, in add_q
+    clause = self._add_q(where_part, used_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1240, in _add_q
+    current_negated=current_negated)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/query.py", line 1131, in build_filter
+    clause.add(constraint, AND)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/tree.py", line 104, in add
+    data = self._prepare_data(data)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 79, in _prepare_data
+    value = obj.prepare(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/where.py", line 352, in prepare
+    return self.field.get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 795, in get_prep_lookup
+    return super(DateField, self).get_prep_lookup(lookup_type, value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 369, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 798, in get_prep_value
+    return self.to_python(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py", line 756, in to_python
+    parsed = parse_date(value)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateparse.py", line 36, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or buffer
+2014-09-17 02:35:59,598 [Thread-1:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 72, in dayAccountReport
+    return render_to_response('tableAccount.html',{'tableInfo':p},context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: tableAccount.html
+2014-09-17 02:36:05,762 [Thread-3:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 72, in dayAccountReport
+    return render_to_response('tableAccount.html',{'tableInfo':p},context_instance = RequestContext(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 162, in render_to_string
+    t = get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 138, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 131, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: tableAccount.html
+2014-09-17 02:37:19,263 [Thread-1:-1245971648] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 77
+    logger.info("condition:%s"condition)
+                                      ^
+SyntaxError: invalid syntax
+2014-09-17 02:37:28,729 [Thread-3:-1245971648] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 77
+    logger.info("condition:%s"condition)
+                                      ^
+SyntaxError: invalid syntax
+2014-09-17 02:38:55,572 [Thread-4:-1245971648] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 78
+    logger.info("condition:%s"condition)
+                                      ^
+SyntaxError: invalid syntax
+2014-09-17 02:39:54,066 [Thread-5:-1245971648] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 79
+    logger.info("condition:%s"condition)
+                                      ^
+SyntaxError: invalid syntax
+2014-09-17 02:42:30,543 [Thread-6:-1245971648] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 79
+    logger.info("condition:%s"condition)
+                                      ^
+SyntaxError: invalid syntax
+2014-09-17 02:47:17,231 [Thread-7:-1245971648] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 79
+    logger.info("condition:%s"condition)
+                                      ^
+SyntaxError: invalid syntax
+2014-09-17 02:57:32,763 [Thread-8:-1245971648] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 79
+    logger.info("condition:%s"condition)
+                                      ^
+SyntaxError: invalid syntax
+2014-09-17 02:57:35,662 [Thread-9:-1245971648] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 79
+    logger.info("condition:%s"condition)
+                                      ^
+SyntaxError: invalid syntax
+2014-09-17 03:00:04,558 [Thread-10:-1245971648] [django.request:224] [ERROR]- Internal Server Error: /dayAccount/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 79
+    logger.info("condition:%s"condition)
+                                      ^
+SyntaxError: invalid syntax
+2014-09-17 03:02:08,220 [Thread-19:-1292645568] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:02:36,066 [Thread-44:-1292645568] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:02:54,562 [Thread-62:-1284252864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:04:49,205 [Thread-78:-1301038272] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:04:51,316 [Thread-102:-1301038272] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:08:58,980 [Thread-122:-1306707136] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:09:42,093 [Thread-139:-1284252864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:09:56,945 [Thread-142:-1284252864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:09:59,741 [Thread-145:-1284252864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:10:04,404 [Thread-148:-1292645568] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:10:25,896 [Thread-152:-1284252864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:10:41,708 [Thread-156:-1284252864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:11:05,135 [Thread-160:-1284252864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:12:20,703 [Thread-165:-1292645568] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:12:30,201 [Thread-169:-1284252864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:12:33,327 [Thread-172:-1284252864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:12:35,620 [Thread-175:-1284252864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:13:21,792 [Thread-178:-1284252864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:13:25,897 [Thread-181:-1284252864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:16:21,639 [Thread-184:-1292645568] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:16:25,525 [Thread-187:-1292645568] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:16:28,095 [Thread-191:-1292645568] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:16:30,274 [Thread-194:-1292645568] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:16:35,564 [Thread-198:-1284252864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:19:22,627 [Thread-202:-1292645568] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:31:34,671 [Thread-3:-1245971648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:32:25,490 [Thread-16:-1275598016] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:32:30,270 [Thread-33:-1292383424] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:33:22,386 [Thread-36:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:33:33,930 [Thread-47:-1283990720] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 03:33:58,998 [Thread-66:-1245971648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:21:53,564 [Thread-3:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:21:56,971 [Thread-6:-1246758080] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-17 05:22:08,890 [Thread-8:-1246758080] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:22:13,307 [Thread-10:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:22:30,398 [Thread-12:-1246758080] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:23:05,875 [Thread-14:-1246758080] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:23:22,078 [Thread-16:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:23:44,253 [Thread-26:-1246758080] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:24:35,660 [Thread-43:-1286608064] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:25:30,846 [Thread-45:-1286608064] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:25:34,517 [Thread-47:-1295000768] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:25:49,074 [Thread-50:-1286608064] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:26:06,950 [Thread-52:-1286608064] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:26:09,187 [Thread-54:-1286608064] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:26:16,545 [Thread-56:-1295000768] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:26:19,220 [Thread-58:-1286608064] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:26:21,236 [Thread-60:-1286608064] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:26:23,038 [Thread-62:-1286608064] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:28:14,480 [Thread-77:-1267729600] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:28:29,386 [Thread-89:-1286608064] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:28:46,492 [Thread-93:-1286608064] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:34:04,849 [Thread-11:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:34:09,978 [Thread-19:-1289557184] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:34:11,103 [Thread-31:-1269826752] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-17 05:34:17,482 [Thread-33:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:34:27,710 [Thread-36:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:34:35,239 [Thread-39:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:34:39,961 [Thread-41:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:35:25,166 [Thread-43:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:35:39,507 [Thread-45:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:35:41,319 [Thread-47:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:35:43,322 [Thread-49:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:35:48,018 [Thread-51:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:36:02,167 [Thread-53:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:36:04,072 [Thread-55:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:36:05,354 [Thread-57:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:36:17,208 [Thread-59:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:36:19,316 [Thread-61:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:36:56,188 [Thread-64:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:59:04,418 [Thread-67:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:59:06,407 [Thread-70:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:59:08,760 [Thread-72:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:59:12,248 [Thread-74:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:59:14,091 [Thread-76:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:59:18,569 [Thread-78:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:59:36,988 [Thread-80:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 05:59:58,012 [Thread-83:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:00:23,024 [Thread-86:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:00:50,548 [Thread-89:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:01:13,665 [Thread-93:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:01:21,479 [Thread-95:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:01:24,059 [Thread-97:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:01:26,586 [Thread-99:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:01:32,479 [Thread-101:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:01:34,913 [Thread-103:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:01:38,514 [Thread-105:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:01:39,938 [Thread-107:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:02:00,188 [Thread-109:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:02:10,686 [Thread-111:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:02:13,797 [Thread-113:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:02:15,977 [Thread-115:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:02:29,930 [Thread-118:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:02:49,388 [Thread-120:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:02:53,224 [Thread-122:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:03:17,605 [Thread-125:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:03:36,477 [Thread-127:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:03:42,008 [Thread-129:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:03:59,859 [Thread-132:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:04:10,218 [Thread-134:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:04:11,850 [Thread-136:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:04:17,047 [Thread-138:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:04:25,503 [Thread-140:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:04:27,973 [Thread-142:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:04:29,407 [Thread-144:-1306342592] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:04:34,406 [Thread-146:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:07:50,017 [Thread-156:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:08:01,088 [Thread-172:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:08:03,976 [Thread-174:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:08:06,306 [Thread-176:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:08:13,389 [Thread-178:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:08:15,309 [Thread-180:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:08:19,662 [Thread-182:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:08:29,505 [Thread-184:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:08:32,560 [Thread-186:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:08:35,167 [Thread-188:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:11:07,358 [Thread-190:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:12:40,135 [Thread-194:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:12:49,176 [Thread-197:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:14:40,568 [Thread-206:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:14:43,255 [Thread-208:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:14:45,143 [Thread-210:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:14:50,500 [Thread-212:-1278219456] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:16:14,133 [Thread-215:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:16:17,913 [Thread-217:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:16:20,704 [Thread-219:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:16:25,371 [Thread-221:-1278219456] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:32:37,380 [Thread-224:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:32:39,402 [Thread-227:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:32:41,178 [Thread-229:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:32:45,275 [Thread-231:-1278219456] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:33:02,769 [Thread-234:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:33:06,817 [Thread-236:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:33:08,467 [Thread-238:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:33:12,897 [Thread-240:-1278219456] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:33:16,197 [Thread-242:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:34:20,379 [Thread-245:-1278219456] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:34:33,093 [Thread-247:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:34:35,395 [Thread-249:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:34:36,830 [Thread-251:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:34:41,509 [Thread-253:-1278219456] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:34:44,978 [Thread-255:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:34:52,974 [Thread-257:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:34:54,612 [Thread-259:-1295004864] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:34:59,790 [Thread-261:-1278219456] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:35:09,830 [Thread-262:-1295004864] [django.request:143] [WARNING]- Not Found: /day/login.html
+2014-09-17 06:35:16,265 [Thread-265:-1269826752] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:35:32,479 [Thread-268:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:35:42,531 [Thread-270:-1286612160] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:35:45,038 [Thread-272:-1286612160] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:35:47,199 [Thread-274:-1286612160] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:35:50,655 [Thread-276:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:35:54,343 [Thread-278:-1286612160] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:45:55,027 [Thread-280:-1286612160] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:45:56,984 [Thread-282:-1286612160] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:46:00,732 [Thread-284:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:48:01,166 [Thread-286:-1286612160] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:48:03,862 [Thread-288:-1286612160] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:48:24,319 [Thread-290:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:48:28,170 [Thread-292:-1286612160] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:48:30,220 [Thread-294:-1286612160] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:48:32,615 [Thread-296:-1286612160] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:48:38,181 [Thread-298:-1257243840] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:48:41,060 [Thread-300:-1286612160] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:58:59,430 [Thread-11:-1306629312] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 06:59:02,403 [Thread-28:-1245971648] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-17 07:15:53,535 [Thread-38:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:16:00,972 [Thread-55:-1298236608] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:18:13,861 [Thread-64:-1288066240] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:18:38,135 [Thread-85:-1296458944] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:18:43,589 [Thread-90:-1296458944] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:18:47,482 [Thread-95:-1296458944] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:21:49,434 [Thread-99:-1296458944] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:21:58,397 [Thread-103:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:22:01,085 [Thread-105:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:22:03,673 [Thread-107:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:23:40,396 [Thread-109:-1296458944] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:23:43,309 [Thread-111:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:23:45,238 [Thread-115:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:23:47,088 [Thread-117:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:23:53,370 [Thread-119:-1296458944] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:25:31,414 [Thread-134:-1304851648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:28:04,649 [Thread-157:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:28:13,379 [Thread-173:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:28:15,489 [Thread-175:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:28:17,257 [Thread-177:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:30:08,658 [Thread-179:-1304851648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:30:11,426 [Thread-181:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:30:20,452 [Thread-185:-1304851648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:30:58,440 [Thread-187:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:31:01,240 [Thread-189:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:31:03,867 [Thread-191:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:31:21,908 [Thread-193:-1304851648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:31:51,715 [Thread-196:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:31:53,534 [Thread-199:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:31:55,733 [Thread-201:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:31:57,766 [Thread-203:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:32:02,492 [Thread-205:-1304851648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:32:05,437 [Thread-207:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:32:07,152 [Thread-209:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:32:08,938 [Thread-211:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:32:13,532 [Thread-213:-1304851648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:33:56,028 [Thread-215:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:33:59,766 [Thread-219:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:34:02,433 [Thread-221:-1304851648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:34:15,867 [Thread-223:-1304851648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:37:31,552 [Thread-236:-1313244352] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:37:33,642 [Thread-251:-1313244352] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-17 07:38:59,858 [Thread-253:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:39:01,832 [Thread-257:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:40:20,311 [Thread-259:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:40:22,767 [Thread-261:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:40:24,701 [Thread-263:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:40:47,647 [Thread-265:-1304851648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:40:59,004 [Thread-267:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:41:01,644 [Thread-269:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:41:03,852 [Thread-271:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:41:08,427 [Thread-273:-1304851648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:41:21,184 [Thread-276:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:41:28,382 [Thread-278:-1304851648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:41:35,706 [Thread-280:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:41:37,451 [Thread-283:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:41:39,024 [Thread-285:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:43:51,394 [Thread-289:-1304851648] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:43:51,984 [Thread-290:-1304851648] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-17 07:43:54,940 [Thread-294:-1266681024] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 07:43:55,228 [Thread-295:-1266681024] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-09-17 08:00:49,646 [Thread-310:-1278215360] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 08:00:55,398 [Thread-320:-1313244352] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 08:01:01,374 [Thread-323:-1313244352] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 08:01:07,849 [Thread-326:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 08:01:17,268 [Thread-331:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 08:01:51,411 [Thread-341:-1256195264] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600
+2014-09-17 08:01:54,561 [Thread-357:-1346815168] [django.request:143] [WARNING]- Not Found: /fonts.googleapis.com/cssfamilysignikanegative_3a400300600

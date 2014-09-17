@@ -1,13 +1,10 @@
 $(function(){
         $(document).ready(function(){
-				$('#datepicker').datetimepicker({
+				$('#datepicker').datepicker({
+				 minView:"month",
 				 format: 'yyyy-mm-dd',
-				 autoclose: true,
 				 todayHighlight: true,
-				 minuteStep: 2,
-				 todayBtn: true,
-				 pickDate: true,
-				 pickTime: false
+				 autoclose: true,
 				});
 			});
 	
