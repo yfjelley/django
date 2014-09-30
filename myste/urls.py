@@ -7,14 +7,14 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'myste.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
+    url(r'^$', 'opt.views.login'),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^opt/$', 'opt.views.opt'),
-    url(r'^boot/$', 'opt.views.boot'),
     url(r'^day/$', 'opt.views.dayReport'),
+    url(r'^login/$', 'opt.views.login'),
+    url(r'^regist/$', 'opt.views.regist'),
+    url(r'^index/$', 'opt.views.index'),
     url(r'^dayAccount/$', 'opt.views.dayAccountReport'),
     url(r'^week/$', 'opt.views.weekReport'),
     url(r'^weekAccount/$', 'opt.views.weekAccountReport'),
-    url(r'^month/$', 'opt.views.monthReport'),
-    url(r'^table/$', 'opt.views.table'),
 )
 urlpatterns +=staticfiles_urlpatterns()
