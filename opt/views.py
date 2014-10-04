@@ -2,10 +2,9 @@
 import logging
 import json
 from django.shortcuts import render,render_to_response
-from CodeShare.account.forms import UserRegisterForm
+from forms import UserForm
 from django.http import HttpResponse,HttpResponseRedirect
 from django.template import RequestContext
-from django import forms
 from datetime import datetime
 from datetime import date
 from django.db.models import Sum
@@ -176,7 +175,7 @@ def index(request):
 def register(request):
     #注册提交
     if request.method == 'POST':
-        form = UserRegisterForm(data=request.POST)
+        form = UserForm(data=request.POST)
         if form.is_valid():
             new_user = User.objects.create_user(request.POST['username'], request.POST['email'], request.POST['password'])
             new_user.save()
@@ -198,12 +197,12 @@ def login(request):
         user = authenticate(username=username, password=password)
         if user is not None:
             if user.is_active:
-                        user_login(request, user)
-                        return HttpResponseRedirect('/%d' % user.id)
+               user_login(request, user)
+               return HttpResponseRedirect('/%d' % user.id)
             else:
-                    return HttpResponse('用户没有启用!')
+               return HttpResponse('用户没有启用!')
         else:
-                return HttpResponse('用户名或者密码错误！')
+            return HttpResponse('用户名或者密码错误！')
     else:
         return render_to_response('login.html')
     
