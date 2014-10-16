@@ -12,8 +12,6 @@ from datetime import date
 import glob
 reload(sys)
 sys.setdefaultencoding("utf-8")
-#name={'日期':'date'，'媒体':'media','对应的推广地址':'site','对应地区':'addres','消费':'consume','点击':'click',\
-#        '总有效量':'valide','总预约量':'appointment','总就诊量':'visit','当天无就诊量':'unvisit'}
 def excel2mysql(fi):
     date_test=fi.split("_")[1].split(".")[0]
     print date_test

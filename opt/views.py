@@ -170,7 +170,7 @@ def weekSearch(c,group_by,w=None):
 
 def index(request):
     #用户的个人页面
-    return render(request,'index.html')
+    return render(request,'reg.html')
 
 def register(request):
     #注册提交
@@ -179,7 +179,7 @@ def register(request):
         if form.is_valid():
             new_user = User.objects.create_user(request.POST['username'], request.POST['email'], request.POST['password'])
             new_user.save()
-            return render(request,'index.html')
+            return render_to_response('day.html')
         else:
             return render(request,'register.html', {'form':form})
     #超链接点击过来的注册
@@ -190,7 +190,8 @@ def register(request):
 def login(request):
     #表单提交过来的数据
     if request.user.is_authenticated():
-        return  HttpResponse('你已经登录')
+        #dayReport(request)
+        return  render_to_response('day.html')
     if request.method == 'POST':
         username = request.POST['username']
         password = request.POST['password']
@@ -198,7 +199,7 @@ def login(request):
         if user is not None:
             if user.is_active:
                user_login(request, user)
-               return HttpResponseRedirect('/%d' % user.id)
+               return render_to_response('day.html')
             else:
                return HttpResponse('用户没有启用!')
         else:
