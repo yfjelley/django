@@ -13,6 +13,7 @@ from django.template import loader
 from opt.models import Optimization
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login as user_login, logout as user_logout
+from django.contrib.auth.decorators import login_required
 
 import sys
 reload(sys)
@@ -51,7 +52,7 @@ def weekList():
         else:
            nWeek.append(str(datetime.now().year)+str(i))
     return nWeek
-
+@login_required
 def dayReport(request):
     '''明细(日)视图'''
     params = request.POST.copy()
@@ -124,6 +125,7 @@ def tableData(date,condition,group_by,nWeek):
             condition["date__range"] = (d[0],d[len(d)-1])
             p +=weekSearch(condition,group_by,w)
     return p
+@login_required
 def weekReport(request):
     '''明细(周)视图'''
     a = []
@@ -186,7 +188,6 @@ def register(request):
     #超链接点击过来的注册
     else:
         return render(request,'register.html')
-#        return render_to_response('user/register.html', context_instance=RequestContext(request))
     
 def login(request):
     #表单提交过来的数据
@@ -194,8 +195,8 @@ def login(request):
         #dayReport(request)
         return  render_to_response('day.html')
     if request.method == 'POST':
-        username = request.POST['userName']
-        password = request.POST['password']
+        userName = request.POST['userName']
+        userPassword = request.POST['password']
         user = authenticate(username=userName, password=userPassword)
         if user is not None:
             if user.is_active:
@@ -210,5 +211,5 @@ def login(request):
     
 def logout(request):
     user_logout(request)
-    return render_to_response('index.html')
+    return render_to_response('login.html')
     
