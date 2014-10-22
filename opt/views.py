@@ -176,8 +176,9 @@ def register(request):
     #注册提交
     if request.method == 'POST':
         form = UserForm(data=request.POST)
-        if form.is_valid():
-            new_user = User.objects.create_user(request.POST['username'], request.POST['email'], request.POST['password'])
+        if form.is_valid() and form.clean_password():
+            logger.info("form validation")
+            new_user = User.objects.create_user(request.POST['userName'], request.POST['userEmail'], request.POST['userPassword'])
             new_user.save()
             return render_to_response('day.html')
         else:
@@ -193,9 +194,9 @@ def login(request):
         #dayReport(request)
         return  render_to_response('day.html')
     if request.method == 'POST':
-        username = request.POST['username']
+        username = request.POST['userName']
         password = request.POST['password']
-        user = authenticate(username=username, password=password)
+        user = authenticate(username=userName, password=userPassword)
         if user is not None:
             if user.is_active:
                user_login(request, user)
