@@ -60,7 +60,7 @@ def dayReport(request):
     date,condition = paramsHandle(params)
     p = dayTableData(date,condition)
     if request.method == "GET":
-        return render_to_response('day.html',{'tableInfo':p},context_instance = RequestContext(request))
+        return render_to_response('table.html',{'tableInfo':p},context_instance = RequestContext(request))
     elif request.method == "POST":
         return render_to_response('table.html',{'tableInfo':p},context_instance = RequestContext(request))
 def dayAccountReport(request):

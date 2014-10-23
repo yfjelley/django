@@ -1,33 +1,182 @@
-<thead>
-<tr>
-	<th>日期</th>
-	<th>部门</th>
-	<th>媒体</th>
-	<th>网站</th>
-	<th>地区</th>
-	<th>消费</th>
-	<th>点击次数</th>
-	<th>点击成本</th>
-	<th>有效量</th>
-	<th>预约量</th>
-	<th>就诊量</th>
-	<th>有效成本</th>
-	<th>预约成本</th>
-	<th>就诊成本</th>
-	<th>未就诊量</th>
-</tr>
-</thead>
-<tbody>
-	{% for i in tableInfo %}
-	<tr>
-		{% for j in i %}
-		   {% ifequal forloop.counter 1 %}
-        		<td>{{j|date:"Y-m-d"}}</td>
-		   {% else %}
-		        <td>{{j}}</td> 
-           {% endifequal %}
-		{% endfor %}
-	</tr>
-	{% endfor %}
-</tbody>
+<!DOCTYPE html> 
+<html lang="zh-cn"> 
+<head> 
+<meta charset="utf-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Bootstrap 101 Template</title> 
 
+<!-- Bootstrap --> 
+<!-- 新 Bootstrap 核心 CSS 文件 --> 
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css"> 
+
+<!-- 可选的Bootstrap主题文件（一般不用引入） --> 
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"> 
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --> 
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// --> 
+<!--[if lt IE 9]> 
+<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script> 
+<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script> 
+<![endif]--> 
+</head> 
+<body > 
+<div class="container-fluid" style="padding:0; margin:0px;"> 
+<div class="container-fluid" style="padding:0;">
+	<div class="row-fluid">
+		<div class="span12">
+			<ul class="breadcrumb" style="margin:0px">
+				<li>
+					<a href="#">长江医院统计部管理系统</a> 
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" style="margin:0px; margin-top:20px;">
+	<div class="row-fluid">
+		<div class="col-md-2">   
+         <div style="background:#FCC ; margin:0px;padding:15px;"> 
+         <div class="container-fluid" style="margin-top:10px">
+	       <div class="row-fluid" style="padding:10px;">
+			<ul class="nav nav-list">
+				<li class="nav-header">
+					推广站分析表
+				</li>
+				<li class="active">
+					<a href="#">明细（日）</a>
+				</li>
+				<li>
+					<a href="#">站点汇总（日）</a>
+				</li>
+				<li>
+					<a href="#">明细（周）</a>
+				</li>
+                <li>
+					<a href="#">站点汇总（周）</a>
+				</li>
+				<li class="nav-header">
+					优化站分析表
+				</li>
+				<li>
+					<a href="#">明细（日）</a>
+				</li>
+				<li>
+					<a href="#">站点汇总（日）</a>
+				</li>
+
+				<li>
+					<a href="#">明细（周）</a>
+				</li>
+                <li>
+					<a href="#">站点汇总（周）</a>
+				</li>
+			</ul>
+            </div>
+            </div>
+		</div>
+    </div>
+		<div class="col-md-10">
+           <div class="container-fluid" style="margin-top:10px;margin-bottom:10px;margin-right:0;margin-left:0;padding-right:0px;padding-left:0px;" >
+              <div class="row-fluid" >
+
+                    部门 :                   
+                     <select >
+                     <option value="all">所有部门</option>
+                     {% for x in department %}
+		             <option value="{{x}}">{{x}}</option>
+		             {% endfor %}
+                     </select>
+                    媒体 ：
+                       <select>
+                      <option value="all">所有媒体</option>	
+                      {% for x in media %}
+		               <option value="{{x}}">{{x}}</option>
+		              {% endfor %}
+                      </select>
+                      
+					 推广站点 ： 
+                     <select>
+                     <option value="all">所有站点</option>
+                     {% for x in site %}
+		             <option value="{{x}}">{{x}}</option>
+		             {% endfor %}
+                     </select>
+				
+					 地区 : <select>
+                     <option value="all">所有地区</option>
+                     {% for x in addres %}
+		             <option value="{{x}}">{{x}}</option>
+		             {% endfor %}
+                     </select>
+			
+					 周 : <select >
+                     <option value="all">所有周</option>	
+                     </select>
+                      <button id="b04" type="submit">确认</button>
+        </div>
+        </div>      
+		</div>
+		<div class="col-md-10">
+		<div class="container-fluid">
+        <div class="widget-box">
+            <div class="widget-title">
+                <span class="icon">
+                    <i class="icon-wrench"></i>
+                </span>
+            </div>
+        <div class="widget-content nopadding">
+		<div class="table-responsive">
+					<table cellpadding="0" cellspacing="0" border= '0' class="table table-striped table-bordered  table-hover  classes">
+						<thead>
+							<tr>
+								<th>日期</th>
+								<th>部门</th>
+								<th>媒体</th>
+								<th>网站</th>
+								<th>地区</th>
+								<th>消费</th>
+								<th>点击次数</th>
+								<th>点击成本</th>
+								<th>有效量</th>
+								<th>预约量</th>
+								<th>就诊量</th>
+								<th>有效成本</th>
+								<th>预约成本</th>
+								<th>就诊成本</th>
+								<th>未就诊量</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for i in tableInfo %}
+							<tr>
+								{% for j in i  %}
+								   {% ifequal forloop.counter 1 %}
+							 	      <td>{{j|date:"Y-m-d"}}</td>
+								   {% else %}
+							 	      <td>{{j}}</td>
+								   {% endifequal %}
+								{% endfor %}
+							</tr>
+							{% endfor %}
+						</tbody>
+				     </table>
+        </div>
+        </div>
+        </div>
+
+
+		</div>
+		</div>
+
+
+</div>
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 --> 
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script> 
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 --> 
+<script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+</body> 
+</html>
