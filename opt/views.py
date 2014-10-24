@@ -1,6 +1,6 @@
 #-*- coding:utf-8 -*-
 import logging
-import json
+import json,math
 from django.shortcuts import render,render_to_response
 from forms import UserForm
 from django.http import HttpResponse,HttpResponseRedirect
@@ -14,6 +14,7 @@ from opt.models import Optimization
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login as user_login, logout as user_logout
 from django.contrib.auth.decorators import login_required
+from django.core.paginator import Paginator
 
 import sys
 reload(sys)
@@ -58,9 +59,18 @@ def dayReport(request):
     params = request.POST.copy()
     logger.info("params:%s"%params)
     date,condition = paramsHandle(params)
-    p = dayTableData(date,condition)
+    obj = dayTableData(date,condition)
+    p=Paginator(obj,10)
     if request.method == "GET":
-        return render_to_response('table.html',{'tableInfo':p},context_instance = RequestContext(request))
+        if request.GET.get('pn'):
+            if int(request.GET.get('pn'))>0:
+                num=int(request.GET.get('pn'))
+            else:
+                num=1
+        else:
+            num=1
+        logger.info("num:%s"%num)
+        return render_to_response('day.html',{'tableInfo':p.page(num).object_list,'page':p.num_pages,'num':num},context_instance = RequestContext(request))
     elif request.method == "POST":
         return render_to_response('table.html',{'tableInfo':p},context_instance = RequestContext(request))
 def dayAccountReport(request):
