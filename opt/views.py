@@ -222,4 +222,6 @@ def login(request):
 def logout(request):
     user_logout(request)
     return render_to_response('login.html')
+def upload(request):
+    return render_to_response('uploadfile.html')
     
