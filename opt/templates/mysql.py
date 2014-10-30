@@ -1,25 +1,16 @@
 #coding:utf-8
 #!/usr/bin/python
-import os
-import datetime
-import time
+import os,datetime,time,MySQLdb,xlrd,sys,json,glob
 from time import localtime
-import MySQLdb
-import xlrd
-import sys
-import json
 from datetime import date
-import glob
-reload(sys)
-sys.setdefaultencoding("utf-8")
+reload(sys).setdefaultencoding("utf-8")
+
 def excel2mysql(fi):
     date_test=fi.split("_")[1].split(".")[0]
     print date_test
     db = MySQLdb.connect("localhost","root","123","mysite",charset='utf8')
     cursor = db.cursor()
-    l=[]
-    z=[]
-    t=[]
+    l,z,t=[],[],[]
     wb=xlrd.open_workbook(fi,encoding_override="utf-8")
     wb.sheet_names()
     sh=wb.sheet_by_index(0)

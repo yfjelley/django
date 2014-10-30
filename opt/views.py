@@ -224,4 +224,8 @@ def logout(request):
     return render_to_response('login.html')
 def upload(request):
     return render_to_response('uploadfile.html')
+def coverage(request):
+    parm = request.POST.copy()
+    logger.info("%s"%parm)
+    return render_to_response('coverage.html')
     

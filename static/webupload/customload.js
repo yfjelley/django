@@ -21,8 +21,10 @@ $(function(){
     });
     // 文件上传过程中创建进度条实时显示。
     uploader.on( 'uploadProgress', function( file, percentage ) {
-        var $li = $( '#'+file.id ),
+            debugger;
+            var $li = $( '#'+file.id ),
             $percent = $li.find('.progress .progress-bar');
+        alert($li)
 
         // 避免重复创建
         if ( !$percent.length ) {
@@ -34,14 +36,17 @@ $(function(){
         $percent.css( 'width', percentage * 100 + '%' );
     });
     uploader.on( 'uploadSuccess', function( file ) {
-        $( '#'+file.id ).find('p.state').text('已上传');
+       debugger;
+       $( '#'+file.id ).find('p.state').text('已上传');
     });
 
     uploader.on( 'uploadError', function( file ) {
+        debugger; 
         $( '#'+file.id ).find('p.state').text('上传出错');
     });
 
     uploader.on( 'uploadComplete', function( file ) {
+        debugger;
         $( '#'+file.id ).find('.progress').fadeOut();
     });
 })
