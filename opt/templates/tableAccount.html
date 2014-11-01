@@ -17,16 +17,7 @@
 </tr>
 </thead>
 <tbody>
-	{% for i in tableInfo %}
 	<tr>
-		{% for j in i %}
-		   {% ifequal forloop.counter 1 %}
-        		<td>{{j|date:"Y-m-d"}}</td>
-		   {% else %}
-		        <td>{{j}}</td> 
-           {% endifequal %}
-		{% endfor %}
 	</tr>
-	{% endfor %}
 </tbody>
 

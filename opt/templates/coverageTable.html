@@ -1,0 +1,17 @@
+<thead>
+<tr>
+	<th>关键词</th>
+	<th>特征码</th>
+	<th>百度首页排名</th>
+</tr>
+</thead>
+<tbody>
+	{% for i in content %}
+	<tr>
+		{% for j in i %}
+		   <td>{{j}}</td> 
+		{% endfor %}
+	</tr>
+	{% endfor %}
+</tbody>
+

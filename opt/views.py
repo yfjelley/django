@@ -1,6 +1,7 @@
 #-*- coding:utf-8 -*-
 import logging
-import json,math
+import json,math,urllib,re,threading
+from pyquery import PyQuery as pq
 from django.shortcuts import render,render_to_response
 from forms import UserForm
 from django.http import HttpResponse,HttpResponseRedirect
@@ -181,7 +182,7 @@ def weekSearch(c,group_by,w=None):
     return o
 
 def index(request):
-    #用户的个人页面
+    #用户request.GET.get()面
     return render(request,'reg.html')
 
 def register(request):
@@ -225,7 +226,58 @@ def logout(request):
 def upload(request):
     return render_to_response('uploadfile.html')
 def coverage(request):
-    parm = request.POST.copy()
-    logger.info("%s"%parm)
     return render_to_response('coverage.html')
-    
+def jump(request):
+    return render_to_response('coverageRank.html')
+def rank(request):
+    parm = request.POST.copy()
+    logger.info("%s"%request.method)
+    if request.method == "POST":
+        logger.info("%s"%parm)
+        kw = parm['keywords'].split('\n')
+        ft = parm['feature'].split(';')
+        content = worker(kw,ft)
+        logger.info('%s'%content)
+        return render_to_response('coverageTable.html',{'content':content})
+    elif request.method == "GET":
+        return render_to_response('coverage.html')
+def worker(kws,fts):
+    content = []
+    for kw in kws:
+        try:
+            d = pq("http://www.baidu.com/s?wd=%s"%kw)
+            logger.info("kw:%s"%kw)
+            #获取百度快照链接
+            link = d('a[data-nolog]')
+            for i in range(len(d('.result.c-container'))):
+                print i
+                #提取搜索的页面标题，如果标题中没有特征码，则打开百度快照
+                x=d('.result.c-container:eq(%d)'%i).text()
+                logger.info("%s"%x)
+                for ft in fts:
+                    logger.info("ft:%s"%ft)
+                    m=re.search(ft,x.decode('utf8'))
+                    logger.info("m:%s"%m)
+                    if m:
+                        logger.info("append:%s"%kw)
+                        content.append((kw,ft,i))
+                    else:
+                        try:
+                            href = d(link[i]).attr('href')
+                            print href
+                            #打开百度快照页
+                            h=urllib.urlopen('%s'%href).read()
+                            html = h.decode('gb18030').encode('utf8')
+                            print "chaoshi"
+                            m = re.search(ft,str(html))
+                            if m:
+                                content.append((kw,ft,link.index(i)))
+                        except Exception,e:
+                            print "urllib error:%s"%e
+                            pass
+        except Exception,e:
+            print e
+            pass
+    logger.info("content:%s"%content)
+    return content
+

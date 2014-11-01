@@ -20,3 +20,7 @@ class Optimization(models.Model):
 #        return [self.media,self.site,self.addres,self.cusume,self.click,self.valide,self.appointment,self.visit,self.unvisit]
 
 # Create your models here.
+class coverage(models.Model):
+    keywords = models.CharField(max_length=40)
+    feature = models.CharField(max_length=40)
+    rank = models.CharField(max_length=40)

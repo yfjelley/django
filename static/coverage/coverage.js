@@ -1,0 +1,13 @@
+$(function(){
+    	$('#bt100').click(function(){
+            $.ajax({
+                type:"POST",
+                url:"/cov/",
+                data:{'feature':$("#feature").val(),'keywords':$("#keywords").val()},
+                success:function(data){
+                    window.location.href='/jump/';
+                $('#cov').load('/rank/');
+                }
+            });
+        });
+});
