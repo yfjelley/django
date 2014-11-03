@@ -18,6 +18,7 @@ urlpatterns = patterns('',
     url(r'^dayAccount/$', 'opt.views.dayAccountReport'),
     url(r'^week/$', 'opt.views.weekReport'),
     url(r'^weekAccount/$', 'opt.views.weekAccountReport'),
-    url(r'^coverage/$', 'opt.views.coverage'),
+    url(r'^cov/$', 'opt.views.coverage'),
+    url(r'^jump/$', 'opt.views.jump'),
 )
 urlpatterns +=staticfiles_urlpatterns()

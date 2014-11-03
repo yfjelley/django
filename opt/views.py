@@ -12,6 +12,7 @@ from django.db.models import Sum
 from django.db import connection,transaction
 from django.template import loader
 from opt.models import Optimization
+from opt.models import coverage
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login as user_login, logout as user_logout
 from django.contrib.auth.decorators import login_required
@@ -225,22 +226,17 @@ def logout(request):
     return render_to_response('login.html')
 def upload(request):
     return render_to_response('uploadfile.html')
+def jump(request):
+    logger.info("feature:%s"%request.GET['feature'])
+    ft=request.GET['feature'].split(';')
+    kw=request.GET['keywords'].split('\n')
+    logger.info("ft:%s"%ft)
+    logger.info("kw:%s"%kw)
+    logger.info("xxxxxxxx")
+    content = worker(kw,ft)
+    return render_to_response('coverageRank.html',{'content':content})
 def coverage(request):
     return render_to_response('coverage.html')
-def jump(request):
-    return render_to_response('coverageRank.html')
-def rank(request):
-    parm = request.POST.copy()
-    logger.info("%s"%request.method)
-    if request.method == "POST":
-        logger.info("%s"%parm)
-        kw = parm['keywords'].split('\n')
-        ft = parm['feature'].split(';')
-        content = worker(kw,ft)
-        logger.info('%s'%content)
-        return render_to_response('coverageTable.html',{'content':content})
-    elif request.method == "GET":
-        return render_to_response('coverage.html')
 def worker(kws,fts):
     content = []
     for kw in kws:
@@ -250,34 +246,53 @@ def worker(kws,fts):
             #获取百度快照链接
             link = d('a[data-nolog]')
             for i in range(len(d('.result.c-container'))):
-                print i
                 #提取搜索的页面标题，如果标题中没有特征码，则打开百度快照
                 x=d('.result.c-container:eq(%d)'%i).text()
-                logger.info("%s"%x)
+                logger.info("fts:%s"%fts)
                 for ft in fts:
-                    logger.info("ft:%s"%ft)
                     m=re.search(ft,x.decode('utf8'))
-                    logger.info("m:%s"%m)
                     if m:
-                        logger.info("append:%s"%kw)
-                        content.append((kw,ft,i))
-                    else:
-                        try:
-                            href = d(link[i]).attr('href')
-                            print href
-                            #打开百度快照页
-                            h=urllib.urlopen('%s'%href).read()
-                            html = h.decode('gb18030').encode('utf8')
-                            print "chaoshi"
-                            m = re.search(ft,str(html))
-                            if m:
-                                content.append((kw,ft,link.index(i)))
-                        except Exception,e:
-                            print "urllib error:%s"%e
-                            pass
+                        logger.info("ft:%s"%ft)
+                        if len(content) != 0:
+                           for j in content:
+                               if j[:2] == [kw,ft]:
+                                   j[2].append(i+1)
+                               else:
+                                   if j == content[-1]:
+                                        content.append([kw,ft,[i+1]])
+                        else:
+                           content.append([kw,ft,[i+1]])
+                        del link[i]
+                        #p1=coverage(None,kw,ft,i)
+                        #p1.save()
+            for i in range(len(link)):                    
+                try:
+                    href = d(link[i]).attr('href')
+                    print href
+                    #打开百度快照页
+                    h=urllib.urlopen('%s'%href).read()
+                    html = h.decode('gb18030').encode('utf8')
+                    for ft in fts:
+                        m = re.search(ft,str(html))
+                        if m:
+                            if len(content) != 0 :
+                               for j in content:
+                                   if j[:2] == [kw,ft]:
+                                       j[2].append(i+1)
+                                   else:
+                                       content.append([kw,ft,[i+1]])
+                            else:
+                                if j == content[-1]:
+                                   content.append([kw,ft,[i+1]])
+                            #p1=coverage(None,kw,ft,link.index(i))
+                            #p1.save()
+                except Exception,e:
+                    print "urllib error:%s"%e
+                    pass
         except Exception,e:
-            print e
+            print "error:%s"%e
             pass
+    map(lambda x:x.insert(2,len(x[2])),content)
     logger.info("content:%s"%content)
     return content
 

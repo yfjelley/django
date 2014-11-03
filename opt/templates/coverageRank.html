@@ -25,39 +25,58 @@
 </head> 
 <body > 
 <div class="container-fluid" style="padding:0;"> 
-<div class="container-fluid" style="padding:0;background-color:#f5f5f5">
-	<div class="row-fluid">
-		<div class="span12">
-            <div class="container">
-			<ul class="breadcrumb" style="margin-bottom:0px;">
-				<li>
-					<a href="#">长江医院查询系统</a> 
-				</li>
-				<li class="pull-right">
-                    <a href="../register">注册</a>
-				</li>
-			</ul>
+        <div class="container-fluid" style="padding:0;background-color:#f5f5f5">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="container">
+                    <ul class="breadcrumb" style="margin-bottom:0px;">
+                        <li>
+                            <a href="#">长江医院查询系统</a> 
+                        </li>
+                        <li class="pull-right">
+                            <a href="../register">注册</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
             </div>
         </div>
-	</div>
-</div>
 
-<div class="container-fluid">
-      <div class="row-fluid">
-            <div class="container">
-                 <div class="row-fluid">
-                     <div class="span12">
-                         <h3>正在查询...</h3>
-                    </div>
-               </div>
-            </div>
+        <div class="container-fluid">
+              <div class="row-fluid">
+                 <div class="container">
+                     <div class="row-fluid">
+                             <div class="span12">
+                                <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>关键词</th>
+                                        <th>特征码</th>
+                                        <th>百度首页占位</th>
+                                        <th>百度首页排名</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for i in content %}
+                                    <tr>
+                                        {% for j in i %}
+                                           <td>{{j}}</td> 
+                                        {% endfor %}
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                                </table>
+                            </div>
+                            </div>
+                      </div>
+                 </div>
             <div class="container">
                 <div class="row-fluid">
                     <div class="span12" name="coverage" id="coverage"></div>
                 </div>
 	    	</div>
      </div>
-</div>
+    </div>
 </div>
 <!-- jQuery文件。务必在bootstrap.min.js 之前引入 --> 
 <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script> 
@@ -65,6 +84,6 @@
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 --> 
 <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
 <!-- 覆盖率查询文件 --> 
-<script src="/static/coverage/coverage.js"></script> 
+<script src="/static/coverage/cov.js"></script> 
 </body> 
 </html>
