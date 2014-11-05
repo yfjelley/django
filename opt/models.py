@@ -12,15 +12,15 @@ class Optimization(models.Model):
     appointment = models.IntegerField()
     visit = models.IntegerField()
     unvisit = models.IntegerField()
-#    date=models.DateTimeField(auto_now=True,blank=True,null= False)
-#    date=models.DateTimeField(auto_now_add = True)
-
-#    def __unicode__(self):
-#        return self.media
-#        return [self.media,self.site,self.addres,self.cusume,self.click,self.valide,self.appointment,self.visit,self.unvisit]
-
-# Create your models here.
 class coverage(models.Model):
     keywords = models.CharField(max_length=40)
     feature = models.CharField(max_length=40)
+    cov = models.IntegerField()
     rank = models.CharField(max_length=40)
+    date =  models.DateTimeField(auto_now=True)
+class keywords(models.Model):
+    keywords = models.CharField(max_length=40)
+    date =  models.DateTimeField(auto_now=True)
+class feature(models.Model):
+    feature = models.CharField(max_length=40)
+    date =  models.DateTimeField(auto_now=True)

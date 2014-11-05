@@ -1,6 +1,6 @@
 #-*- coding:utf-8 -*-
-import logging
-import json,math,urllib,re,threading
+import logging,time
+import json,math,urllib,urllib2,re,threading
 from pyquery import PyQuery as pq
 from django.shortcuts import render,render_to_response
 from forms import UserForm
@@ -13,6 +13,8 @@ from django.db import connection,transaction
 from django.template import loader
 from opt.models import Optimization
 from opt.models import coverage
+from opt.models import feature
+from opt.models import keywords
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login as user_login, logout as user_logout
 from django.contrib.auth.decorators import login_required
@@ -227,50 +229,107 @@ def logout(request):
 def upload(request):
     return render_to_response('uploadfile.html')
 def jump(request):
-    logger.info("feature:%s"%request.GET['feature'])
+    content=[]
     ft=request.GET['feature'].split(';')
-    kw=request.GET['keywords'].split('\n')
-    logger.info("ft:%s"%ft)
-    logger.info("kw:%s"%kw)
-    logger.info("xxxxxxxx")
-    content = worker(kw,ft)
+    #去掉空字符串(如果feature末尾有';',会有一个空的字符串)
+    try:
+        ft.remove('')
+    except Exception,e:
+        pass
+    try:
+        for i in ft:
+            p1=feature(None,i,None)
+            p1.save()
+    except Exception,e:
+        print e
+        pass
+    #关键词去重
+    kw=list(set(request.GET['keywords'].split('\n')))
+    try:
+        kw.remove('')
+    except Exception,e:
+        print e
+        pass
+    try:
+        for i in kw:
+            if i != '':
+               p1 = keywords(None,i,None)
+               p1.save()
+    except Exception,e:
+        print e
+        pass
+    #worker(kw,ft)
+    '''
+    args={keywords:kw,feature:ft}
+    qs=coverage.objects.filter(**args)
+    for o in qs:
+        if [o.keywords,o.feature,o.cov,o.rank] not in content:
+           content.append([o.keywords,o.feature,o.cov,o.rank])
+    '''
+    for i in kw:
+        for j in ft:
+            qs=coverage.objects.filter(keywords="%s"%i).filter(feature="%s"%j)
+            for o in qs:
+                if [o.keywords,o.feature,o.cov,o.rank] not in content:
+                   content.append([o.keywords,o.feature,o.cov,o.rank])
     return render_to_response('coverageRank.html',{'content':content})
-def coverage(request):
+def cov(request):
     return render_to_response('coverage.html')
 def worker(kws,fts):
     content = []
     for kw in kws:
+        time.sleep(1)
         try:
             d = pq("http://www.baidu.com/s?wd=%s"%kw)
             logger.info("kw:%s"%kw)
             #获取百度快照链接
             link = d('a[data-nolog]')
             for i in range(len(d('.result.c-container'))):
-                #提取搜索的页面标题，如果标题中没有特征码，则打开百度快照
-                x=d('.result.c-container:eq(%d)'%i).text()
-                logger.info("fts:%s"%fts)
-                for ft in fts:
-                    m=re.search(ft,x.decode('utf8'))
-                    if m:
-                        logger.info("ft:%s"%ft)
-                        if len(content) != 0:
-                           for j in content:
-                               if j[:2] == [kw,ft]:
-                                   j[2].append(i+1)
-                               else:
-                                   if j == content[-1]:
-                                        content.append([kw,ft,[i+1]])
-                        else:
-                           content.append([kw,ft,[i+1]])
-                        del link[i]
-                        #p1=coverage(None,kw,ft,i)
-                        #p1.save()
-            for i in range(len(link)):                    
+                try:
+                    #提取搜索的页面标题，如果标题中没有特征码，则打开百度快照
+                    x=d('.result.c-container:eq(%d)'%i).text()
+                    logger.info("fts:%s"%fts)
+                    for ft in fts:
+                        m=re.search(ft,x.decode('utf8'))
+                        if m:
+                            logger.info("ft:%s"%ft)
+                            if len(content) != 0:
+                               for j in content:
+                                   if j[:2] == [kw,ft]:
+                                       j[2].append(i+1)
+                                       logger.info("ftssss:%s"%fts)
+                                   else:
+                                       if j == content[-1]:
+                                            content.append([kw,ft,[i+1]])
+                                       logger.info("xxxxs:%s"%fts)
+                            else:
+                               content.append([kw,ft,[i+1]])
+                            logger.info("del:%s"%i)
+                            try:
+                                del link[i]
+                            except Exception,e:
+                                print "del link error:%s"%e
+                                pass
+                            logger.info("xs:%s"%fts)
+                except Exception,e:
+                    print "search baidu kuaizhao error:%s"%e
+                    pass
+            for i in range(len(link)):
+                time.sleep(1)
                 try:
                     href = d(link[i]).attr('href')
                     print href
                     #打开百度快照页
-                    h=urllib.urlopen('%s'%href).read()
+                    req_header = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
+                    'Accept':'text/html;q=0.9,*/*;q=0.8',
+                     'Accept-Charset':'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
+                    'Accept-Encoding':'gzip',
+                    'Connection':'close','Referer':None #注意如果依然不能抓取的话，这里可以设置抓取网站的host
+                     }
+                    req_timeout = 5
+                    req = urllib2.Request("%s"%href,None,req_header)
+                    h = urllib2.urlopen(req,None,req_timeout).read()
+                    #h=urllib.urlopen('%s'%href).read()
                     html = h.decode('gb18030').encode('utf8')
                     for ft in fts:
                         m = re.search(ft,str(html))
@@ -284,15 +343,17 @@ def worker(kws,fts):
                             else:
                                 if j == content[-1]:
                                    content.append([kw,ft,[i+1]])
-                            #p1=coverage(None,kw,ft,link.index(i))
-                            #p1.save()
                 except Exception,e:
                     print "urllib error:%s"%e
                     pass
         except Exception,e:
             print "error:%s"%e
             pass
-    map(lambda x:x.insert(2,len(x[2])),content)
+    map(lambda x:x.insert(2,len(list(set(x[2])))),content)
+    for i in content:
+        coverage.objects.filter(keywords=i[0]).filter(feature=i[1]).delete()
+        p1=coverage(None,i[0],i[1],i[2],list(set(i[3])),None)
+        p1.save()
     logger.info("content:%s"%content)
     return content
 
