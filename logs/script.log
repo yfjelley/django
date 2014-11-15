@@ -682,3 +682,66 @@ Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
     raise MultiValueDictKeyError(repr(key))
 MultiValueDictKeyError: "'keywords'"
+2014-11-15 07:35:20,279 [Thread-1:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /cov/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 232, in cov
+    if request.meathod == "GET":
+AttributeError: 'WSGIRequest' object has no attribute 'meathod'
+2014-11-15 07:37:20,368 [Thread-6:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /jump
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 88, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 72, in process_request
+    urlresolvers.is_valid_path("%s/" % request.path_info, urlconf)):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 596, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 476, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 118, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import opt.views.jump. View does not exist in module opt.views.
+2014-11-15 07:44:12,589 [Thread-12:-1246758080] [django.request:143] [WARNING]- Not Found: /commit
+2014-11-15 07:44:15,448 [Thread-13:-1246758080] [django.request:143] [WARNING]- Not Found: /commit
+2014-11-15 07:57:12,809 [Thread-6:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:19,608 [Thread-7:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:33,048 [Thread-8:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:33,873 [Thread-9:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:34,073 [Thread-10:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:34,248 [Thread-11:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:34,418 [Thread-12:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:34,554 [Thread-13:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:34,841 [Thread-14:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:35,034 [Thread-15:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:35,489 [Thread-16:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:35,714 [Thread-17:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:35,905 [Thread-18:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:36,121 [Thread-19:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:36,331 [Thread-20:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:36,533 [Thread-21:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:36,724 [Thread-22:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:36,928 [Thread-23:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:37,147 [Thread-24:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:37,376 [Thread-25:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:37,641 [Thread-26:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:37,866 [Thread-27:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:38,122 [Thread-28:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:39,618 [Thread-29:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:39,840 [Thread-30:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:40,018 [Thread-31:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:57:46,420 [Thread-32:-1276122304] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 07:58:26,672 [Thread-7:-1273234624] [django.request:143] [WARNING]- Not Found: /commit
+2014-11-15 08:06:05,775 [Thread-1:-1246758080] [django.request:143] [WARNING]- Not Found: /cov/
+2014-11-15 08:07:08,636 [Thread-15:-1275069632] [django.request:143] [WARNING]- Not Found: /com/
+2014-11-15 08:07:11,914 [Thread-16:-1275069632] [django.request:143] [WARNING]- Not Found: /com/
+2014-11-15 08:07:12,737 [Thread-17:-1275069632] [django.request:143] [WARNING]- Not Found: /com/
+2014-11-15 08:07:12,954 [Thread-18:-1275069632] [django.request:143] [WARNING]- Not Found: /com/

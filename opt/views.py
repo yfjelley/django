@@ -228,30 +228,31 @@ def logout(request):
     return render_to_response('login.html')
 def upload(request):
     return render_to_response('uploadfile.html')
-def jump(request):
-    content=[]
-    ft=request.GET['feature'].split(';')
-    #去掉空字符串(如果feature末尾有';',会有一个空的字符串)
-    try:
-        ft.remove('')
-    except Exception,e:
-        pass
-    #关键词去重
-    kw=list(set(request.GET['keywords'].split('\n')))
-    try:
-        kw.remove('')
-    except Exception,e:
-        print e
-        pass
-    for i in kw:
-        for j in ft:
-            qs=coverage.objects.filter(keywords="%s"%i).filter(feature="%s"%j)
-            for o in qs:
-                if [o.keywords,o.feature,o.cov,o.rank] not in content:
-                   content.append([o.keywords,o.feature,o.cov,o.rank])
-    return render_to_response('coverageRank.html',{'content':content})
-def cov(request):
-    return render_to_response('coverage.html')
+def rank(request):
+    if request.method == "GET":
+        return render_to_response("coverage.html")
+    if request.method == "POST":
+        content=[]
+        ft=request.POST['feature'].split(';')
+        #去掉空字符串(如果feature末尾有';',会有一个空的字符串)
+        try:
+            ft.remove('')
+        except Exception,e:
+            pass
+        #关键词去重
+        kw=list(set(request.POST['keywords'].split('\n')))
+        try:
+            kw.remove('')
+        except Exception,e:
+            print e
+            pass
+        for i in kw:
+            for j in ft:
+                qs=coverage.objects.filter(keywords="%s"%i).filter(feature="%s"%j)
+                for o in qs:
+                    if [o.keywords,o.feature,o.cov,o.rank] not in content:
+                       content.append([o.keywords,o.feature,o.cov,o.rank])
+        return render_to_response('coverageRank.html',{'content':content})
 def worker(kws,fts):
     content = []
     for kw in kws:

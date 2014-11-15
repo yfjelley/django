@@ -18,9 +18,9 @@ urlpatterns = patterns('',
     url(r'^dayAccount/$', 'opt.views.dayAccountReport'),
     url(r'^week/$', 'opt.views.weekReport'),
     url(r'^weekAccount/$', 'opt.views.weekAccountReport'),
-    url(r'^cov/$', 'opt.views.cov'),
+    url(r'^rank/$', 'opt.views.rank'),
     url(r'^jump/$', 'opt.views.jump'),
-    url(r'^com/$', 'opt.views.commit'),
+    url(r'^commit/$', 'opt.views.commit'),
     url(r'^comsuc/$', 'opt.views.commitsuc'),
 )
 urlpatterns +=staticfiles_urlpatterns()
