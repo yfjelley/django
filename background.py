@@ -1,6 +1,8 @@
 # -*- coding:utf-8 -*-
 from django.conf import settings
 settings.configure()
+if not settings.configured:
+   settings.configure(DATABASES=settings.DATABASES)
 import urllib2
 from datetime import datetime
 import time,os,logging,sys
@@ -8,15 +10,15 @@ logging.basicConfig()
 from opt.models import keywords
 from opt.models import coverage
 from opt.models import feature
+from django.db import models
 reload(sys).setdefaultencoding('utf8')
 LEVEL = logging.ERROR
 logging.getLogger('apscheduler.executors.default').setLevel(LEVEL)
-'''
-def tick():
-    print('Tick! The time is: %s' % datetime.now())
-    
-'''
 def worker():
+    #os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
+    print(keywords.objects.all())
+    return
+    kws,fts = [],[]
     for m in keywords.objects.all():
         if m not in kws:
            kws.append(m.keywords)

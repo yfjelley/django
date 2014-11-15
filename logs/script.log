@@ -363,3 +363,322 @@ Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
     raise MultiValueDictKeyError(repr(key))
 MultiValueDictKeyError: "'username'"
+2014-11-14 01:35:23,293 [Thread-4:-1245971648] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-11-14 07:27:56,557 [Thread-3:-1243612352] [django.request:224] [ERROR]- Internal Server Error: /jump/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 264, in jump
+    for o in qs:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 96, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 857, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 220, in iterator
+    for row in compiler.results_iter():
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 713, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 776, in execute_sql
+    sql, params = self.as_sql()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 83, in as_sql
+    out_cols, s_params = self.get_columns(with_col_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 231, in get_columns
+    col_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 306, in get_default_columns
+    r = '%s.%s' % (qn(alias), qn2(field.column))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 61, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/dummy/base.py", line 15, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+2014-11-14 07:28:01,279 [Thread-4:-1243612352] [django.request:224] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 208, in login
+    if request.user.is_authenticated():
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 213, in inner
+    self._setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 298, in _setup
+    self._wrapped = self._setupfunc()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/middleware.py", line 18, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/middleware.py", line 10, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/__init__.py", line 140, in get_user
+    user_id = request.session[SESSION_KEY]
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 47, in __getitem__
+    return self._session[key]
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 173, in _get_session
+    self._session_cache = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/db.py", line 20, in load
+    expire_date__gt=timezone.now()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 151, in get
+    return self.get_queryset().get(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 304, in get
+    num = len(clone)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 77, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 857, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 220, in iterator
+    for row in compiler.results_iter():
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 713, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 776, in execute_sql
+    sql, params = self.as_sql()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 83, in as_sql
+    out_cols, s_params = self.get_columns(with_col_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 231, in get_columns
+    col_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 306, in get_default_columns
+    r = '%s.%s' % (qn(alias), qn2(field.column))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 61, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/dummy/base.py", line 15, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+2014-11-14 07:29:01,421 [Thread-8:-1243612352] [django.request:224] [ERROR]- Internal Server Error: /jump/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 264, in jump
+    for o in qs:
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 96, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 857, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 220, in iterator
+    for row in compiler.results_iter():
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 713, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 776, in execute_sql
+    sql, params = self.as_sql()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 83, in as_sql
+    out_cols, s_params = self.get_columns(with_col_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 231, in get_columns
+    col_aliases)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 306, in get_default_columns
+    r = '%s.%s' % (qn(alias), qn2(field.column))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 61, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/dummy/base.py", line 15, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+2014-11-15 01:29:38,760 [Thread-3:-1257243840] [django.request:143] [WARNING]- Not Found: /favicon.ico
+2014-11-15 03:06:58,057 [Thread-5:-1282147520] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 356, in commit
+    ft=request.POST['feature'].split(';')
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'feature'"
+2014-11-15 03:09:30,249 [Thread-1:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 356, in commit
+    ft=request.POST['feature'].split(';')
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'feature'"
+2014-11-15 03:09:43,652 [Thread-1:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 356, in commit
+    ft=request.POST['feature'].split(';')
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'feature'"
+2014-11-15 03:11:13,381 [Thread-1:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 357, in commit
+    print ft
+NameError: global name 'ft' is not defined
+2014-11-15 03:11:30,769 [Thread-1:-1247806656] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 130, in get_response
+    raise ValueError("The view %s.%s didn't return an HttpResponse object." % (callback.__module__, view_name))
+ValueError: The view opt.views.commit didn't return an HttpResponse object.
+2014-11-15 03:16:02,007 [Thread-4:-1247806656] [django.request:143] [WARNING]- Not Found: /commit
+2014-11-15 03:16:08,536 [Thread-5:-1247806656] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 130, in get_response
+    raise ValueError("The view %s.%s didn't return an HttpResponse object." % (callback.__module__, view_name))
+ValueError: The view opt.views.commit didn't return an HttpResponse object.
+2014-11-15 05:15:29,983 [Thread-25:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:15:32,025 [Thread-26:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:15:43,068 [Thread-27:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:15:43,619 [Thread-28:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:15:43,852 [Thread-29:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:15:44,028 [Thread-30:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:15:54,539 [Thread-31:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:17:14,271 [Thread-34:-1267729600] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:19:54,879 [Thread-35:-1267729600] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:19:55,521 [Thread-36:-1267729600] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:19:55,738 [Thread-37:-1267729600] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:20:53,619 [Thread-38:-1267729600] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:21:10,679 [Thread-41:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:21:31,574 [Thread-42:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:21:31,782 [Thread-43:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:21:31,975 [Thread-44:-1246758080] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:22:59,626 [Thread-4:-1267729600] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:23:31,113 [Thread-7:-1267729600] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"
+2014-11-15 05:25:58,660 [Thread-4:-1267729600] [django.request:224] [ERROR]- Internal Server Error: /com/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/bin/myste/opt/views.py", line 376, in commit
+    kw=list(set(request.GET['keywords'].split('\n')))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 301, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'keywords'"

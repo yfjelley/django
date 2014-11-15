@@ -236,13 +236,6 @@ def jump(request):
         ft.remove('')
     except Exception,e:
         pass
-    try:
-        for i in ft:
-            p1=feature(None,i,None)
-            p1.save()
-    except Exception,e:
-        print e
-        pass
     #关键词去重
     kw=list(set(request.GET['keywords'].split('\n')))
     try:
@@ -250,22 +243,6 @@ def jump(request):
     except Exception,e:
         print e
         pass
-    try:
-        for i in kw:
-            if i != '':
-               p1 = keywords(None,i,None)
-               p1.save()
-    except Exception,e:
-        print e
-        pass
-    #worker(kw,ft)
-    '''
-    args={keywords:kw,feature:ft}
-    qs=coverage.objects.filter(**args)
-    for o in qs:
-        if [o.keywords,o.feature,o.cov,o.rank] not in content:
-           content.append([o.keywords,o.feature,o.cov,o.rank])
-    '''
     for i in kw:
         for j in ft:
             qs=coverage.objects.filter(keywords="%s"%i).filter(feature="%s"%j)
@@ -356,4 +333,44 @@ def worker(kws,fts):
         p1.save()
     logger.info("content:%s"%content)
     return content
-
+def commit(request):
+    content=[]
+    print request.method
+    if request.method == "GET":
+        return render_to_response('coverage_commit.html')
+    if request.method == "POST":
+        print request.POST
+        ft=request.POST['feature'].split(';')
+        print ft
+        #去掉空字符串(如果feature末尾有';',会有一个空的字符串)
+        try:
+            ft.remove('')
+        except Exception,e:
+            pass
+        try:
+            for i in ft:
+                feature.objects.filter(feature=i).delete()
+                p1=feature(None,i,None)
+                p1.save()
+        except Exception,e:
+            print e
+            pass
+        #关键词去重
+        kw=list(set(request.POST['keywords'].split('\n')))
+        try:
+            kw.remove('')
+        except Exception,e:
+            print e
+            pass
+        try:
+            for i in kw:
+                if i != '':
+                   keywords.objects.filter(keywords=i).delete()
+                   p1 = keywords(None,i,None)
+                   p1.save()
+        except Exception,e:
+            print e
+            pass
+        return render_to_response('commitsuccess.html')
+def commitsuc(request):
+    return render_to_response('commitsuccess.html')
